@@ -1,0 +1,125 @@
+.groupTitle {
+  margin-top: 30px;
+  color: #215f35;
+  font-weight: 500;
+  border-bottom: 2px solid #215f35;
+  display: inline-block;
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.groupCard {
+  border-radius: 20px !important;
+}
+
+.grpContactPref {
+  font-size: 16px;
+  color: #444;
+  text-align: initial;
+  font-weight: 400;
+}
+
+.grpBullet {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.inputAni .form-control:not(:placeholder-shown) + label,
+.inputAni .form-control:not(:placeholder-shown) + label {
+  visibility: visible;
+  opacity: 1;
+  top: 0px !important;
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.inputAni .form-control:placeholder-shown + label {
+  opacity: 0;
+}
+
+.custLabel {
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s;
+  visibility: hidden;
+}
+
+.inputAni {
+  position: relative;
+}
+
+.input-form1 {
+  text-align: left;
+  padding: 0px;
+  margin-left: 80px;
+}
+
+.ltr-none {
+  border-bottom: 1.5px solid #444;
+  border-radius: 0px;
+}
+.grpBtn {
+  line-height: 30px;
+}
+.form-control:focus {
+  border-color: #1a563a;
+}
+
+.input-form2 {
+  text-align: left;
+  padding: 0px;
+}
+
+.lnf-form {
+  margin-right: 8rem;
+  margin-left: 8rem;
+}
+
+.char-count {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.lnf-title {
+  top: -20px;
+  left: 8px;
+  color: #444;
+  font-size: 14px;
+}
+
+.input-area {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.input-label {
+  font-weight: 500;
+}
+
+.shipping-details {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 767px) {
+  .input-form1,
+  .input-form2,
+  .shipping-details,
+  .contact-details {
+    margin: 0px;
+  }
+  .lnf-form {
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+  .input-area {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  .pt-xs-20 {
+    padding: 0 20px;
+  }
+}

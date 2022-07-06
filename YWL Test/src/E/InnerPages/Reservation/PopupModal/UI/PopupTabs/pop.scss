@@ -1,0 +1,423 @@
+.P0 {
+  padding: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+.d-Iblock {
+  display: inline-block;
+}
+
+.popUpClose {
+ position: absolute;
+ left: 95%;
+ padding: 2px 6px;
+ border: 1px solid black;
+ margin-top: 8px;
+}
+
+.popuptabName::-webkit-scrollbar {
+  width: 8px;
+}
+
+.popuptabName::-webkit-scrollbar-thumb {  
+  background: #1b5538;
+  border-radius: 10px;
+  border: 1px solid #fefefe;
+}
+
+.popuptabName::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+// .css-1gsv261 {
+//   margin: 0 20px;
+// }
+
+.popuptabName {
+  margin: 0;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.popuptabName .container {
+  padding: 0 20px;
+}
+
+.anemeties {
+  height: 50vh;
+}
+.RateCalenderCards {
+  height: 50vh;
+}
+.termsCards {
+  height: 50vh;
+}
+
+.accessibilityCards {
+  height: 50vh;
+}
+.anemitiesList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0px !important;
+}
+.calendar-day-head {
+  width: 13%;
+}
+.avgRate {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  color: #28a745;
+}
+.iIcon:hover {
+  color: #23527c !important;
+}
+.iIcon:before {
+  content: "\e086";
+}
+.FS18 {
+  font-size: 18px;
+}
+
+/* jutrduthjyt77e7ytr */
+.calendar-no {
+  background: #f9f9f9;
+  display: inline-block;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 5px 15px 5px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.roomDetailSec {
+  //   left: 25%;
+  justify-content: center;
+  margin: auto;
+}
+.popUpInclusion p {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.anemtiesIcon {
+  justify-content: space-around;
+}
+.tabs {
+  padding: 0px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+// .termScroll {
+//   overflow-y: scroll;
+// }
+.active-tabs {
+  /* background:#215f35; */
+  border-bottom: 1px solid transparent;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+.dropdown-toggle::after {
+  margin-left: 10px;
+}
+.PopModal_modal__3C6o- {
+  top: 10vh !important;
+}
+.terms-card {
+  justify-content: flex-start;
+  height: 45px;
+  margin-top: 20px;
+  max-height: 50vh;
+  display: flex;
+}
+.dropdown-toggle {
+  font-size: 18px !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+}
+.drpdwn-icon {
+  margin-right: 8px;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 4px;
+}
+.check-details {
+  top: 25%;
+  position: relative;
+}
+
+.cancel-details {
+  margin-top: 20px;
+}
+
+.cancel-desc {
+  margin-top: 20px !important;
+}
+.cancel-desc h3 {
+  font-size: 1rem;
+}
+
+// Room Details css
+.roomDataIpad .Mui-selected {
+  color: #1b5538 !important;
+}
+.resRoomData .Mui-selected {
+  color: #1b5538 !important;
+}
+.roomDataIpad .css-1aquho2-MuiTabs-indicator {
+  background-color: #1b5538;
+}
+.resRoomData .css-1aquho2-MuiTabs-indicator {
+  background: #1b5538;
+}
+
+.room-desc-cont p {
+  margin-bottom: 10px;
+}
+
+.roomIconMob {
+  color: #333;
+}
+
+.grey1 {
+  background: #363636;
+}
+
+.popuptabName .css-19kzrtu {
+  padding: 24px 0px;
+}
+
+.roomDetailSec {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+// Room Details css
+
+// Amenities Css
+.collapseAmeities {
+  cursor: pointer;
+}
+
+.anemeties .content {
+  padding: 10px 0px;
+}
+
+#collapseIdAmenities ul,
+#collapseIdAda ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 10px;
+}
+
+#collapseIdAmenities ul li,
+#collapseIdAda ul li {
+  margin: 0px !important;
+  padding-left: 0px !important;
+}
+
+#collapseIdAda ul li {
+  text-align: left;
+}
+
+#collapseIdAmenities ul li svg,
+#collapseIdAda ul li svg {
+  width: 16px;
+  height: 16px;
+}
+
+#collapseIdAmenities ul li span,
+#collapseIdAda ul li span {
+  margin-left: 5px;
+}
+
+// Amenities Css
+
+// Rate Calendar Css
+.rateCalCont {
+  padding: 10px 10px;
+}
+
+.calendar-day {
+  border: 1px solid #d6d6d6;
+}
+
+.overlaydiv {
+  text-align: right;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.overlaydiv a {
+  vertical-align: middle;
+  margin-right: 30px;
+  color: #23527c !important;
+  display: flex;
+  align-items: center;
+  float: none;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.overlaydiv a svg {
+  margin-right: 10px;
+}
+
+.overlaydiv span {
+  font-size: 24px;
+  color: green;
+}
+
+.overlaydiv {
+  padding-bottom: 10px;
+}
+
+// Rate Calendar Css
+
+@media only screen and (max-width: 767px) {
+  .popuptabName .container {
+    padding: 0px;
+  }
+  .anemtiesIcon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mobileScroll {
+    overflow-y: auto;
+    padding: 0 0 20px;
+    max-height: 10%;
+    height: 45vh;
+  }
+  .accessBtn {
+    margin-top: 20px !important;
+  }
+  .roomIconMob {
+    margin: 10px 0px;
+    width: 100%;
+    max-width: 100%;
+    align-self: center;
+  }
+  .anemitiesList {
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .anemitiesList li {
+    max-width: 100%;
+  }
+  .aniDropDown {
+    margin-top: 20px;
+    text-align-last: start;
+  }
+  .css-1aquho2-MuiTabs-indicator {
+    display: none;
+  }
+  .aniMobIcon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .aniMobName {
+    margin-bottom: 15px;
+  }
+  .mobViewOthers {
+    flex-direction: column;
+  }
+  .room-desc-cont p {
+    word-break: break-word;
+}
+  .roomDetailSec {
+    left: 0%;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .termScroll {
+    padding: 0px !important;
+  }
+  .css-19kzrtu {
+    padding: 10px 0px !important;
+  }
+  .termsTime {
+    max-width: 90%;
+    margin-left: 0px !important;
+    line-height: 35px;
+    margin-bottom: 15px;
+  }
+  .terms-card {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .mobileView::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .mobileView::-webkit-scrollbar-thumb {
+    background: #1b5538;
+    border-radius: 10px;
+    border: 1px solid #fefefe;
+  }
+
+  .mobileView::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .popuptabName::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .roomDetailSec {
+    /* width: 100%; */
+    max-width: 100% !important;
+    left: 0% !important;
+  }
+  .anemitiesList li {
+    padding: 5px 10px 5px 10px !important;
+  }
+  .termsTime {
+    // padding: 5px;
+    // width: 100%;
+    max-width: 40%;
+    flex: 1;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .roomDetailSec {
+    /* width: 100%; */
+    max-width: 100% !important;
+    left: 0% !important;
+  }
+}

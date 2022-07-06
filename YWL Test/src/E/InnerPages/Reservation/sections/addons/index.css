@@ -1,0 +1,96 @@
+.fmAgRv {
+  height: 100% !important;
+}
+
+.floatL {
+  float: left;
+}
+.faq-data {
+  display: contents;
+  font-size: 18px;
+  color: #215f35;
+}
+
+.faq-main p {
+  font-size: 18px !important;
+  margin: 18px 0px;
+}
+.eFXIss {
+  height: 50px;
+}
+.faq-title {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  display: inline-block;
+  letter-spacing: 0.5px;
+}
+.title {
+  color: #215f35 !important;
+}
+.addon_total_price, .addon_quantity{
+  height: 0;
+  visibility: hidden;
+}
+
+/* ipad view  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faq-desc {
+    height: 100% !important;
+  }
+  .faq-title {
+    margin-top: 20px;
+  }
+}
+/* ipad Pro  */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .faq-desc {
+    height: 100% !important;
+  }
+  .faq-title {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .faq-main p {
+    font-size: 16px !important;
+  }
+
+  .text-xs-center {
+    text-align: center !important;
+  }
+
+  .mb-xs-16 {
+    margin-bottom: 16px;
+  }
+
+  .quantityDiv {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .addOn-price {
+    margin-bottom: 15px;
+  }
+  .addOn-priceDetails.text-xs-center {
+    text-align: center !important;
+  }
+  .faq-data h1 {
+    font-size: 16px !important;
+  }
+  .faq-desc {
+    height: 100% !important;
+  }
+  .faq-title p {
+    font-size: 14px;
+  }
+  .faq-title {
+    margin-top: 20px;
+  }
+  .kOiELq p {
+    font-size: 14px;
+  }
+}

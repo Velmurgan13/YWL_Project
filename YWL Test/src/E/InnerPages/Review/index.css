@@ -1,0 +1,6 @@
+.focus-visible-only:focus-visible {
+    outline: 4px dashed darkorange;
+  }
+
+   svg{margin: 0px 3px; fill: #FBC414; }
+.deafultColor svg{fill: gray;}

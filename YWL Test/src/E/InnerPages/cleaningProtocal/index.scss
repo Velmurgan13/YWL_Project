@@ -1,0 +1,95 @@
+.CleaningProtocal {
+  .bg-img-clean-protocal {
+    background-image: url("../../Yosemitewestgate/assets/images/sanitizer.jpg");
+  }
+
+  .static-line{
+    font-size: 18px;
+    font-family: "Lato";
+  }
+
+.static-line li {
+  padding-left: 10px !important;
+}
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .clean-alignment {
+      padding-left: 0px !important;
+      margin-top: 10px;
+    }
+    .cleanIpadV {
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+    .description-img {
+      display: none;
+    }
+    .mob-view {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .mob-view {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+    .listView ul li {
+      font-weight: 400;
+      line-height: 30px;
+    }
+    .listView {
+      font-weight: 400;
+      line-height: 30px;
+    }
+    .description-1 {
+      margin-top: 0px;
+    }
+    .static-line1 {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    }
+    .measuresList li {
+      font-size: 16px;
+      font-family: "Lato";
+      font-weight: 400;
+      line-height: 30px;
+    }
+    .sanatizeMobImg {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+    }
+    .clean-alignment {
+      padding-left: 0px !important;
+    }
+    .otherMeasures {
+      color: black !important;
+      padding: 0px !important;
+      margin-bottom: 1rem !important;
+    }
+    .bg-img-clean-protocal {
+      background-image: none;   
+      margin-top: 0px !important;  
+    }
+    .cleanIpadV {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-top: 2rem !important;
+    }
+    .measuresList {
+      padding-left: 2rem !important;
+    }
+
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+     .clean-alignment {
+       padding-left: 0px !important;
+     }
+     .cleanIpadV {
+      flex: 0 0 65%;
+      max-width: 65%;
+    }
+  }
+}

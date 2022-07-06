@@ -1,0 +1,605 @@
+.About .bg-ada-color {
+  background-color: #0e3886;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.About .policyInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.About .policyBtn {
+  color: #212529;
+}
+.About .under-line-style {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.About .under-line-style:before {
+  width: 28px;
+  height: 5px;
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  margin-left: -14px;
+  background-color: #1b4c36;
+}
+.About .under-line-style:after {
+  width: 100px;
+  height: 1px;
+  display: block;
+  content: "";
+  position: relative;
+  left: 50%;
+  margin-left: -50px;
+  background-color: #1b4c36;
+}
+.About .primary-title span {
+  font-size: 36px;
+  letter-spacing: 3px;
+  line-height: 55px;
+  color: #5a5a5a;
+  font-weight: 700;
+  font-family: "Averia Serif Libre", cursive;
+  display: block;
+}
+.About .features-title {
+  font-size: 42px;
+  letter-spacing: 1px;
+  color: #0ba167;
+  font-weight: 500;
+  font-family: "Averia Serif Libre";
+}
+.About .grid-amenities {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-weight: 400;
+}
+.About .cust-border-polices {
+  border: 1px solid #958383;
+  cursor: default !important;
+}
+.About .grid-ada-features {
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+.About .btn-light:hover {
+  background-color: #f8f9fa;
+}
+.About .parent-child {
+  overflow: hidden;
+  height: 360px;
+  transition: height 1s ease-in-out;
+}
+.About .enable-parent-child {
+  overflow: hidden;
+  height: 785px;
+  transition: height 1s ease-in-out;
+}
+.About .wel-btn-style {
+  display: flex;
+  justify-content: center;
+}
+.About .btn-style {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 500;
+  font-family: Helvetica, Arial, sans-serif;
+  padding-left: 25px;
+  background: linear-gradient(to right, #1a563a 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+.About .about-title-two {
+  font-size: 42px;
+  letter-spacing: 1px;
+  color: #0ba167;
+  font-weight: 500;
+  font-family: "Averia Serif Libre";
+}
+.About .btn-style:hover {
+  background-position: left bottom;
+  color: white !important;
+  background-color: #0ba167;
+}
+.About .about-readmore-btn {
+  width: 170px !important;
+  color: #1a563a;
+}
+.About .about-readmore-btn {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: Helvetica, Arial, sans-serif;
+  padding-left: 25px;
+  background: linear-gradient(to right, #1a563a 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+  letter-spacing: 2px;
+  border: 1px solid #1d7c4b;
+  color: #000000;
+}
+.About .ada-list-color li p {
+  font-size: 16px;
+}
+.About .abt-text-color > p {
+  font-size: 16px;
+  font-family: "Lato";
+}
+.About .ada-title {
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Averia Serif Libre";
+}
+.About .bg-img-features {
+  background-image: url("../../../E//Yosemitewestgate//assets//Icons//leaf.svg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 323px 320px;
+}
+.About .content-title {
+  font-size: 20px;
+  color: #000000;
+  /* font-weight: 700; */
+  font-family: "Lato";
+  line-height: 1.5;
+  text-align: justify;
+}
+.About .ada-main-title {
+  font-size: 54px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Crimson Text";
+}
+.About .ada-sub-title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Averia Serif Libre";
+}
+.About .individualCard {
+  margin-bottom: 20px;
+}
+.About .abt-fs-12 {
+  font-size: 12px;
+}
+.About .ada-list-color {
+  font-size: 16px;
+  color: #06518d;
+  font-family: "Lato";
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+.About .polices-subtitle {
+  font-size: 20px;
+  color: #1b8b57;
+  font-weight: 500;
+  font-family: "Averia Serif Libre";
+}
+.About .bg-grey-color {
+  background-color: #fafafa;
+}
+.About .abt-text-color {
+  color: #5e5454;
+  letter-spacing: 1px;
+}
+.About .slick-prev:before,
+.About .slick-next:before {
+  color: #a2a2ca;
+  right: 120px;
+  margin: 11px;
+  bottom: 10px;
+}
+.About .slick-prev:before,
+.About .slick-next:before {
+  font-size: 40px !important;
+}
+.About .slick-next :hover {
+  background-color: #0ba167 !important;
+}
+.About .slick-next {
+  position: absolute !important;
+  left: -80px;
+  box-shadow: 1px 3px 10px #afafaf;
+}
+.About .slick-prev:before {
+  content: "";
+  background-image: url("../../Yosemitewestgate/assets/Icons/left-arrow.png") !important;
+  padding: 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 1;
+}
+.About .slick-next:before {
+  content: "";
+  background-image: url("../../Yosemitewestgate/assets/Icons/right-arrow.png") !important;
+  padding: 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 1;
+}
+.About .slick-slider:last-child > button:before {
+  display: none !important;
+}
+.About .slick-slider:last-child {
+  margin: 0px !important;
+  width: 100% !important;
+}
+.About .slick-slider {
+  width: 84% !important;
+  margin-left: 16% !important;
+}
+.About .slick-prev,
+.About .slick-next,
+.About .slick-prev:hover,
+.About .slick-next:hover {
+  background: #fff;
+  width: 45px;
+  height: 45px;
+}
+.About .slick-next:active,
+.About .slick-prev:active {
+  background: #06518d;
+}
+.About .slick-prev {
+  left: -150px;
+  box-shadow: 1px 3px 10px #afafaf;
+}
+.About .overview-second-arrow .slick-arrow.slick-prev,
+.About .overview-second-arrow .slick-arrow.slick-next {
+  display: none !important;
+}
+.About .slick-dots li button {
+  display: none;
+}
+
+.slick-prev:before,
+.About .slick-next:before {
+  right: 72px !important;
+}
+
+.overview-second-arrow .slick-arrow.slick-prev,
+.overview-second-arrow .slick-arrow.slick-next {
+  display: none !important;
+}
+
+.slick-dots li button {
+  display: none;
+}
+
+.content-title p a:hover,
+.content-title p a,
+.content-title p {
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  color: #686868;
+  font-family: "Lato";
+  margin-top: 5px;
+}
+
+.content-title a:hover,
+.content-title h2 a {
+  font-size: 24px;
+  letter-spacing: 0.9px;
+  color: #215f35 !important;
+  font-family: "Averia Serif Libre", cursive;
+  margin-top: 5px;
+}
+
+.check-avail-content {
+  margin-top: 15px;
+}
+
+.terms-condition {
+  padding-left: 0px !important;
+}
+
+.policy-heading {
+  text-align: left;
+  padding-left: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .About .parent-child {
+    height: 395px;
+  }
+
+  .About .about-title-two {
+    font-size: 32px !important;
+  }
+
+  .ada-sub-title {
+    font-size: 20px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .ada-title {
+    font-size: 32px !important;
+  }
+
+  .primary-title span {
+    font-size: 26px !important;
+    letter-spacing: 2px !important;
+    letter-spacing: 45px;
+  }
+
+  .about-readmore-btn {
+    font-size: 14px;
+    line-height: 26px !important;
+  }
+
+  .About .about-readmore-btn {
+    width: 150px !important;
+  }
+
+  .content-title h2 a {
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    line-height: 0.9px;
+    font-family: "Lato" !important;
+    font-weight: 500;
+  }
+
+  .primary-title {
+    font-size: 36px !important;
+  }
+
+  .About .enable-parent-child {
+    height: 128rem;
+  }
+
+  .content-title p {
+    font-size: 16px !important;
+  }
+
+  .About .bg-ada-color h4 {
+    font-size: 30px;
+  }
+
+  .grid-ada-features {
+    display: grid !important;
+    grid-template-columns: 100% !important;
+  }
+
+  .enable-parent-child {
+    height: 2550px;
+  }
+
+  .features-title {
+    font-size: 30px !important;
+    text-align: left;
+  }
+
+  .features-subtitle {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 25px !important;
+  }
+
+  .content-title {
+    text-align: justify;
+    letter-spacing: -1px;
+  }
+
+  .content-title a {
+    font-size: 28px;
+  }
+
+  .slick-next:before {
+    margin-left: 12px !important;
+  }
+
+  .slick-next {
+    left: 250px !important;
+  }
+
+  .slick-prev {
+    left: -63px !important;
+  }
+
+  .slick-width {
+    box-shadow: none !important;
+  }
+
+  .overview-details1 {
+    color: black;
+    font-weight: 500;
+    display: list-item;
+  }
+/* 
+  .general-mob-view {
+    padding-left: 30px;
+  } */
+
+  .ada-main-title {
+    font-size: 30px !important;
+    font-weight: 500;
+    color: #fff;
+    padding: 3px 9px;
+  }
+
+  .slick-next:before {
+    margin-left: 12px !important;
+  }
+
+  .slick-prev:before,
+.About .slick-next:before {
+    right: 72px !important;
+  }
+
+  .about-title {
+    margin: 0px 0px !important;
+  }
+
+  .title-two {
+    margin-bottom: 30px;
+  }
+
+  .overview-body h2 {
+    text-align: left !important;
+  }
+
+  .ada-access {
+    padding: 0px !important;
+  }
+
+  .check-availablity1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .check-availablity2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .check-availablity3 {
+    width: 100%;
+  }
+
+  .check-availablity4 {
+    width: 100%;
+  }
+
+  .policy-main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media screen and (min-width: 1367px) {
+  .bg-img-icon {
+    top: -22px;
+    left: -16px;
+    width: 157px;
+    position: absolute;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .bg-img-icon {
+    top: -14px !important;
+    left: -16px !important;
+    width: 155px !important;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 992px) {
+  .About .about-readmore-btn {
+    width: 150px !important;
+    color: #1a563a;
+  }
+
+  .about-readmore-btn {
+    line-height: 24px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .content-title p {
+    font-size: 16px !important;
+  }
+
+  .ada-title {
+    font-size: 32px !important;
+  }
+
+  .primary-title span {
+    font-size: 32px !important;
+  }
+
+  .primary-title {
+    font-size: 46px !important;
+  }
+
+  .ada-sub-title {
+    font-size: 24px !important;
+  }
+
+  .about-title-two {
+    font-size: 32px !important;
+  }
+
+  .features {
+    padding: 0px !important;
+  }
+
+  .title-two {
+    font-size: 57px;
+    letter-spacing: 2px;
+    color: #0ba167;
+    font-weight: 700;
+    font-family: "Crimson Text";
+  }
+
+  .terms-condition {
+    padding-left: 0px !important;
+  }
+
+  .enable-parent-child {
+    height: 1155px !important;
+  }
+
+  .check-availablity1 {
+    width: 75%;
+  }
+
+  .check-availablity2 {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .check-availablity3 {
+    width: 75%;
+  }
+
+  .check-availablity4 {
+    width: 75%;
+  }
+
+  .check-avail-content {
+    margin-top: 65px;
+  }
+
+  .policy-heading {
+    top: 25px;
+    text-align: left;
+    padding-left: 0px;
+  }
+
+  .parent-child {
+    height: 230px !important;
+    overflow: hidden;
+  }
+
+  .About .slick-next {
+    left: -48px;
+  }
+
+  .About .slick-prev {
+    left: -100px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .parent-child {
+    overflow: hidden;
+    height: 412px !important;
+    transition: height 1s ease-in-out;
+  }
+
+  .enable-parent-child {
+    height: 900px !important;
+  }
+
+  .ipad-pro-view li {
+    margin-left: -60px;
+    padding: 0px !important;
+  }
+}

@@ -1,0 +1,147 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+.accordion-wrapper + * {
+  margin-top: 0.5em;
+}
+.accordion-item {
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(1, 0, 1, 0);
+  height: auto;
+  max-height: 9999px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.accordion-content p a {
+  color: #215f35 !important;
+}
+
+.accordion-item.collapsed {
+  max-height: 0;
+  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.accordion-title::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid currentColor;
+  position: absolute;
+  right: 20px;
+  top: 19px;
+}
+/* .accordion-title:hover, */
+.accordion-title.open {
+  color: #215f35;
+  margin: 0px;
+  cursor: pointer;
+  font-family: "Lato";
+  background-color: #f5f3f3;
+}
+.accordion-title {
+  color: #215f35;
+  margin: 0px;
+  font-family: "Lato";
+}
+.panel-title {
+  background-color: #f5f3f3;
+}
+
+.accordion-title.open::after {
+  content: "";
+  border-top: 0;
+  border-bottom: 9px solid;
+  position: absolute;
+  right: 20px;
+  top: 17px;
+}
+.accordion-content {
+  color: #333 !important;
+  padding: 15px 15px;
+  font-size: 16px;
+  text-align: justify;
+  font-family: "Lato";
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  transition: height 0.2s ease;
+}
+
+.accordion-content p {
+  margin-bottom: 0px;
+}
+
+.FaqHeading {
+  margin: 0px;
+  justify-content: start;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  font-family: "Lato";
+  font-size: 16px;
+  align-items: center;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  background: #f5f3f3;
+  border-bottom: 0px;
+  cursor: pointer;
+}
+
+.qTitleDiv {
+  align-items: center;
+}
+
+.FaqHeading p {
+  color: #215f35;
+  margin: 0px;
+  font-family: "Lato";
+  font-weight: bold;
+}
+
+/* .accordion-wrapper {
+  margin: 20px 0px;
+} */
+
+@media only screen and (max-width: 991px) {
+  .qTitleDiv {
+    align-items: baseline;
+  }
+ 
+}
+
+@media only screen and (max-width: 767px) {
+  .accordion-title {
+    font-weight: 600;
+    cursor: pointer;
+    color: #215f35;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    border-right: 1px dashed #ddd;
+    border-left: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .accordion-title.open::after {
+    content: "";
+    border-top: 0;
+    border-bottom: 9px solid;
+    position: absolute;
+    right: 20px;
+    top: 30px !important;
+}
+.accordion-title::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-top: 9px solid currentColor;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+}

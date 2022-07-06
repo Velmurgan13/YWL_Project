@@ -1,0 +1,204 @@
+.P0 {
+  padding: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+.containerr {
+  display: flex;
+  overflow: hidden;
+}
+.imgGridView {
+  display: contents;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+.d-Iblock {
+  display: inline-block;
+}
+
+.smokeIcon {
+  background: white;
+  border-radius: 30px;
+  padding: 7px;
+  border: 1px solid gray;
+}
+.singleRoomData {
+  display: block !important;
+}
+.roomDesc {
+  font-size: 15px;
+  margin-top: 10px;
+  word-break: break-all;
+}
+.selectRoomTypeId166 {
+  padding: 10px 10px;
+  margin: 0px;
+}
+.resRatePolicy {
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.resRatePolicy:hover {
+  color: inherit !important;
+}
+.btn {
+  margin: 0px;
+  padding: 10px 10px;
+}
+.disableIcon {
+  background: white;
+  border-radius: 30px;
+  padding: 7px;
+  border: 1px solid gray;
+}
+.roomLeft p {
+  /* margin-left: 6%; */
+  margin-bottom: 10px;
+  margin-top: -1%;
+}
+.roomBox {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.currencyChang {
+  padding: 5px 5px !important;
+  display: inline-flex;
+  float: none;
+  width: auto;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  color: #000 !important;
+  border: 1.5px solid black;
+}
+.SRLNextButton,  .SRLPrevButton   {
+  display: block !important;
+}
+.slide_btn {
+  display: inline-block;
+  margin-right: 0.8rem;
+}
+
+.slide_btn svg {
+  padding: 5px;
+  color: #000;
+  height: 37px;
+  width: 37px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.slide_btn:last-child {
+  margin-right: 0px;
+}
+.roomNotAvailableMsg {
+  text-align: justify;
+  padding-left: 10px;
+}
+.light-grey {
+  background: #f9f9f9;
+}
+
+.border-box {
+  border: 2px solid #dcdcdc;
+}
+
+.grey-text {
+  color: #333;
+}
+.roomLeft {
+  margin-left: 15px;
+}
+.slide_btn svg:hover,
+.slide_btn.active svg {
+  color: #fff;
+  background: #000;
+}
+
+.cameraIcon {
+  position: absolute;
+  right: 20px;
+  bottom: 3px;
+  color: #c6c4c4;
+  // z-index: -1f;
+}
+
+.roomBoxHeight {
+  height: fit-content;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .roomDataIpad {
+    margin-left: 0% !important;
+  }
+  .selectCancelBtns {
+    margin-bottom: 0.25rem;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rateplans {
+    padding: 10px 0px 0px 0px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .standardRateDivRoom_1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px !important;
+  }
+
+  .roomCardView {
+    flex-wrap: wrap;
+  }
+  .roomPrice {
+    text-align: center !important;
+  }
+  .iconFix1 {
+    text-align: left;
+  }
+  // .iconFix1 h4 {
+  //   margin-top: 0px !important;
+  // }
+  .roomLeft p  {
+    margin-top: 1px;
+  }
+  .addonsList{
+    text-align: -webkit-center;
+  }
+  .addonsDiv {
+    text-align: -webkit-center;
+  }
+  .moreRoomDetail {
+    width: 70%;
+  }
+  .iconFix {
+    display: flex;
+  }
+  .btnFix {
+    margin-bottom: 0px !important;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .selectCancelBtns {
+    padding: 0px;
+    max-width: 15%;
+    flex: 0 0 15%;
+    margin-left: -10px;
+  }
+  .addonsDiv .btn {
+   margin: 0px 0px 0px 0px;
+  }
+  .roomDataIpad {
+    margin-left: 0px !important;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}

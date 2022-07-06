@@ -1,0 +1,31 @@
+.Sitemap-page {
+  .indexing li {
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+  }
+  .outerUl a {
+    text-decoration: none;
+  }
+  .indexing li a {
+    color: #215f35;
+  }
+  a strong{
+    font-weight: 600;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .indexing li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+  }
+.indexing{
+  padding-left: 10px;
+}
+ul{
+  padding-left: 10px;
+}
+}

@@ -1,0 +1,633 @@
+.mainCheckAvail {
+  /* .counter-container2 {
+    margin-left: 50px;
+  } */
+  /******adultsChildren****/
+  /* .col:hover {
+    background-color: #eee;
+    border: 1px solid #ddd;
+  } */
+  /* .succes-button:hover,
+  .succes-button:focus,
+  .succes-button:active:focus {
+    background-color: #15a470;
+    color: #fff;
+  } */
+  /* .dfs{display: flex;
+      justify-content: space-around;
+      align-items: center;}
+      .counter-value{margin: 0px;} */
+}
+.mainCheckAvail .check-title {
+  font-size: 13px;
+}
+.mainCheckAvail .checkArrow {
+  position: absolute;
+  top: 32px;
+  right: 34px;
+}
+.mainCheckAvail .detailsTitle {
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 30px; */
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.mainCheckAvail .adultTitle {
+  /* margin-left: 10px; */
+  padding: 0px;
+}
+.mainCheckAvail .checkWrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  /* justify-content: space-evenly; */
+}
+.mainCheckAvail .childTitle {
+  /* margin-left: -25px;
+   */
+  padding: 0px;
+}
+.mainCheckAvail .roomDelIcon {
+  /* margin-left: 10px; */
+  /* align-self: center; */
+  /* margin-top: 5px; */
+  padding: 0px;
+}
+.mainCheckAvail .dummyDiv {
+  padding: 0px;
+}
+.mainCheckAvail .counter-container1 {
+  /* padding-left: 5px; */
+  padding: 0px;
+}
+.mainCheckAvail .counter-container2 {
+  /* padding-left: 10px; */
+  padding: 0px;
+}
+.mainCheckAvail .binIcon {
+  border: none;
+}
+.mainCheckAvail .binIcon svg {
+  color: black !important;
+}
+.mainCheckAvail .top_room_heading {
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  color: #5a5a5a;
+}
+.mainCheckAvail .infos {
+  font-size: 12px;
+  margin-top: -5px;
+  width: 100%;
+  font-weight: 400;
+  color: #5a5a5a;
+  text-align: center;
+}
+.mainCheckAvail .greaterArrow {
+  align-self: center;
+  position: relative;
+  top: 3px;
+}
+.mainCheckAvail .bg-available {
+  background-color: #0000;
+}
+.mainCheckAvail .input-field {
+  position: relative;
+  line-height: 46px;
+}
+.mainCheckAvail .input-field input {
+  background: transparent;
+}
+.mainCheckAvail .input-field label {
+  color: white;
+}
+.mainCheckAvail label {
+  position: absolute;
+  top: 10px;
+  left: -30px;
+  transition: 0.2s all;
+  cursor: text;
+  right: 0;
+  text-align: center;
+  font-size: 15px;
+}
+.mainCheckAvail .promoInput {
+  width: 80%;
+  border: 0;
+  outline: 0;
+  padding-top: 15px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow: none;
+  color: #111;
+  letter-spacing: 0.5px;
+}
+.mainCheckAvail .promoInput:invalid {
+  outline: 0;
+}
+.mainCheckAvail .promoInput:focus,
+.mainCheckAvail .promoInput:valid {
+  border-color: white;
+}
+.mainCheckAvail .promoInput:focus ~ label,
+.mainCheckAvail .promoInput:valid ~ label {
+  top: -10px;
+  color: #fff;
+  text-align: center;
+  left: -30px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+.mainCheckAvail .bg-color-datepicker {
+  background: none;
+  /* position: absolute; */
+  top: 0px;
+  width: 51%;
+  z-index: 8;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  margin-left: 150px !important;
+  background: transparent;
+  /* opacity: 0.7; */
+}
+.mainCheckAvail .justify-ca {
+  justify-content: center;
+}
+.mainCheckAvail h1,
+.mainCheckAvail p {
+  font-family: Lato;
+}
+.mainCheckAvail .container {
+  /* width: 300px; */
+  margin: auto;
+  /* text-align: center; */
+}
+.mainCheckAvail .col {
+  /* box-shadow: 0 0 16px 1px #ddd; */
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 1px solid #9d9999;
+}
+.mainCheckAvail .margin-right-10 {
+  margin-right: 10px;
+}
+.mainCheckAvail .margin-bottom-10 {
+  margin-bottom: 10px;
+  /* margin-left: 20px; */
+}
+.mainCheckAvail .btn-common {
+  padding: 6px 15px;
+  border: 1px solid #d5d6d7;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.mainCheckAvail .danger-button,
+.mainCheckAvail .danger-button[disabled],
+.mainCheckAvail .danger-button[disabled]:hover,
+.mainCheckAvail .danger-button[disabled]:focus,
+.mainCheckAvail .danger-button[disabled]:active:focus {
+  /* border-color: #ff0000 !important; */
+  /* color: #ff0000; */
+  background-color: #ff0000;
+}
+.mainCheckAvail .danger-button[disabled],
+.mainCheckAvail .danger-button[disabled]:hover,
+.mainCheckAvail .danger-button[disabled]:focus,
+.mainCheckAvail .danger-button[disabled]:active:focus,
+.mainCheckAvail .succes-button[disabled],
+.mainCheckAvail .succes-button[disabled]:hover,
+.mainCheckAvail .succes-button[disabled]:focus,
+.mainCheckAvail .succes-button[disabled]:active:focus {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.mainCheckAvail .danger-button:hover,
+.mainCheckAvail .danger-button:focus,
+.mainCheckAvail .danger-button:active:focus {
+  /* background-color: #ff0000; */
+  color: #fff;
+}
+.mainCheckAvail .succes-button,
+.mainCheckAvail .succes-button[disabled],
+.mainCheckAvail .succes-button[disabled]:hover,
+.mainCheckAvail .succes-button[disabled]:focus,
+.mainCheckAvail .succes-button[disabled]:active:focus {
+  /* border-color: #1ebb82 !important;
+  color: #1ebb82; */
+  background-color: #15a470;
+}
+.mainCheckAvail .btn-small {
+  border-radius: 50%;
+  /* padding: 6px 15px; */
+  padding-top: 2px;
+  padding-bottom: 3px;
+  border: 0px solid #d5d6d7;
+  cursor: pointer;
+  font-family: sans-serif;
+  box-shadow: inset none;
+  transition: all 0.5s ease-in-out;
+}
+.mainCheckAvail .noOfChild {
+  margin-bottom: 15px;
+}
+.mainCheckAvail .counter-value {
+  display: inline-block;
+  background: 0 0 !important;
+  box-shadow: none;
+  font-size: 16px;
+  height: 30px;
+  width: 30px;
+  margin: 0px 10px;
+  border-radius: 0;
+  border: 1px solid rgba(130, 142, 163, 0.5);
+}
+.mainCheckAvail .counter-heading {
+  text-transform: uppercase;
+  margin-top: 5px;
+  width: 100%;
+  color: #444;
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+  padding: 0 0;
+  height: 26px;
+  font-weight: 600;
+}
+.mainCheckAvail .age-col {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+.mainCheckAvail .send-icon {
+  position: relative;
+  top: 45px;
+  background-color: #175a38;
+  border-radius: 50%;
+  border: 5px solid #1a5038;
+  /* padding: 5px; */
+  color: #fff !important;
+}
+.mainCheckAvail .roomDetailInfo {
+  padding-bottom: 0px;
+}
+.mainCheckAvail .age-col select {
+  background: none;
+  width: 115%;
+  height: 30px;
+}
+.mainCheckAvail .avail-btn {
+  background: none;
+  border: none;
+}
+.mainCheckAvail .position-abs {
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: auto;
+  z-index: 99;
+  width: 480px;
+  top: 88px;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  color: black;
+  background-color: #ffff;
+  /* margin-left: 0px; */
+}
+.mainCheckAvail .text-right-lg {
+  text-align: right !important;
+}
+.mainCheckAvail .color-placeholder {
+  -webkit-text-fill-color: #fff !important;
+}
+.mainCheckAvail .bg-color-datepicker .ant-picker,
+.mainCheckAvail .brdr-b {
+  border-bottom: 1px solid #d3cece !important;
+  background: none !important;
+  border-radius: 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.mainCheckAvail .bg-color-datepicker .form-control {
+  background: none !important;
+  border-radius: 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+
+}
+.mainCheckAvail .bg-color-datepicker .ant-picker-suffix {
+  color: #fff !important;
+  display: none;
+}
+.mainCheckAvail .book-a-room {
+  background: #31a167;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 21px;
+}
+.mainCheckAvail .bg-color-datepicker .form-control {
+  padding: 19px 10px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.mainCheckAvail .main-span {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: 30px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+.mainCheckAvail .main-span1 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  left: 20px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+.mainCheckAvail .ant-picker-input {
+  font-family: Averia Serif Libre;
+}
+.mainCheckAvail .ant-picker {
+  width: 80% !important;
+}
+.mainCheckAvail .ant-picker-focused {
+  border-shadow: none;
+}
+.mainCheckAvail .br-right {
+  border-right: 1px solid #d3cece;
+  position: relative;
+  right: 15px;
+  height: 60px;
+}
+.mainCheckAvail .w-100.mt-3.color-placeholder {
+  padding-bottom: 28px;
+  padding-left: 0px;
+}
+.mainCheckAvail .main-span-promo {
+  left: 10px;
+}
+.mainCheckAvail .w-80 {
+  width: 80%;
+}
+.mainCheckAvail .bg-color-datepicker .form-control {
+  font-size: 16px;
+  font-family: "Lato";
+  letter-spacing: 1px;
+}
+.mainCheckAvail .ant-picker-focused {
+  box-shadow: none !important;
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  .mainCheckAvail .main-span-promo {
+    left: 0px !important;
+  }
+  .mainCheckAvail .main-span1 {
+    left: 8px;
+  }
+  .mainCheckAvail .main-span {
+    left: 10px;
+  }
+  .mainCheckAvail .noOfChild {
+    margin-bottom: 15px;
+  }
+  .mainCheckAvail .sideLine {
+    border-right: 1px solid white !important;
+    padding-left: 0.8rem !important;
+  }
+  .mainCheckAvail .bg-layer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .mainCheckAvail .br-right {
+    display: none;
+  }
+  .mainCheckAvail .position-abs {
+    background-color: #1b5538;
+  }
+  .mainCheckAvail .brdr-b {
+    display: inline-block !important;
+  }
+  .mainCheckAvail .input-field {
+    text-align: center;
+    padding-left: 0px !important;
+  }
+  .mainCheckAvail .input-field label {
+    left: 0px;
+  }
+  .mainCheckAvail .color-placeholder {
+    text-align: center;
+    width: 215px !important;
+    display: inline-block;
+  }
+  .mainCheckAvail .text-right-lg {
+    text-align: center !important;
+    /* margin-top: 10px; */
+  }
+  .mainCheckAvail .CAtitle {
+    display: block !important;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+  .mainCheckAvail .counter-container2 {
+    margin-left: 10px;
+  }
+  .mainCheckAvail .counter-container1 {
+    margin-left: -2px;
+  }
+  .mainCheckAvail .position-abs {
+    top: 0px;
+    position: relative;
+    left: 0;
+    width: 100%;
+  }
+  .mainCheckAvail .top_room_heading,
+.mainCheckAvail .infos,
+.mainCheckAvail .counter-heading,
+.mainCheckAvail .counter-value,
+.mainCheckAvail .xssmcolor,
+.mainCheckAvail .age-col p,
+.mainCheckAvail .age-col select {
+    color: white;
+  }
+  .mainCheckAvail .age-col select {
+    border-color: white;
+  }
+  .mainCheckAvail .detailsTitle {
+    margin-top: 15px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .mainCheckAvail .position-abs {
+    background-color: #ffff;
+  }
+  .mainCheckAvail .detailsTitle {
+    /* margin-left: 30px; */
+    justify-content: space-around;
+  }
+  .mainCheckAvail .childTitle {
+    /* margin-left: -60px; */
+  }
+  .mainCheckAvail .counter-container1 {
+    margin-left: 5px;
+  }
+  .mainCheckAvail .roomDelIcon {
+    margin-left: 29px;
+  }
+  .mainCheckAvail .checkAvail {
+    position: relative !important;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .mainCheckAvail .bg-color-datepicker {
+    width: 71%;
+  }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1700px) {
+  .mainCheckAvail .position-abs {
+    width: 200%;
+  }
+  .mainCheckAvail .bg-color-datepicker {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .mainCheckAvail .bg-color-datepicker {
+    background: #1b5538;
+    position: relative;
+    top: 0px;
+    z-index: 9;
+    padding-top: 40px !important;
+    width: 100%;
+    margin: 0 !important;
+  }
+}
+.mainCheckAvail .F11 {
+  font-size: 11px;
+}
+.mainCheckAvail .age-col p {
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 767px) {
+  .mainCheckAvail .bg-color-datepicker {
+    padding-top: 20px !important;
+  }
+  .mainCheckAvail .br-right {
+    right: 6px;
+    height: 55px;
+    top: 24px;
+  }
+  .mainCheckAvail .position-abs {
+    left: -45%;
+    top: 154px;
+    background-color: #1b5538;
+  }
+  .mainCheckAvail .promoInput {
+    width: 50%;
+  }
+  .mainCheckAvail .MT30-xs {
+    /* margin-top: 10px; */
+    /* margin-left: 30px; */
+  }
+  .mainCheckAvail .main-span-promo {
+    left: 30px;
+  }
+  .mainCheckAvail .detailsTitle {
+    margin-top: 10px;
+  }
+  .mainCheckAvail .input-field {
+    text-align: center;
+  }
+  .mainCheckAvail .input-field label {
+    left: 0px;
+    top: 15px;
+  }
+  .mainCheckAvail .top_room_heading,
+.mainCheckAvail .infos,
+.mainCheckAvail .counter-heading,
+.mainCheckAvail .counter-value,
+.mainCheckAvail .xssmcolor,
+.mainCheckAvail .age-col p,
+.mainCheckAvail .age-col select {
+    color: white;
+  }
+  .mainCheckAvail .age-col select {
+    border-color: white;
+  }
+  .mainCheckAvail .noOfChild {
+    margin-bottom: 15px;
+  }
+  .mainCheckAvail .checkWrap {
+    flex-wrap: nowrap;
+  }
+  .mainCheckAvail .dummyDiv1 {
+    display: none;
+  }
+  .mainCheckAvail .CAtitle {
+    display: block !important;
+  }
+  .mainCheckAvail .childTitle {
+    /* margin-left: -25%; */
+  }
+  .mainCheckAvail .detailsBox {
+    /* margin-right: 20px; */
+  }
+  .mainCheckAvail .adultTitle {
+    /* margin-left: 10%; */
+  }
+  .mainCheckAvail .counter-heading {
+    /* margin-right: -30px; */
+  }
+  .mainCheckAvail .xs-dn {
+    display: none;
+  }
+  .mainCheckAvail .text-right-lg {
+    text-align: center !important;
+  }
+  .mainCheckAvail .brdr-b input {
+    text-align: center;
+  }
+  .mainCheckAvail .brdr-b {
+    display: inline-block !important;
+  }
+  .mainCheckAvail .brdr-b svg {
+    /* left: 22%; */
+    display: inline-block;
+  }
+  .mainCheckAvail .position-abs {
+    top: 0px;
+    position: relative;
+    left: 0;
+    width: 100%;
+  }
+  .mainCheckAvail .borderStyling {
+    width: 200px !important;
+    display: inline-block;
+  }
+  .mainCheckAvail .bg-layer {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+  }
+  .mainCheckAvail .br-right {
+    display: none;
+  }
+  .mainCheckAvail .book-a-room {
+    letter-spacing: 1px;
+  }
+}

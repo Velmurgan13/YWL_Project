@@ -1,0 +1,236 @@
+.AccessbilityStyle{
+.acessbg {
+    background: #f9f9f9;
+    -o-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 1px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 1px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 1px rgb(0 0 0 / 23%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 1px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+}
+
+.opp-btn-style:hover {
+    background-position: left bottom;
+    color: #1a563a !important;
+}
+
+.opp-btn-style {
+    background: linear-gradient(to right, white 50%, #1a563a 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-in;
+    color: #ffffff;
+    padding: 7px 12px;
+    letter-spacing: 1px;
+    border: 1px solid;
+}
+
+// .bdr-r-l{
+//     border-right:1px solid#114722;
+//     border-left:1px solid#114722;
+// }
+
+
+.adasub strong {
+    font-weight: 500;
+}
+
+.ada-address-details{
+    font-size: 18px;
+    color: #114722;
+    font-weight: 600;
+    font-family: "Lato";
+}
+
+.fs-500{
+    font-weight: 500;
+}
+
+/* .acessbg p {
+    font-size: 14px;
+    line-height: 24px;
+} */
+
+ul li a {
+    color: #114722 !important;
+}
+.acesssfour a {
+    color: #114722 !important;
+    font-weight: 600;
+}
+.accessible2 {
+    padding: 30px 30px 30px 30px;
+}
+.acesssfour ul li {
+    color: #333;
+    /* margin-bottom: 15px; */
+}
+
+/* p a {
+    color: #475a20;
+} */
+.access-ul-li li {
+    font-size: 18px;
+    text-align: justify;
+}
+/* .access-ul-li li a{
+    color: #114722;
+} */
+/* p {
+    font-size: 18px;
+    line-height: 24px;
+} */
+p {
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    // padding: 0px 18px;
+}
+
+.custom-p{
+    padding: 0px 18px;
+    text-align: justify;
+}
+
+.adasub {
+    text-align: center;
+    color: #458bc8;
+    font-size: 26px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Averia Serif Libre';
+}
+
+.Bathroom-acces-feature-ul li {
+    line-height: 38px;
+    font-size: 18px;
+}
+
+.accessible2 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #7b7b7b;
+}
+
+.accessible2 p strong {
+    color: #000;
+    font-size: 20px;
+}
+.ada_line {
+    width: 19%;
+    margin: 0 auto 10px auto;
+    height: 1px;
+    display: block;
+    background: #458bc8;
+}
+
+h3.adasub {
+    text-align: center;
+    color: #2d5f89;
+    margin-bottom: 30px;
+}
+
+.property-acc-fea-div {
+    /* background: url(../images/Property-Acce-bg-img.png) no-repeat scroll center; */
+    background-size: 35%;
+    background-position: 100% 50%;
+}
+ul.onlythis.Bathroom-acces-feature-ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+ul.onlythis.Bathroom-acces-feature-ul {
+    -o-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+    border-radius: 10px;
+    padding: 30px 30px 30px 44px;
+    margin-bottom: 40px;
+}
+
+ul.onlythis {
+    list-style: square;
+    padding-left: 18px;
+}
+
+.guestroom-acc-fea-div {
+    /* background: url(../images/guestroom-Acc-bg-img.png) no-repeat scroll center; */
+    background-size: 50%;
+    background-position: 108% 50%;
+}
+
+ul.onlythis.Bathroom-acces-feature-ul {
+    -o-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+    border-radius: 10px;
+    padding: 30px 30px 30px 44px;
+    margin-bottom: 40px;
+}
+
+.acesssfour ul li {
+    color: #333;
+    margin-bottom: 15px;
+}
+.acesssfour ul li {
+    list-style-type: square;
+    color: #2d5f89;
+    margin-bottom: 10px;
+}
+ul.onlythis li {
+    color: #2d5f89;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+/* For ipad: */
+@media screen and (max-width : 768px){
+    ul.onlythis.Bathroom-acces-feature-ul {
+        -o-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+        -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+        -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+        box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+        border-radius: 10px;
+        padding: 30px 30px 30px 44px;
+        margin-bottom: 40px;
+        display: inline-table;
+    }
+    p {
+        line-height: 26px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .access-ul-li li {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+     .Bathroom-acces-feature-ul li {
+        line-height: 32px !important;
+        font-size: 16px !important;
+    }
+    .acesssfour a {
+        word-break: break-all;
+    }
+     .bdr-r-l {
+         border-right:none; 
+         border-left: none; 
+    }
+ 
+     .adasub strong {
+        text-align: center;
+        color: #2d5f89;
+        margin-bottom: 30px;
+        font-size: 22px;
+        font-family: 'Averia Serif Libre';
+        font-weight: 600;
+        }
+    
+} 
+
+}

@@ -1,0 +1,152 @@
+.acessbg {
+    background: #f9f9f9;
+    -o-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 1px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 1px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 1px rgb(0 0 0 / 23%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 1px rgb(0 0 0 / 23%);
+    border-radius: 15px;
+}
+
+
+
+/* .acessbg p {
+    font-size: 14px;
+    line-height: 24px;
+} */
+
+ul li a {
+    color: #114722 !important;
+}
+.acesssfour a {
+    color: #114722 !important;
+    font-weight: 600;
+}
+.accessible2 {
+    padding: 50px 40px 40px 40px;
+}
+.acesssfour ul li {
+    color: #333;
+    /* margin-bottom: 15px; */
+}
+
+/* p a {
+    color: #475a20;
+} */
+.access-ul-li li {
+    font-size: 18px;
+}
+/* .access-ul-li li a{
+    color: #114722;
+} */
+/* p {
+    font-size: 18px;
+    line-height: 24px;
+} */
+p {
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+h2.adasub {
+    text-align: center;
+    color: #458bc8;
+    font-size: 26px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.Bathroom-acces-feature-ul li {
+    line-height: 38px;
+    font-size: 16px;
+}
+
+.accessible2 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #7b7b7b;
+}
+
+.accessible2 p strong {
+    color: #000;
+    font-size: 20px;
+}
+.ada_line {
+    width: 19%;
+    margin: 0 auto 10px auto;
+    height: 1px;
+    display: block;
+    background: #458bc8;
+}
+
+h3.adasub {
+    text-align: center;
+    color: #2d5f89;
+    margin-bottom: 30px;
+}
+
+.property-acc-fea-div {
+    /* background: url(../images/Property-Acce-bg-img.png) no-repeat scroll center; */
+    background-size: 35%;
+    background-position: 100% 50%;
+}
+ul.onlythis.Bathroom-acces-feature-ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+ul.onlythis.Bathroom-acces-feature-ul {
+    -o-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+    border-radius: 10px;
+    padding: 30px 30px 30px 44px;
+    margin-bottom: 40px;
+}
+
+ul.onlythis {
+    list-style: square;
+    padding-left: 18px;
+}
+
+.guestroom-acc-fea-div {
+    /* background: url(../images/guestroom-Acc-bg-img.png) no-repeat scroll center; */
+    background-size: 50%;
+    background-position: 108% 50%;
+}
+
+ul.onlythis.Bathroom-acces-feature-ul {
+    -o-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.19),0 1px 4px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+    box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 4px rgb(0 0 0 / 23%);
+    border-radius: 10px;
+    padding: 30px 30px 30px 44px;
+    margin-bottom: 40px;
+}
+
+.acesssfour ul li {
+    color: #333;
+    margin-bottom: 15px;
+}
+.acesssfour ul li {
+    list-style-type: square;
+    color: #2d5f89;
+    margin-bottom: 10px;
+}
+ul.onlythis li {
+    color: #2d5f89;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    h2 .adasub {
+        text-align: center;
+        color: #2d5f89;
+        font-size: 24px !important;
+    }
+}
+

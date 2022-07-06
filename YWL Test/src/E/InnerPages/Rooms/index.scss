@@ -1,0 +1,1122 @@
+.GuestRoomScss {
+  p {
+    text-align: justify;
+    line-height: 35px;
+    color: #5a5a5a;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lato";
+  }
+
+
+
+  .second-amenities-slider .slick-slider:first-child{
+  height: 200px;
+}
+
+.second-amenities-slider .slick-slide{
+   height: 500px !important;
+  max-height: 500px !important;
+  overflow-y:scroll;
+}
+
+.aboutTittle {
+font-size: 24px;
+padding: 5px 0px;
+color: #215f35;
+border-bottom: 3px solid #215f35;
+display: inline-block;
+letter-spacing: 0;
+text-transform: uppercase;
+font-weight: 500;
+font-family: "Averia Serif Libre";
+margin: 0px 0px 0px 0px !important;
+display: initial;
+}
+
+.r-details-title{
+  text-align: justify;
+    line-height: 30px;
+    color: #5a5a5a;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "Lato";
+}
+
+  h3 {
+    text-align: justify;
+    line-height: 30px;
+    color: #1a563a;
+    font-weight: 400;
+  }
+  .bg-gray {
+    background: #f4f4f2;
+  }
+  .room_description-amenities ul li span {
+    display: inline-block;
+    font-size: 22px;
+  }
+  }
+  body {
+    max-width: 2000px;
+    margin: 0 auto;
+ 
+    height: 100%;
+  }
+  .room_description-amenities ul li {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .roomCardDetails img {
+    height: 200px;
+  }
+  .roomCardDetails{
+    object-fit: cover;
+    max-width: 550px;
+    color: #1a563a;
+    font-weight: 400;
+    // border-bottom: 2px solid;
+    margin: 15px;
+}
+  .room_description-amenities ul li:not(:last-child) {
+    margin: 0 25px 10px 0;
+  }
+  .bookbtn {
+    background-color: #ffffff;
+    border: 2px solid #1a563a;
+    font-weight: 400;
+  }
+  .book {
+    // background-color: #1a563a;
+    font-size: 15px;
+    line-height: 20px;
+    // color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: left;
+    display: inline-block;
+  }
+  .btn-green {
+    color: #ffffff;
+    font-weight: 400;
+  }
+  .W100 {
+    width: 100%;
+  }
+  p,
+  .occupancy {
+    font-size: 15px;
+    color: #6a6a6a;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .guest-dfs {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 110px;
+    z-index: 1;
+    top: 110px;
+  }
+  .PR {
+    position: relative;
+  }
+  .border-room {
+    border: 1px solid #1a563a;
+  }
+  .room_description-amenities ul li span {
+    display: inline-block;
+    font-size: 22px;
+  }
+  .room_description-amenities ul li {
+    margin-top: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  .room_description-amenities ul li:not(:last-child) {
+    margin: 0 25px 10px 0;
+  }
+  .bookbtn {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #052416;
+    background-color: #ffffff;
+    border: 1px solid #1a563a;
+    font-weight: 400;
+    border-radius: 0px;
+  }
+  .detailsBtn {
+    margin-right: 20px;
+  }
+  .detailsBtn2 {
+    color: white;
+    background-color: #1a563a;
+  }
+  .roomBtnStyle {
+    background: linear-gradient(to right, #1a563a 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    
+  }
+.btnFix {
+  margin: 5px;
+}
+.btnFix2 {
+  padding: 10px;
+  margin: 5px;
+}
+  .roomBtnStyle:hover {
+    background-position: left bottom;
+    color: white !important;
+  }
+  .roomBtnStyle2 {
+    background: linear-gradient(to right, white 50%, #1a563a 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-in;
+  }
+
+  .roomBtnStyle2:hover {
+    background-position: left bottom;
+    color: #1a563a !important;
+  }
+  .book {
+    // background-color: #1a563a;
+    font-size: 15px;
+    line-height: 20px;
+    // color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: left;
+    display: inline-block;
+  }
+  .btn-green {
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .W100 {
+    width: 100%;
+  }
+  p,
+  .occupancy {
+    font-size: 18px;
+    color: #6a6a6a;
+    font-weight: 500;
+    font-family: "Poppins";
+  }
+  .guest-dfs {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 110px;
+    z-index: 1;
+    top: 110px;
+  }
+  .PR {
+    position: relative;
+  }
+  .guest-h3 {
+    font-size: 48px;
+    color: #ffffff !important;
+    font-weight: 400;
+    font-family: "Averia Serif Libre";
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 74px;
+    text-transform: uppercase;
+    z-index: 1;
+  }
+  .border-room {
+    border: 1px solid #1a563a;
+  }
+  .img-shadow::after {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 23%,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0.3) 71%,
+      rgba(0, 0, 0, 0.3) 100%
+    );
+    height: 100%;
+    width: 100%;
+    content: "";
+    display: block;
+  }
+  .col-lg-7.PR img {
+    height: 650px;
+    object-fit: cover;
+  }
+  .left-img .guest-h3 {
+    text-align: right;
+    right: 74px;
+    left: auto;
+  }
+  .img-shadow::after {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.3) 23%,
+      rgba(0, 0, 0, 0.3) 40%,
+      rgba(0, 0, 0, 0.3) 71%,
+      rgba(0, 0, 0, 0.3) 100%
+    );
+    height: 100%;
+    width: 100%;
+    content: "";
+    display: block;
+  }
+  .col-lg-7.PR img {
+    height: 650px;
+  }
+  .left-img .guest-h3 {
+    text-align: right;
+    right: 74px;
+    left: auto;
+  }
+  .guest-h3.text-white {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .generalServices {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex !important;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+ 
+  .fs-innertitle1-48 {
+    color: #fff;
+    transform: none;
+    left: 0;
+  }
+  .text-success {
+    color: #1a563a !important;
+  }
+  .detailsAmenities li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 64px 0px 0px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6a6a6a;
+    font-family: lato;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .amenitiesdfs {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .detailsAmenities {
+    padding-left: 0px;
+    text-align: left;
+  }
+  .w-30px {
+    width: 25px;
+  }
+  .featuresDetails {
+    background: #12462e;
+  }
+  .second-ame li {
+    text-align: left;
+    font-size: 16px;
+    padding: 5px 13px 5px 10px;
+    font-family: lato;
+    color: #363535;
+  }
+  .custome-second-slide .slick-arrow,
+  .custome-second-slide .slick-dots {
+    display: none !important;
+  }
+  .custome-second-slide img {
+    padding: 0px 3px !important;
+  }
+  .slider-txt > div {
+    background: none;
+  }
+  .slider-txt {
+    top: 400px;
+    bottom: auto;
+    font-size: 50px;
+  }
+  .min100 {
+    position: relative;
+    background: #fff;
+    z-index: 9;
+    padding: 15px 0px;
+  }
+  .height-400 {
+    height: 500px;
+    object-fit: cover;
+  }
+  .custome-first-slide .slick-prev:hover,
+  .custome-first-slide .slick-prev:focus,
+  .custome-first-slide .slick-next:hover,
+  .custome-first-slide .slick-next:focus {
+    background: #1e573a;
+  }
+  .height-150 {
+    height: 125px;
+    object-fit: cover;
+  }
+  .inner-text-overlay {
+    position: absolute;
+  }
+  .slider-txt > div {
+    font-size: 26px;
+    font-family: "Averia Serif Libre", cursive;
+  }
+  .detailsroomsName {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    color: #1a563a;
+    font-weight: 400;
+  }
+  .roomdetails-name {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Averia Serif Libre";
+    color: #1a563a;
+    font-weight: 400;
+    border-top: 2px solid #1a563a;
+    display: table;
+    text-align: left;
+    padding-top: 10px;
+  }
+  .detailsAmenities span {
+    position: relative;
+    top: 0px;
+    color: #1d583d;
+    font-size: 22px;
+    padding-right: 15px;
+  }
+  .included span {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #1a563a;
+    font-weight: 400;
+    padding-right: 15px;
+  }
+  .included > p {
+    display: flex;
+    font-size: 14px;
+  }
+  .amenitiesdfs span {
+    font-size: 16px;
+    color: #6a6a6a;
+    font-weight: 400;
+    font-family: lato;
+  }
+  .overview-second-arrow .slick-arrow {
+    display: none !important;
+  }
+  .slick-dots {
+    display: none !important;
+  }
+  .first-slide-amenities .color-amenities {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Averia Serif Libre";
+    text-transform: uppercase;
+    height: 150px;
+    // padding-top: 30px;
+  }
+  .first-slide-amenities .slick-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-ame li {
+    text-align: left;
+  }
+  .second-amenities-slider {
+    display: inline-block;
+    background: #e7e8e9;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .room-plan {
+    display: inline-block;
+  }
+  .w94-p {
+    width: 95%;
+    margin-left: auto;
+    right: 0;
+    margin-right: 0;
+  }
+  .bg-roomplan {
+    border: 1px solid #d7dbd9;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-roomplan p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  p {
+    font-family: lato;
+  }
+  .second-ame li::marker {
+    color: #1a563a;
+    font-size: 20px;
+  }
+  .custome-first-slide .slick-prev:hover,
+  .custome-first-slide .slick-prev:focus,
+  .custome-first-slide .slick-prev {
+    // background-image: url("../../../E/Yosemitewestgate/assets/images/innerpages/amenities-prev.svg") !important;
+    // background-repeat: no-repeat !important;
+    background: none;
+  }
+  .custome-first-slide .slick-next:hover,
+  .custome-first-slide .slick-next:focus,
+  .custome-first-slide .slick-next {
+    // background-image: url("../../../E/Yosemitewestgate/assets/images/innerpages/amenities-next.svg") !important;
+    // background-repeat: no-repeat !important;  background-position: center !important;
+    background: none;
+    right: 48px;
+    top: 63.9%;
+  }
+  .custome-first-slide .slick-arrow.slick-prev {
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 93.9%;
+    z-index: 99;
+    background-size: 60% !important;
+  }
+  .custome-first-slide .slick-prev:before,
+  .custome-first-slide .slick-next:before {
+    padding: 0px 13px;
+    font-size: 50px;
+    background: rgb(255 255 255 / 84%);
+    font-family: inherit;
+    color: #000;
+  }
+  .first-slide-amenities .slick-prev {
+    top: 45%;
+  }
+  .ameni-94 {
+    margin: 0 auto;
+    left: 0;
+  }
+  .first-slide-amenities
+    .slick-slide.slick-active.slick-current
+    .color-amenities {
+      background: #0b3421;
+      color: #ffffff;
+      margin: 0px !important;
+  }
+  .slick-slide.slick-cloned .lessFour,
+  .slick-slide.slick-active.slick-cloned .lessFour {
+    display: none !important;
+  }
+  .btns.btn-green:hover {
+    color: #fff !important;
+  }
+  .mainCheckAvail .main-span,
+  .mainCheckAvail .main-span1 {
+    left: 0px;
+  }
+  .dfsss {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .room_description-amenities .list-unstyled {
+    position: relative;
+    bottom: 0px;
+    // margin-right: 15px;
+    text-align: left;
+    margin-left: 15px;
+  }
+  .F11 p {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .a-p1 p {
+    margin-bottom: 0px;
+  }
+  #delay-details {
+    animation: cssAnimation 0s 2s forwards;
+    visibility: hidden;
+  }
+
+  @keyframes cssAnimation {
+    to {
+      visibility: visible;
+    }
+  }
+  .color-amenities span {
+    display: block;
+    padding: -2px 10px;
+    // min-height: 60px;
+    text-align: center;
+  }
+  .color-amenities svg {
+    font-size: 35px;
+    margin-bottom: 18px;
+  }
+  .first-slide-amenities {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .first-slider-ameni {
+    background: #12462e;
+  }
+  .border-bottom-rooms {
+    color: #1a563a;
+    font-weight: 400;
+    border-bottom: 2px solid;
+    margin: 15px;
+  }
+  .border-bottom-rooms {
+    max-width: 550px;
+  }
+  .border-bottom-rooms img {
+    height: 364px;
+    object-fit: cover;
+  }
+  .room-name-details {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Averia Serif Libre";
+    color: #1a563a;
+  }
+  .bg-room-other {
+    background: #f4f4f2;
+  }
+  .videe .video:first-child {
+    display: none !important;
+  }
+  .w300 {
+    width: 300px;
+  }
+  .mw-90p {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  //  .border-room:hover{border: 2px solid #000; padding: 0px !important; transition: all 200ms ease;}
+  .first-slide-amenities .slick-prev:before,
+  .first-slide-amenities .slick-next:before {
+    display: none;
+    
+  }
+
+  .first-slide-amenities .slick-arrow.slick-prev {
+    background-image: url("../../../E/Yosemitewestgate/assets/images/innerpages/amenities-prev.svg") !important;
+    background-repeat: no-repeat !important;
+    left: -90px;
+    position: absolute;
+    z-index: 99;
+    background-size: 40%;
+    height: 50px;
+    width: 50px;
+    top: 58%;
+  }
+  .first-slide-amenities .slick-next:hover{
+    background-size: 40%;
+  }
+  .first-slide-amenities .slick-next {
+    right: -80px;
+    background-image: url("../../../E/Yosemitewestgate/assets/images/innerpages/amenities-next.svg") !important;
+    background-repeat: no-repeat !important;
+    right: -100px;
+    position: absolute;
+    z-index: 99;
+    background-size: 40%;
+    height: 50px;
+    width: 50px;
+    top: 58%;
+  }
+  .min100 {
+    margin-bottom: 70px;
+  }
+  // @media screen and (min-width: 1200px) {
+  //   .min100 {
+  //     margin-top: -75px;
+  //   }
+  // }
+  @media screen and (min-width: 992px) {
+    p {
+      font-size: 15px;
+    }
+    .second-ame {
+      display: grid !important;
+      grid-template-columns: auto auto;
+      margin: 0;
+      padding: 20px 0px 0px 60px;
+    }
+    // .book {
+    //   margin-left: 15px;
+    // }
+    .flex-reverse-colom p {
+      padding: 0px 15px;
+    }
+    .occupancy {
+      padding-left: 15px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
+    .box {
+      position: relative;
+      top: -174px;
+    }
+    // .wrapCA {
+    //   top: 100px;
+    // }
+    .single-img .displayCA img {
+      max-height: 650px;
+      object-fit: cover;
+    }
+    .single-img .displayCA {
+      display: none;
+    }
+    .single-img .displayCA:first-child {
+      display: block;
+    }
+    .main-flex:nth-child(even) .guest-h3 {
+      text-align: right !important;
+      right: 50px !important;
+      left: auto !important;
+    }
+    .main-flex:nth-child(even) .guest-dfs {
+      display: none !important;
+    }
+    .guest-h3 {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .border-room {
+      display: none !important;
+    }
+    .border-room:nth-child(1) {
+      display: flex !important;
+    }
+    .border-room:nth-child(2) {
+      display: flex !important;
+    }
+    .main-flex .guest-h3:nth-child(odd) {
+      text-align: left;
+      right: 70px;
+      left: 0px;
+    }
+    .main-flex .guest-h3:nth-child(even) {
+      text-align: left;
+      right: 0;
+      left: 70px;
+    }
+    .main-flex:nth-child(even) {
+      flex-direction: row-reverse !important;
+      display: flex;
+    }
+    .room_description-amenities ul li span {
+      font-size: 25px;
+    }
+    .main-flex {
+      align-items: center;
+    }
+    .guest-dfs {
+      display: flex !important;
+      top: 40px;
+    }
+
+    .border-room:nth-child(1):nth-child(even) {
+      display: none !important;
+    }
+  }
+
+  @media screen and (max-width: 1199px) {
+    // .min100 {
+    //   margin-top: 50px !important;
+    // }
+  }
+  @media screen and (max-width: 991px) {
+    .room_description-amenities .list-unstyled {
+      text-align: center;
+    }
+    .slider-txt > div {
+      font-size: 40px;
+    }
+
+    .first-slide-amenities .slick-prev {
+      left: -70px !important;
+      background-position: center;
+    }
+    .first-slide-amenities .slick-next {
+      right: -70px;
+      background-position: center;
+    }
+    .bg-roomplan {
+      display: block;
+    }
+    .bg-roomplan p {
+      font-size: 15px;
+    }
+    .first-slide-amenities .slick-prev:before,
+    .first-slide-amenities .slick-next:before {
+      font-size: 35px;
+    }
+    .ipad-details-top {
+      margin: 15px 0px !important;
+    }
+    .border-bottom-rooms {
+      margin: 0 auto !important;
+    }
+    // .roomdetails-name {
+    //   display: inline-block !important;
+    //   text-align: center !important;
+    // }
+    // .bg-roomplan p {
+    //   font-size: 15px;
+    // }
+    .plan-img img {
+      width: 300px;
+      margin: 30px 0px;
+    }
+    .second-ame {
+      display: block !important;
+    }
+    // .first-slide-amenities
+    //   .slick-slide.slick-active.slick-current
+    //   .color-amenities {
+    //   background: #0563ae;
+    //   width: 300px !important;
+    //   margin: 0 auto;
+    // }
+    .amenitiesdfs span {
+      font-size: 15px;
+    }
+    .w-30px {
+      width: 22px;
+    }
+    .included > p {
+      display: block !important;
+    }
+    p {
+      font-size: 15px;
+    }
+    .detailsAmenities li {
+      padding: 10px 55px 10px 0px !important;
+    }
+    .detailsAmenities span {
+      font-size: 20px;
+    }
+    // .detailsAmenities {
+    //   text-align: left !important;
+    //   padding-left: 0px;
+    // }
+    .custome-first-slide .slick-arrow.slick-prev {
+      left: 90.1% !important;
+    }
+    .occupancy {
+      font-weight: 600;
+    }
+    .bg-gray.pb-4 {
+      margin-bottom: 50px;
+    }
+
+    .left-img {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .col-lg-7.PR img {
+      height: auto;
+    }
+    // .guest-h3 {
+    //   position: relative;
+    //   color: #1a563a;
+    //   right: 0 !important;
+    //   left: 0 !important;
+    //   text-align: center !important;
+    //   top: 0px;
+    //   margin-top: 40px;
+    // }
+
+    .left-img {
+      padding: 15px !important;
+    }
+    .text-left.mb-4 {
+      text-align: center !important;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .flex-reverse-colom {
+      flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .first-slide-amenities .slick-next,
+    .first-slide-amenities .slick-prev {
+      background-size: 30% !important;
+    }
+    .slider-txt {
+      top: 75%;
+    }
+    .height-400 {
+      height: 400px;
+  }
+  .generalServices {
+    width: 100% !important;
+  }
+  .GSIpad {
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: left !important;
+  }
+    .roomInfoIpad {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .detailsAmenities li {
+      display: block;
+    }
+    .text-left.mb-4 {
+      margin-bottom: 20px !important;
+  }
+    .plan-img img {
+      width: 250px;
+    }
+    .mob-px-0 {
+      margin: 0px;
+    }
+    .custome-first-slide .slick-arrow.slick-prev {
+      left: 82.1% !important;
+    }
+    .book .btn {
+      font-size: 13px;
+    }
+    .room_description-amenities ul li span {
+      font-size: 24px;
+    }
+    .guest-h3 {
+      position: relative;
+      color: #1a563a !important;
+      right: 0 !important;
+      left: 0 !important;
+      text-align: center !important;
+      top: 0px;
+      margin: 0px 0px 15px 0px;
+      font-size: 28px;
+      padding: 0px 5px 0px 5px;
+    }
+ 
+      .list-unstyled {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .dfsss {
+      margin-top: 0px !important;
+    }
+    .details-banner-xs {
+      height: 460px !important;
+    }
+    .slider-txt > div {
+      font-size: 25px;
+    }
+    .w94-p {
+      margin-top: 1rem !important;
+    }
+    .first-slide-amenities .slick-prev {
+      left: -50px !important;
+      background-position: center !important;
+  }
+  .first-slide-amenities .slick-next {
+    right: -50px;
+    background-position: center !important;
+}
+.suggestRoomCard {
+  margin: 0px !important;
+}
+.bg-roomplan p {
+  font-size: 16px;
+}
+.bg-roomplan {
+  padding: 0px;
+}
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .dfsss {
+      margin-top: 2rem !important;
+    }
+    .singleGuestRoom {
+      margin-bottom: 1rem !important;
+    }
+    .roomInfoIpad {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .list-unstyled {
+      margin: 2rem 0rem 0rem 0rem;
+    }
+    .guest-h3 {
+      position: relative;
+      color: #1a563a !important;
+      right: 0 !important;
+      left: 0 !important;
+      text-align: center !important;
+      top: 0px;
+      margin: 0px 0px 30px 0px;
+      font-size: 35px;
+  }
+
+    .slider-txt {
+      top: 60%;
+    }
+    .detailsAmenities {
+      text-align: center;
+    }
+    .first-slide-amenities .slick-slide.slick-active.slick-current .color-amenities {
+      width: 95% !important;
+      background: #0b3421;
+      color: #ffffff;
+      margin: 0px !important;
+      // display: inline-block !important;
+  }
+  .GSIpad {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .roomCardDetails {
+    max-width: 100%;
+  }
+  .roomCardDetails img {
+    height: auto;
+}
+.suggestRoomCard {
+  margin: 0px;
+  margin-top: 0px !important;
+}
+.BathroomGrid {
+  display: flex !important;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .detailsAmenities span {
+      font-size: 18px;
+    }
+    .slider-txt {
+      top: 70%;
+    }
+    p{
+      line-height: 26px;
+    }
+    .dfsss {
+      margin-top: 2rem !important;
+    }
+    .slider-txt > div {
+      font-size: 40px;
+    }
+    .single-img .displayCA img {
+      height: 450px !important;
+    }
+    .color-amenities span {
+      font-size: 13px;
+    }
+    .color-amenities svg {
+      font-size: 30px;
+    }
+    .bg-roomplan p {
+      font-size: 15px;
+    }
+    .min100 {
+      z-index: 0;
+    }
+    .room-name-details {
+      min-height: 60px;
+    }
+    .bg-room-other {
+      margin-top: 50px;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+    .border-bottom-rooms img {
+      margin: 10px;
+    }
+    .detailsAmenities li {
+      padding: 0 43px 0px 0px;
+      font-size: 15px;
+    }
+    .custome-first-slide .slick-arrow.slick-prev {
+      left: 92.7% !important;
+    }
+    // #delay-details {
+    //   margin-top: 30px;
+    // }
+    .wrapCA,
+    .min100 {
+      top: 0px;
+    }
+    .mb-80 {
+      margin-bottom: 50px !important;
+    }
+   
+    h3 {
+      font-size: 35px;
+    }
+    .border-bottom-rooms img {
+      height: 225px;
+    }
+    .book .btn {
+      font-size: 13px;
+    }
+    .room_description-amenities ul li span {
+      font-size: 18px;
+    }
+    .guest-h3 {
+      font-size: 30px;
+      right: 20px !important;
+    }
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1299px) {
+    .guest-h3 {
+      font-size: 36px;
+    }
+
+  }
+  @media screen and (min-width: 1300px) and (max-width: 1400px) {
+    .guest-h3 {
+      font-size: 36px;
+    }
+    .mb-80 {
+      margin-bottom: 80px !important;
+    }
+  }
+  @media screen and (min-width: 1401px) and (max-width: 1600px) {
+    .guest-h3 {
+      font-size: 36px;
+    }
+    .mb-80 {
+      margin-bottom: 80px !important;
+    }
+  }

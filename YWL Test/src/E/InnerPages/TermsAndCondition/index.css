@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.indexing li a {
+  cursor: pointer;
+}
+
+.fs-24 {
+  font-family: "Lato";
+  font-weight: 600;
+}
+
+.indexing li strong {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+.agreeTitle {
+  font-size: 15px;
+  text-align: justify;
+}
+.l-height {
+  font-size: 15px;
+  text-align: justify;
+}
+.l-height p {
+  font-size: 15px;
+  font-family: "Lato";
+  text-align: justify;
+}
+.headingpri {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Lato";
+  letter-spacing: 1px;
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+}
+
+html {
+  scroll-behavior: smooth;
+}

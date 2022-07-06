@@ -1,0 +1,135 @@
+.lostNFound .input-form1 {
+  text-align: left;
+  padding: 0px;
+  margin-left: 80px;
+}
+.lostNFound .g-recaptcha iframe {
+  width: 181px;
+  border-right: 1px solid #c6c6c6;
+  border-radius: 5px;
+}
+.lostNFound textarea.form-control {
+  height: 40px;
+}
+.lostNFound .g-recaptcha div {
+  width: 100%;
+  text-align: -webkit-center;
+}
+.lostNFound .inputAni .form-control:not(:placeholder-shown) + label,
+.lostNFound .inputAni .form-control:not(:placeholder-shown) + label {
+  visibility: visible;
+  opacity: 1;
+  top: 0px !important;
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+}
+.lostNFound .inputAni .form-control:placeholder-shown + label {
+  opacity: 0;
+}
+.lostNFound .custLabel {
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s;
+  visibility: hidden;
+}
+.lostNFound .inputAni {
+  position: relative;
+}
+.lostNFound .ltr-none {
+  border-bottom: 1.5px solid #444;
+  border-radius: 0px;
+  font-size: inherit;
+}
+.lostNFound .ltr-none:focus {
+  border-color: #1d7c4b;
+}
+.lostNFound .input-form2 {
+  text-align: left;
+  padding: 0px;
+}
+.lostNFound .lnf-form {
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+.lostNFound .char-count {
+  font-size: 14px;
+  font-weight: 400;
+}
+.lostNFound .lnf-title {
+  top: -20px;
+  left: 8px;
+  color: #444;
+  font-size: 14px;
+}
+.lostNFound .input-area {
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.lostNFound .input-label {
+  font-weight: 500;
+}
+.lostNFound .shipping-details {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+@media screen and (max-width: 767px) {
+  .lostNFound .input-form1,
+.lostNFound .input-form2,
+.lostNFound .shipping-details,
+.lostNFound .contact-details {
+    margin: 0px;
+  }
+  .lostNFound .lnfMobView {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .lostNFound .input-area {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .lostNFound .pt-xs-20 {
+    padding: 0 20px;
+  }
+  .lostNFound .lnf-form {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .lostNFound .ltr-none {
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .lostNFound .selectLostType {
+    padding: 0px;
+  }
+  .lostNFound .custLabel {
+    margin-top: 10px;
+  }
+  .lostNFound .lnfD1 {
+    margin-bottom: 25px;
+  }
+  .lostNFound .cEmail {
+    margin-top: 35px;
+  }
+  .lostNFound .cEmailDiv {
+    padding-top: 0px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .lostNFound .rounded {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .lostNFound .rounded {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .lostNFound .lnfIpad {
+    display: flex;
+    justify-content: center;
+  }
+}

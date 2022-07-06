@@ -1,0 +1,683 @@
+.social-icon svg {
+  width: 50px;
+  height: 26px;
+}
+
+.Footer-Style {
+  background: #ffeedd 0% 0% no-repeat padding-box;
+  background-image: url("../../Yosemitewestgate/assets/images/Group\ 4307.webp");
+  background-position-x: center;
+  background-position-y: 50px;
+  background-size: cover;
+}
+.goog-te-gadget-icon {
+  display: none;
+}
+
+
+.ywg-logo-footer {
+  height: auto;
+}
+
+#google_translate_element {
+  position: absolute !important;
+  top: 0;
+}
+.langauge {
+  font-size: 16px;
+  width: 160px;
+  letter-spacing: 1px;
+  height: 50px;
+  // position: absolute;
+  top: 0px;
+  font-size: 17px;
+  background: #fff;
+  padding: 10px;
+  // padding-left: 20%;
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+}
+#google_translate_element {
+  position: relative;
+}
+.goog-te-menu-value {
+  display: none;
+}
+.PR {
+  position: relative;
+}
+
+.foot-logo-caption {
+  font-size: 12px;
+  z-index: 5;
+  color: black;
+  left: 45%;
+  position: absolute;
+  font-weight: bold;
+  bottom: -8px;
+}
+
+.Footer-logo {
+  position: relative;
+}
+
+.goog-te-gadget-simple {
+  padding: 6px 15px;
+  width: 160px;
+  height: 50px;
+  letter-spacing: 1px;
+  border: none !important;
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  background-color: transparent;
+}
+.Footer-logo img {
+  margin-top: 0.5rem !important;
+  margin-left: 0px;
+}
+.FooterAllLinks {
+  margin-top: 20px;
+}
+.trip-advsr {
+  border-radius: 10px;
+  background: #ffff;
+  padding: 8px !important;
+  max-width: 100%;
+  border: 1px solid #dedede;
+  width: 120px;
+}
+
+.trip_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Footer-links {
+  top: 15px;
+}
+.Footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-unstyled > li > a {
+  font-size: 16px;
+  line-height: 44px;
+  color: #5a5a5a;
+  font-family: "Poppins";
+  text-transform: capitalize;
+}
+.list-unstyled > li > a {
+  font-size: 16px;
+}
+.list-unstyled > li > a:hover {
+  text-decoration: none;
+  color: #5a5a5a !important;
+}
+
+/* Color Variables */
+$color-twitter: #55acee;
+$color-instagram: #a63690;
+$color-linkedin: #0275b4;
+$color-facebook: #3b5999;
+$color-googlePlus: #d74937;
+$color-yTube: #ff0000;
+$color-yelp: #f44336;
+$color-tripAdvisor: #4caf50;
+$color-fourSquare: #f94877;
+$color-yahoo: #57296f;
+$color-skype: #01b0f1;
+$color-pinterest: #cb2027;
+
+/* Social Icon Mixin */
+@mixin social-icon($color) {
+  background: $color;
+  color: #fff;
+
+  .tooltip {
+    background: $color;
+    color: currentColor;
+
+    &:after {
+      border-top-color: $color;
+    }
+  }
+}
+.social-icons {
+  display: block;
+  justify-content: start;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.social-icons a {
+  color: white;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0px 9px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2.5rem;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  background: #5a5a5a;
+  float: left;
+
+  &:hover {
+    color: #fff !important;
+    .tooltip {
+      visibility: visible;
+      opacity: 1;
+      transform: translate(-50%, -150%);
+    }
+  }
+
+  &:active {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+  }
+
+  &--linkedin:hover {
+    @include social-icon($color-linkedin);
+  }
+  &--twitter:hover {
+    @include social-icon($color-twitter);
+  }
+
+  &--facebook:hover {
+    @include social-icon($color-facebook);
+  }
+  &--instagram:hover {
+    @include social-icon($color-instagram);
+  }
+
+  &--googleplus:hover {
+    @include social-icon($color-googlePlus);
+  }
+  &--yTube:hover {
+    @include social-icon($color-yTube);
+  }
+  &--yelp:hover {
+    @include social-icon($color-yelp);
+  }
+  &--trip:hover {
+    @include social-icon($color-tripAdvisor);
+  }
+  &--foreSquare:hover {
+    @include social-icon($color-fourSquare);
+  }
+  &--pinInterest:hover {
+    @include social-icon($color-pinterest);
+  }
+  &--yahoo:hover {
+    @include social-icon($color-yahoo);
+  }
+  &--skype:hover {
+    @include social-icon($color-skype);
+  }
+
+  i {
+    position: relative;
+    top: 1px;
+  }
+}
+
+/* Tooltips */
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 0.8rem 1rem;
+  border-radius: 40px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+  text-transform: uppercase;
+  transform: translate(-50%, -100%);
+  transition: all 0.3s ease;
+  z-index: 1;
+  letter-spacing: 2px;
+  width: max-content;
+
+  &:after {
+    display: block;
+    position: absolute;
+    bottom: 1px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+  }
+}
+
+.Footer-social-content {
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.BGModify {
+  background: #358a00 none repeat scroll 0 0;
+  display: inline-block;
+  color: white;
+  border: none;
+  font-size: 16px;
+  width: 160px;
+  height: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+
+  margin: auto;
+}
+
+.wheelchair {
+  background: #0563ae !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 0;
+  display: inline-block;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  padding: 5px 0px;
+  width: 160px;
+  letter-spacing: 1px;
+  height: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin: auto;
+}
+
+.wheelchair :hover {
+  // box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+  //   0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: none;
+}
+.wheelchair > .on-h-Icon {
+  color: #fff !important;
+}
+
+.BGLanguage:hover {
+  box-shadow: none;
+}
+.BGModify:hover {
+  box-shadow: none;
+}
+
+.wheelchair:hover {
+  box-shadow: none;
+}
+
+.BGLanguage {
+  background: transparent;
+  display: inline-block;
+  border: 1px solid #323232 !important;
+  margin-top: 14px;
+  padding: 6px 15px 6px 15px;
+  color: black;
+  border: none;
+  font-size: 16px;
+  width: 160px;
+  height: 50px;
+  letter-spacing: 1px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.lang-btn {
+  text-align: center;
+}
+
+.traveler-choice {
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+
+.Footer-btns {
+  display: block;
+  // flex-direction: column;
+  // justify-content: space-between;
+}
+
+.draw-line {
+  border: 0.1px solid #5a5a5a30;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.horizantal-links {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.seo-links li a {
+  color: #5a5a5a;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 44px;
+}
+
+.certificate {
+  margin-left: 0px !important;
+}
+.copyright-cont {
+  justify-content: space-evenly;
+  padding: 0px !important;
+  margin-top: 10px;
+}
+.copy-right-line {
+  display: flex;
+  margin-right: 0;
+  font-size: 16px;
+}
+
+// Media Query
+
+// Ipad view
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Footer-links {
+    display: none;
+  }
+  .Footer-logo img {
+    width: 150px;
+    height: 150px;
+    margin-left: 0;
+  }
+
+  .foot-logo-caption {
+    left: 41%;
+  }
+  .Footer-social-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .Footer-social-content {
+    justify-content: center;
+    margin-left: 0px !important;
+  }
+
+  .FooterAllLinks {
+    display: none;
+  }
+  .social-icon {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: space-between !important;
+    margin-top: 30px;
+  }
+  .Footer-btns {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .BGModify {
+    margin-top: 1rem !important;
+  }
+
+  .lang-btn {
+    margin-bottom: 1rem !important;
+  }
+  .trip_card {
+    margin-left: 0;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+  }
+  .draw-line {
+    border: 0.1px solid #5a5a5a;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .copyright-cont {
+    flex-direction: column;
+  }
+  .copy-right-line {
+    text-align: center;
+    display: block;
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+  .cp-2 {
+    margin-top: -20px;
+  }
+  .horizantal-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .langauge {
+    text-align: center;
+    padding-left: 0px !important;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .social-icons {
+    justify-content: center;
+  }
+  // .Footer-btns {
+  //   align-items: center;
+  // }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .social-icon {
+    margin: 0px 11px 15px;
+  }
+  .social-icons {
+    padding: 0;
+
+    justify-content: center;
+  }
+  .horizantal-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .draw-line {
+    border: 0.1px solid #5a5a5a;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .certificate {
+    // text-align: right;
+    text-align-last: center;
+  }
+  .langauge {
+    // padding-left: 0px !important;
+    padding: 10px !important;
+    font-size: 18px !important;
+  }
+  .horizantal-links {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .Footer-social-content {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .langauge {
+    padding: 10px !important;
+  }
+  .modifyButton {
+    margin-top: 1rem;
+  }
+  .lang-btn {
+    margin-bottom: 1rem !important;
+  }
+  .Footer-content {
+    margin-bottom: 0px;
+  }
+  .horizantal-links {
+    display: block;
+  }
+  .Footer-links {
+    display: none;
+  }
+  .Footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 0px;
+  }
+  // .lang-btn {
+  //   right: 50%;
+  // }
+  .Footer-mob {
+    flex: 0 0 72%;
+    max-width: 72%;
+  }
+
+  .Footer-social {
+    flex: 0 0 72%;
+    max-width: 72%;
+  }
+
+  .Footer-social-content {
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .FooterAllLinks {
+    display: none;
+  }
+
+  .foot-logo-caption {
+    left: 35%;
+  }
+
+  .certificate {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .Footer-btns {
+    margin-bottom: 0px;
+    max-width: 100%;
+    // margin-top: 2rem;
+  }
+  .mob-noLine {
+    display: block;
+  }
+  .Footer-social {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .draw-line {
+    margin-right: 0px;
+  }
+  .copyright-cont {
+    flex-direction: column;
+  }
+  .copy-right-line {
+    margin-right: 0px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+    flex-direction: column;
+  }
+  .cp-2 {
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+  .Footer-logo img {
+    height: 120px;
+    width: 120px;
+  }
+  .social-icon {
+    margin: 0px 9px 18px;
+    height: 45px;
+    width: 45px;
+  }
+  .footer-btns {
+    margin-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .social-icons {
+    margin-bottom: 30px;
+  }
+  .social-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .social-icon svg {
+    height: 25px;
+    width: 30px;
+  }
+  .certificate {
+    margin-left: 0px !important;
+  }
+  .traveler-choice {
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+  .trip_card {
+    padding-left: 0px;
+  }
+  .BGLanguage,
+  .wheelchair,
+  .BGModify,
+  .langauge {
+    font-size: 14px !important;
+    width: 100%;
+  }
+}

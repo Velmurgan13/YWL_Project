@@ -1,0 +1,858 @@
+.GuestRoomScss p {
+  text-align: justify;
+  line-height: 30px;
+  color: #5a5a5a;
+  font-weight: 400;
+}
+.GuestRoomScss .bg-gray {
+  background: #f4f4f2;
+}
+.GuestRoomScss .room_description-amenities ul li span {
+  display: inline-block;
+  font-size: 22px;
+}
+.GuestRoomScss .room_description-amenities ul li {
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.GuestRoomScss .room_description-amenities ul li:not(:last-child) {
+  margin: 0 25px 10px 0;
+}
+.GuestRoomScss .bookbtn {
+  background-color: #ffffff;
+  border: 2px solid #1a563a;
+  font-weight: 400;
+}
+.GuestRoomScss .book {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: left;
+  display: inline-block;
+}
+.GuestRoomScss .btn-green {
+  color: #ffffff;
+  font-weight: 400;
+}
+.GuestRoomScss .W100 {
+  width: 100%;
+}
+.GuestRoomScss p,
+.GuestRoomScss .occupancy {
+  font-size: 15px;
+  color: #6a6a6a;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+.GuestRoomScss .guest-dfs {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  left: 110px;
+  z-index: 1;
+  top: 110px;
+}
+.GuestRoomScss .PR {
+  position: relative;
+}
+.GuestRoomScss .border-room {
+  border: 1px solid #1a563a;
+}
+.GuestRoomScss .room_description-amenities ul li span {
+  display: inline-block;
+  font-size: 22px;
+}
+.GuestRoomScss .room_description-amenities ul li {
+  margin-top: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.GuestRoomScss .room_description-amenities ul li:not(:last-child) {
+  margin: 0 25px 10px 0;
+}
+.GuestRoomScss .bookbtn {
+  padding: 10px;
+  color: #1a563a;
+  background-color: #ffffff;
+  border: 2px solid #1a563a;
+  font-weight: 400;
+  border-radius: 0px;
+}
+.GuestRoomScss .detailsBtn {
+  margin-right: 20px;
+}
+.GuestRoomScss .detailsBtn2 {
+  color: white;
+  background-color: #1a563a;
+}
+.GuestRoomScss .roomBtnStyle {
+  background: linear-gradient(to right, #1a563a 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-out;
+}
+.GuestRoomScss .roomBtnStyle:hover {
+  background-position: left bottom;
+  color: white !important;
+}
+.GuestRoomScss .roomBtnStyle2 {
+  background: linear-gradient(to right, white 50%, #1a563a 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.5s ease-in;
+}
+.GuestRoomScss .roomBtnStyle2:hover {
+  background-position: left bottom;
+  color: #1a563a !important;
+}
+.GuestRoomScss .book {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: left;
+  display: inline-block;
+}
+.GuestRoomScss .btn-green {
+  color: #ffffff;
+  font-weight: 300;
+}
+.GuestRoomScss .W100 {
+  width: 100%;
+}
+.GuestRoomScss p,
+.GuestRoomScss .occupancy {
+  font-size: 15px;
+  color: #6a6a6a;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+.GuestRoomScss .guest-dfs {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  left: 110px;
+  z-index: 1;
+  top: 110px;
+}
+.GuestRoomScss .PR {
+  position: relative;
+}
+.GuestRoomScss .guest-h3 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Averia Serif Libre";
+  text-align: left;
+  position: absolute;
+  top: 50px;
+  left: 74px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.GuestRoomScss .border-room {
+  border: 1px solid #1a563a;
+}
+.GuestRoomScss .img-shadow::after {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 23%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.3) 71%, rgba(0, 0, 0, 0.3) 100%);
+  height: 100%;
+  width: 100%;
+  content: "";
+  display: block;
+}
+.GuestRoomScss .col-lg-7.PR img {
+  height: 650px;
+  object-fit: cover;
+}
+.GuestRoomScss .left-img .guest-h3 {
+  text-align: right;
+  right: 74px;
+  left: auto;
+}
+.GuestRoomScss .img-shadow::after {
+  position: absolute;
+  top: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 23%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.3) 71%, rgba(0, 0, 0, 0.3) 100%);
+  height: 100%;
+  width: 100%;
+  content: "";
+  display: block;
+}
+.GuestRoomScss .col-lg-7.PR img {
+  height: 650px;
+}
+.GuestRoomScss .left-img .guest-h3 {
+  text-align: right;
+  right: 74px;
+  left: auto;
+}
+.GuestRoomScss .guest-h3.text-white {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.GuestRoomScss .fs-innertitle1-48 {
+  color: #fff;
+  transform: none;
+  left: 0;
+}
+.GuestRoomScss .text-success {
+  color: #1a563a !important;
+}
+.GuestRoomScss .detailsAmenities li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 64px 0px 0px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6a6a6a;
+  font-family: lato;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.GuestRoomScss .amenitiesdfs {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.GuestRoomScss .detailsAmenities {
+  padding-left: 0px;
+  text-align: left;
+}
+.GuestRoomScss .w-30px {
+  width: 25px;
+}
+.GuestRoomScss .featuresDetails {
+  background: #1a563a;
+}
+.GuestRoomScss .second-ame li {
+  text-align: left;
+  font-size: 16px;
+  padding: 5px 13px 5px 10px;
+  font-family: lato;
+  color: #363535;
+}
+.GuestRoomScss .custome-second-slide .slick-arrow,
+.GuestRoomScss .custome-second-slide .slick-dots {
+  display: none !important;
+}
+.GuestRoomScss .custome-second-slide img {
+  padding: 0px 3px !important;
+}
+.GuestRoomScss .slider-txt > div {
+  background: none;
+}
+.GuestRoomScss .slider-txt {
+  top: 300px;
+  bottom: auto;
+  font-size: 50px;
+}
+.GuestRoomScss .min100 {
+  position: relative;
+  background: #fff;
+  z-index: 999;
+  padding: 15px 0px;
+}
+.GuestRoomScss .height-400 {
+  height: 500px;
+  object-fit: cover;
+}
+.GuestRoomScss .custome-first-slide .slick-prev:hover,
+.GuestRoomScss .custome-first-slide .slick-prev:focus,
+.GuestRoomScss .custome-first-slide .slick-next:hover,
+.GuestRoomScss .custome-first-slide .slick-next:focus {
+  background: #1e573a;
+}
+.GuestRoomScss .height-150 {
+  height: 125px;
+  object-fit: cover;
+}
+.GuestRoomScss .inner-text-overlay {
+  position: absolute;
+}
+.GuestRoomScss .slider-txt > div {
+  font-size: 50px;
+}
+.GuestRoomScss .detailsroomsName {
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 60px;
+  color: #1a563a;
+  font-weight: 400;
+}
+.GuestRoomScss .roomdetails-name {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Averia Serif Libre";
+  color: #1a563a;
+  font-weight: 400;
+  border-top: 2px solid;
+  display: table;
+  text-align: left;
+  padding-top: 10px;
+}
+.GuestRoomScss .detailsAmenities span {
+  position: relative;
+  top: 0px;
+  color: #1d583d;
+  font-size: 22px;
+  padding-right: 15px;
+}
+.GuestRoomScss .included span {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #1a563a;
+  font-weight: 400;
+  padding-right: 15px;
+}
+.GuestRoomScss .included > p {
+  display: flex;
+  font-size: 14px;
+}
+.GuestRoomScss .amenitiesdfs span {
+  font-size: 16px;
+  color: #6a6a6a;
+  font-weight: 400;
+  font-family: lato;
+}
+.GuestRoomScss .overview-second-arrow .slick-arrow {
+  display: none !important;
+}
+.GuestRoomScss .slick-dots {
+  display: none !important;
+}
+.GuestRoomScss .first-slide-amenities .color-amenities {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Averia Serif Libre";
+  text-transform: uppercase;
+  height: 134px;
+  padding-top: 30px;
+}
+.GuestRoomScss .first-slide-amenities .slick-track {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GuestRoomScss .second-ame li {
+  text-align: left;
+  padding: 5px 13px 5px 10px;
+}
+.GuestRoomScss .second-amenities-slider {
+  display: inline-block;
+  background: #e7e8e9;
+  width: 90%;
+  margin-top: 10px;
+}
+.GuestRoomScss .room-plan {
+  display: inline-block;
+}
+.GuestRoomScss .w94-p {
+  width: 95%;
+  margin-left: auto;
+  right: 0;
+  margin-right: 0;
+}
+.GuestRoomScss .bg-roomplan {
+  background: #1a563a;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.GuestRoomScss .bg-roomplan p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: justify;
+}
+.GuestRoomScss p {
+  font-family: lato;
+}
+.GuestRoomScss .second-ame li::marker {
+  color: #1a563a;
+  font-size: 20px;
+}
+.GuestRoomScss .custome-first-slide .slick-prev:hover,
+.GuestRoomScss .custome-first-slide .slick-prev:focus,
+.GuestRoomScss .custome-first-slide .slick-prev {
+  background: none;
+}
+.GuestRoomScss .custome-first-slide .slick-next:hover,
+.GuestRoomScss .custome-first-slide .slick-next:focus,
+.GuestRoomScss .custome-first-slide .slick-next {
+  background: none;
+  right: 48px;
+  top: 63.9%;
+}
+.GuestRoomScss .custome-first-slide .slick-arrow.slick-prev {
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 93.9%;
+  z-index: 99;
+  background-size: 60% !important;
+}
+.GuestRoomScss .custome-first-slide .slick-prev:before,
+.GuestRoomScss .custome-first-slide .slick-next:before {
+  padding: 0px 13px;
+  font-size: 50px;
+  background: rgba(255, 255, 255, 0.84);
+  font-family: inherit;
+  color: #000;
+}
+.GuestRoomScss .first-slide-amenities .slick-prev {
+  top: 45%;
+}
+.GuestRoomScss .ameni-94 {
+  margin: 0 auto;
+  left: 0;
+}
+.GuestRoomScss .first-slide-amenities .slick-slide.slick-active.slick-current .color-amenities {
+  background: #0563ae;
+}
+.GuestRoomScss .slick-slide.slick-cloned .lessFour,
+.GuestRoomScss .slick-slide.slick-active.slick-cloned .lessFour {
+  display: none !important;
+}
+.GuestRoomScss .btns.btn-green:hover {
+  color: #fff !important;
+}
+.GuestRoomScss .mainCheckAvail .main-span,
+.GuestRoomScss .mainCheckAvail .main-span1 {
+  left: 0px;
+}
+.GuestRoomScss .dfsss {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.GuestRoomScss .room_description-amenities .list-unstyled {
+  position: relative;
+  bottom: 0px;
+  text-align: left;
+  margin-left: 15px;
+}
+.GuestRoomScss .F11 p {
+  font-size: 11px;
+  margin-bottom: 5px;
+}
+.GuestRoomScss .a-p1 p {
+  margin-bottom: 0px;
+}
+.GuestRoomScss #delay-details {
+  animation: cssAnimation 0s 2s forwards;
+  visibility: hidden;
+}
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
+.GuestRoomScss .color-amenities span {
+  display: block;
+  padding: 0px 10px;
+  min-height: 60px;
+}
+.GuestRoomScss .color-amenities svg {
+  font-size: 35px;
+  margin-bottom: 18px;
+}
+.GuestRoomScss .first-slide-amenities {
+  width: 75%;
+  margin: 0 auto;
+}
+.GuestRoomScss .first-slider-ameni {
+  background: #1a563a;
+}
+.GuestRoomScss .border-bottom-rooms {
+  color: #1a563a;
+  font-weight: 400;
+  border-bottom: 2px solid;
+  margin: 15px;
+}
+.GuestRoomScss .border-bottom-rooms {
+  max-width: 550px;
+}
+.GuestRoomScss .border-bottom-rooms img {
+  height: 265px;
+  object-fit: cover;
+}
+.GuestRoomScss .room-name-details {
+  font-size: 23px;
+  text-align: center;
+  font-family: "Averia Serif Libre";
+  color: #1a563a;
+}
+.GuestRoomScss .bg-room-other {
+  background: #f4f4f2;
+}
+.GuestRoomScss .videe .video:first-child {
+  display: none !important;
+}
+.GuestRoomScss .w300 {
+  width: 300px;
+}
+.GuestRoomScss .mw-90p {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.GuestRoomScss .first-slide-amenities .slick-prev:before,
+.GuestRoomScss .first-slide-amenities .slick-next:before {
+  display: none;
+}
+.GuestRoomScss .first-slide-amenities .slick-arrow.slick-prev {
+  background-image: url("../../../E/Yosemitewestgate/assets/images/innerpages/amenities-prev.svg") !important;
+  background-repeat: no-repeat !important;
+  left: -90px;
+  position: absolute;
+  z-index: 99;
+  background-size: 40%;
+  height: 50px;
+  width: 50px;
+  top: 58%;
+}
+.GuestRoomScss .first-slide-amenities .slick-next {
+  right: -80px;
+  background-image: url("../../../E/Yosemitewestgate/assets/images/innerpages/amenities-next.svg") !important;
+  background-repeat: no-repeat !important;
+  right: -100px;
+  position: absolute;
+  z-index: 99;
+  background-size: 40%;
+  height: 50px;
+  width: 50px;
+  top: 58%;
+}
+.GuestRoomScss .min100 {
+  margin-bottom: 70px;
+}
+@media screen and (min-width: 1200px) {
+  .GuestRoomScss .min100 {
+    margin-top: -75px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .GuestRoomScss p {
+    font-size: 16px;
+  }
+  .GuestRoomScss .second-ame {
+    display: grid !important;
+    grid-template-columns: auto auto;
+    width: 95% !important;
+    margin-left: auto;
+    padding-top: 20px;
+  }
+  .GuestRoomScss .book {
+    margin-left: 15px;
+  }
+  .GuestRoomScss .flex-reverse-colom p {
+    padding: 0px 15px;
+  }
+  .GuestRoomScss .occupancy {
+    padding-left: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .GuestRoomScss .box {
+    position: relative;
+    top: -174px;
+  }
+  .GuestRoomScss .wrapCA {
+    top: 100px;
+  }
+  .GuestRoomScss .single-img .displayCA img {
+    height: 650px !important;
+    object-fit: cover;
+  }
+  .GuestRoomScss .single-img .displayCA {
+    display: none;
+  }
+  .GuestRoomScss .single-img .displayCA:first-child {
+    display: block;
+  }
+  .GuestRoomScss .main-flex:nth-child(even) .guest-h3 {
+    text-align: right !important;
+    right: 50px !important;
+    left: auto !important;
+  }
+  .GuestRoomScss .main-flex:nth-child(even) .guest-dfs {
+    display: none !important;
+  }
+  .GuestRoomScss .guest-h3 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .GuestRoomScss .border-room {
+    display: none !important;
+  }
+  .GuestRoomScss .border-room:nth-child(1) {
+    display: flex !important;
+  }
+  .GuestRoomScss .border-room:nth-child(2) {
+    display: flex !important;
+  }
+  .GuestRoomScss .main-flex .guest-h3:nth-child(odd) {
+    text-align: left;
+    right: 70px;
+    left: 0px;
+  }
+  .GuestRoomScss .main-flex .guest-h3:nth-child(even) {
+    text-align: left;
+    right: 0;
+    left: 70px;
+  }
+  .GuestRoomScss .main-flex:nth-child(even) {
+    flex-direction: row-reverse !important;
+    display: flex;
+  }
+  .GuestRoomScss .room_description-amenities ul li span {
+    font-size: 25px;
+  }
+  .GuestRoomScss .main-flex {
+    align-items: center;
+  }
+  .GuestRoomScss .guest-dfs {
+    display: flex !important;
+    top: 40px;
+  }
+  .GuestRoomScss .mt-80 {
+    margin-top: 80px !important;
+  }
+  .GuestRoomScss .border-room:nth-child(1):nth-child(even) {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .GuestRoomScss .min100 {
+    margin-top: 50px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .GuestRoomScss .slider-txt > div {
+    font-size: 40px;
+  }
+  .GuestRoomScss .guest-h3 {
+    font-size: 35px;
+  }
+  .GuestRoomScss .first-slide-amenities .slick-prev {
+    left: -50px !important;
+    background-position: center;
+  }
+  .GuestRoomScss .first-slide-amenities .slick-next {
+    right: -50px;
+    background-position: center;
+  }
+  .GuestRoomScss .bg-roomplan {
+    display: block;
+  }
+  .GuestRoomScss .bg-roomplan p {
+    font-size: 15px;
+  }
+  .GuestRoomScss .first-slide-amenities .slick-prev:before,
+.GuestRoomScss .first-slide-amenities .slick-next:before {
+    font-size: 35px;
+  }
+  .GuestRoomScss .ipad-details-top {
+    margin: 15px 0px !important;
+  }
+  .GuestRoomScss .border-bottom-rooms {
+    margin: 0 auto !important;
+  }
+  .GuestRoomScss .roomdetails-name {
+    display: inline-block !important;
+    text-align: center !important;
+  }
+  .GuestRoomScss .bg-roomplan p {
+    font-size: 15px;
+  }
+  .GuestRoomScss .plan-img img {
+    width: 300px;
+    margin: 30px 0px;
+  }
+  .GuestRoomScss .second-ame {
+    display: block !important;
+  }
+  .GuestRoomScss .first-slide-amenities .slick-slide.slick-active.slick-current .color-amenities {
+    background: #0563ae;
+    width: 300px !important;
+    margin: 0 auto;
+  }
+  .GuestRoomScss .amenitiesdfs span {
+    font-size: 15px;
+  }
+  .GuestRoomScss .w-30px {
+    width: 22px;
+  }
+  .GuestRoomScss .included > p {
+    display: block !important;
+  }
+  .GuestRoomScss p {
+    font-size: 15px;
+  }
+  .GuestRoomScss .detailsAmenities li {
+    padding: 10px 55px 10px 0px !important;
+  }
+  .GuestRoomScss .detailsAmenities span {
+    font-size: 20px;
+  }
+  .GuestRoomScss .detailsAmenities {
+    text-align: left !important;
+    padding-left: 0px;
+  }
+  .GuestRoomScss .custome-first-slide .slick-arrow.slick-prev {
+    left: 90.1% !important;
+  }
+  .GuestRoomScss .occupancy {
+    font-weight: 600;
+  }
+  .GuestRoomScss .bg-gray.pb-4 {
+    margin-bottom: 50px;
+  }
+  .GuestRoomScss .pl-0,
+.GuestRoomScss .pr-0,
+.GuestRoomScss .left-img.pl-0 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .GuestRoomScss .col-lg-7.PR img {
+    height: auto;
+  }
+  .GuestRoomScss .guest-h3 {
+    position: relative;
+    color: #1a563a;
+    right: 0 !important;
+    left: 0 !important;
+    text-align: center !important;
+    top: 0px;
+    margin-top: 40px;
+  }
+  .GuestRoomScss .pl-0,
+.GuestRoomScss .pr-0,
+.GuestRoomScss .left-img.pl-0 {
+    padding: 15px !important;
+  }
+  .GuestRoomScss .text-left.mb-4 {
+    text-align: center !important;
+    margin-top: 40px;
+  }
+  .GuestRoomScss .flex-reverse-colom {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 767px) {
+  .GuestRoomScss .first-slide-amenities .slick-next,
+.GuestRoomScss .first-slide-amenities .slick-prev {
+    background-size: 30% !important;
+  }
+  .GuestRoomScss .detailsAmenities li {
+    display: block;
+  }
+  .GuestRoomScss .plan-img img {
+    width: 250px;
+  }
+  .GuestRoomScss .mob-px-0 {
+    margin: 0px;
+  }
+  .GuestRoomScss .custome-first-slide .slick-arrow.slick-prev {
+    left: 82.1% !important;
+  }
+  .GuestRoomScss .book .btn {
+    font-size: 13px;
+  }
+  .GuestRoomScss .room_description-amenities ul li span {
+    font-size: 24px;
+  }
+  .GuestRoomScss .guest-h3 {
+    font-size: 30px;
+  }
+  .GuestRoomScss .dfsss {
+    margin-top: 0px !important;
+  }
+  .GuestRoomScss .details-banner-xs {
+    height: 460px !important;
+  }
+  .GuestRoomScss .slider-txt > div {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .GuestRoomScss .detailsAmenities span {
+    font-size: 18px;
+  }
+  .GuestRoomScss .slider-txt > div {
+    font-size: 40px;
+  }
+  .GuestRoomScss .single-img .displayCA img {
+    height: 450px !important;
+  }
+  .GuestRoomScss .color-amenities span {
+    font-size: 13px;
+  }
+  .GuestRoomScss .color-amenities svg {
+    font-size: 30px;
+  }
+  .GuestRoomScss .bg-roomplan p {
+    font-size: 15px;
+  }
+  .GuestRoomScss .min100 {
+    z-index: 0;
+  }
+  .GuestRoomScss .room-name-details {
+    min-height: 60px;
+  }
+  .GuestRoomScss .bg-room-other {
+    margin-top: 50px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .GuestRoomScss .border-bottom-rooms img {
+    margin: 10px;
+  }
+  .GuestRoomScss .detailsAmenities li {
+    padding: 0 43px 0px 0px;
+    font-size: 15px;
+  }
+  .GuestRoomScss .custome-first-slide .slick-arrow.slick-prev {
+    left: 92.7% !important;
+  }
+  .GuestRoomScss #delay-details {
+    margin-top: 30px;
+  }
+  .GuestRoomScss .wrapCA,
+.GuestRoomScss .min100 {
+    top: 0px;
+  }
+  .GuestRoomScss .row {
+    margin: 0px;
+  }
+  .GuestRoomScss h3 {
+    font-size: 35px;
+  }
+  .GuestRoomScss .border-bottom-rooms img {
+    height: 225px;
+  }
+  .GuestRoomScss .book .btn {
+    font-size: 13px;
+  }
+  .GuestRoomScss .room_description-amenities ul li span {
+    font-size: 18px;
+  }
+  .GuestRoomScss .guest-h3 {
+    font-size: 30px;
+    right: 20px !important;
+  }
+}

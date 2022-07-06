@@ -1,0 +1,108 @@
+.slick-prev:before,
+.slick-next:before {
+  font-size: 36px !important;
+  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.slick-prev:before {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+
+.slick-prev {
+  left: -50px;
+}
+
+.attraction-card {
+  /* position: relative; */
+  margin-left: 80px;
+  margin-top: 40px;
+}
+
+
+
+.card-num {
+  color: #215f35;
+}
+
+.card-title {
+  color: #0e17cd;
+}
+
+.text-secondary {
+  width: 100%;
+}
+
+.text-muted {
+  font-size: 17px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+.view_att_details {
+  display: block;
+  padding: 7px 0px;
+  width: auto;
+  float: left;
+  margin: 0;
+  transition: all 0.2s ease;
+  color: #0e17cd;
+}
+
+.btn-details {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.direction-details {
+  display: block;
+  padding: 7px 0px;
+  width: auto;
+  float: left;
+  margin: 0;
+  color: #0e17cd;
+}
+
+.btn-direction {
+  padding-left: 14px;
+}
+
+.attCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.direction-details a:hover {
+  color: #0e17cd !important;
+}
+
+.view_att_details button:hover {
+  background-color: #215f35;
+  color: #ffff;
+}
+
+.attraction .a {
+  color: #0e17cd;
+}
+
+.attraction {
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 20px;
+  background: #fff;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 16%);
+}
+.card-hover-bdr:hover {
+  border: 1px solid #215f35;
+}

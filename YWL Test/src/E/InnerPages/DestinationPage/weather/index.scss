@@ -1,0 +1,175 @@
+.Weather {
+  .scroll {
+    overflow: scroll;
+  }
+  .temp .temp-value {
+    color: #ffffff;
+    font-size: 54px;
+    font-weight: 500;
+    font-family: "Lato";
+  }
+  .timing {
+    font-size: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    border-bottom: 3px solid #fff;
+    display: inline-block;
+    text-transform: capitalize;
+    font-family: "Lato";
+  }
+  .altColor {
+    background-color: #f9f9f9;
+  }
+  .tempp {
+    font-size: 24px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    font-family: "Lato";
+  }
+  .text-positioning {
+    position: absolute;
+    top: 10px;
+    align-items: center;
+  }
+  .weather-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../../../Yosemitewestgate//assets/images/innerpages/weather-bg.jpeg"),
+      no-repeat;
+    height: 100%;
+    padding: 0 15%;
+  }
+  .dayne {
+    font-size: 22px;
+    color: #272727;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  .timing1 {
+    color: #272727;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    min-height: 50px;
+  }
+  .weather-title {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Lato";
+  }
+  .temp-value {
+    font-size: 16px;
+    color: #272727;
+    font-weight: 500;
+  }
+  .temp-value-one {
+    font-size: 22px;
+    color: #272727;
+    font-weight: 500;
+    font-family: "Lato";
+  }
+
+  .horizone-tabs {
+    border: none !important;
+  }
+  .remove-border {
+    border-color: none !important;
+  }
+  .link-button {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #000000;
+    background: #efefef;
+    border-top: 1px solid #eaeaea;
+  }
+
+  .humd {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* 
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+      
+       } */
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .weather-bg {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 2% 4%;
+    }
+    .windSpeed {
+      padding: 0px !important;
+    }
+    .humidity {
+      padding: 0px !important;
+    }
+    .timing {
+      width: 80%;
+    }
+
+    .iconWeatherDiv {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    .humd {
+      justify-content: center;
+    }
+
+    .weatherLocationDiv {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .countryWeather {
+      margin-top: 1.5rem;
+      margin-left: 15px;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .weather-title {
+      font-size: 24px;
+    }
+    .temp .temp-value {
+      font-size: 36px;
+    }
+    .timing {
+      font-size: 29px;
+    }
+
+    .weather-bg {
+      padding: 0 10%;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .Weather .weather-bg {
+    padding: 0 15px;
+  }
+
+  .iconWeatherDiv {
+    flex-direction: column;
+  }
+
+  .weatherLocationDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .countryWeather {
+    margin-top: 1.5rem;
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,102 @@
+.primary-carousel ol {
+  left: 0;
+  margin-bottom: 25px;
+  right: 0;
+}
+.hide-right-arrow {
+  position: relative;
+}
+
+.carousel-indicators li {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.slider-content {
+  position: absolute;
+  bottom: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+.slider-content span {
+  display: block;
+  color: #fff;
+  font-family: "Averia Serif Libre", cursive;
+}
+
+.slider-caption1 {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.slider-caption2 {
+  font-size: 45px;
+}
+
+.cauroselBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+  color: #fff;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-content {
+    bottom: 20px;
+  }
+
+  .slider-caption1 {
+    font-size: 22px;
+  }
+
+  .slider-caption2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .primary-carousel ol {
+    margin-bottom: 0px;
+  }
+  .fs-38-new {
+    font-size: 18px !important;
+  }
+  .rail-font2 {
+    left: 0% !important;
+    font-size: 25px !important;
+  }
+  .title-two-position {
+    bottom: 75px !important;
+  }
+  .checkAvail {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .checkAvail {
+    position: relative;
+  }
+  .bg-color-datepicker {
+    padding-top: 25px !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  .slider-content {
+    background: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    padding-top: 13px;
+    padding-bottom: 5px;
+  }
+
+  .slider-caption2 {
+    font-size: 22px;
+  }
+
+  .slider-caption1 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,167 @@
+.FS16 {
+  font-size: 16px;
+  color: #215f35;
+}
+.FSize {
+  font-size: 16px;
+}
+.WCIcon {
+  width: 50px;
+  margin-right: 5px;
+  text-align: center;
+}
+.xIcon {
+  margin-left: 5px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+.xIcon img {
+  margin-top: -20px;
+  margin-left: 3px;
+}
+
+.sort_bar {
+  background: #000000 !important;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px 10px !important;
+  color: #fff;
+  height: auto !important;
+}
+.newsInfo > p > a {
+  color: #fff !important;
+  text-decoration: underline;
+}
+.newsInfo p a:hover {
+  text-decoration: none;
+}
+
+.message {
+ 
+  padding: 15px 25px 15px 15px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.message p {
+  margin-bottom: 0px !important;
+   color: #ffffff;
+   width: 94%;
+}
+
+.message.closeMsg {
+  display: none !important;
+}
+
+.attentinada {
+  color: #fff;
+  background-color: #0563ae;
+  border-color: #0563ae;
+}
+
+.good_news {
+  background: #3c763d !important;
+  color: #3c763d;
+  border-color: #d6e9c6;
+}
+
+.warning-msg {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.bad_news {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.resFilterBtn {
+  text-align: end;
+  position: relative;
+}
+
+.fa-fa-caret-down {
+  background: #574f4c;
+  color: white;
+}
+.bg-color-price {
+  background: #ebebeb;
+}
+.r90deg {
+  transform: rotate(90deg);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .message p {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .message p {
+    width: 92%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container.pd-xs-15 {
+    padding: 0 15px !important;
+  }
+  .msgContain {
+    width: 90% !important;
+    margin: auto !important;
+  }
+
+  .attentinada {
+    color: #ffffff;
+    padding: 15px 35px 15px 15px;
+    border-radius: 3px;
+    position: relative;
+    display: block;
+  }
+  .summaryTotal {
+    margin-bottom: 1rem !important;
+  }
+  .newsInfo {
+    display: inline-block !important;
+    /* float: left !important;  */
+  }
+  .nextStep {
+    text-align: inherit !important;
+  }
+  .WCIcon {
+    width: 30px;
+    margin-right: 5px;
+    float: left;
+  }
+  .xIcon {
+    position: absolute;
+    right: 10px;
+    top: 10px !important;
+    cursor: pointer;
+    width: 15px;
+  }
+  .sort_bar {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem !important;
+  }
+  .hideMobileV {
+    display: none;
+  }
+  .resFilterBtn {
+    text-align: center !important;
+  }
+  .resView {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .roomDataIpad {
+    margin-left: 0px !important;
+  }
+}

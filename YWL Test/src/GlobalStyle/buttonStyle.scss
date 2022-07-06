@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+// ywl button code globally now you need to apply className as "global-btn-ywl"
+@mixin button-ywl($bg) {
+  background: $bg;
+  &:hover {
+    background-position: left bottom;
+    color: white !important;
+    background-color: #0ba167;
+  }
+}
+
+.global-btn-ywl {
+   @include button-ywl(#1d7c4b);
+   font-size: 17px;
+   line-height: 50px;
+   font-weight: 500;
+   font-family: Helvetica, Arial, sans-serif;
+   padding: 0px 20px;
+   background: linear-gradient(to right, #1a563a 50%, #fff 50%);
+   background-size: 200% 100%;
+   background-position: right bottom;
+   transition: all 0.5s ease-out;
+   letter-spacing: 1px;
+   border: 1px solid #1d7c4b;
+   color: #000000;
+}
+
+
+.button_bg {
+  border: none;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+  color: #fff;
+  background-color: var(--primary-dark);
+  transition: 0.5s;
+  border-radius: 0;
+  padding: 10px 25px 10px 25px;
+  font-weight: 400;
+  font-size: 17px;
+  background-color: #114722;
+  text-transform: uppercase;
+}
+
+
+
+
+
+

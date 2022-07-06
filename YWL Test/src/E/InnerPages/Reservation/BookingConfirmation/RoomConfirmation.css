@@ -1,0 +1,411 @@
+.whitebg {
+  padding: 20px;
+  border: 2px solid #e5e5e5;
+  background: #ffffff !important;
+}
+.dropshadow {
+  box-shadow: 0px 3px 5px #e5e5e5 !important;
+}
+.head_text {
+  color: #323232;
+  font-weight: 800;
+  font-family: "Lato" !important;
+}
+
+.selectArrival {
+  width: 100%;
+  padding: 4px; 
+  background: #E9E9E9;
+}
+.propertyEmail {
+  padding: 0px;
+  margin-left: 15px;
+}
+.socialIcon {
+  color: #323232;
+  font-weight: 600;
+  font-family: "Lato" !important;
+}
+.socialIcon:hover {
+  color: #323232;
+}
+.dottedborder {
+  border-bottom: 1px dotted #9c9c9c;
+}
+.divBorder {
+  border: 1px dotted black;
+}
+.editIcon {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.FaqHeading {
+  font-size: 15px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  text-transform: none !important;
+}
+
+.custLabel {
+  position: absolute;
+  top: 0;
+  transition: all 0.2s;
+  visibility: hidden;
+}
+.inputAni .form-control:not(:placeholder-shown) + label,
+.inputAni .form-control:not(:placeholder-shown) + label {
+  visibility: visible;
+  opacity: 1;
+  top: -20px !important;
+  color: #444;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.inputAni {
+  position: relative;
+}
+.inputAni .form-control:placeholder-shown + label {
+  opacity: 0;
+}
+.fromCurrency {
+  padding: 8px;
+}
+.toCurrency {
+  padding: 8px;
+}
+.destinationGuide {
+  border: 1px solid #a9a9a9;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 30px;
+}
+.guideBtn {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: 150px;
+  font-weight: 600;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.FS14 {
+  font-size: 14px;
+}
+.tableHeading {
+  font-weight: 600;
+}
+.tableSubHeading {
+  font-weight: 400;
+}
+.bookingParentDiv {
+  display: none;
+}
+@media print {
+  .bookingParentDiv  { display: block;}
+}
+.printPage {
+  font-weight: 700;
+  vertical-align: middle !important;
+  text-align: center;
+  font-size: 18px;
+}
+.F18 {
+  font-size: 18px;
+}
+.FS13 {
+  font-size: 13px;
+}
+.FS14 {
+  font-size: 14px;
+}
+.PTB {
+  padding: 5px 0px 5px 0px;
+}
+.FS17 {
+  font-size: 17px;
+}
+.FS16 {
+  font-size: 16px;
+}
+.FS20 {
+  font-size: 20px;
+}
+.LFbold {
+  font-weight: 600;
+}
+.black {
+  color: #000000 !important;
+}
+.cardText {
+  margin-top: -3px;
+}
+.head_text1 {
+  color: #323232 !important;
+  font-weight: 600 !important;
+  font-family: "Lato" !important;
+}
+.box {
+  background-color: #ebebeb;
+  border: 1px solid #cecece;
+  padding: 3px 3px 3px 10px;
+}
+.sharelinks {
+  position: inherit !important;
+  top: auto !important;
+  width: 100% !important;
+  z-index: -1 !important;
+}
+.MT20 {
+  margin-top: 20px;
+}
+.MB5 {
+  margin-bottom: 5px;
+}
+.leftbox {
+  border: 1px solid #cccccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+.leftbox img {
+  position: relative;
+  bottom: 3px;
+}
+.whitebg2 {
+  background-color: #fff;
+  padding: 0px 50px 20px 50px;
+  border: 2px solid #e5e5e5;
+}
+.green {
+  color: #318f03;
+}
+.FS30 {
+  font-size: 30px;
+}
+.editCc:hover {
+  text-decoration: none;
+}
+.head_text {
+  color: #323232;
+  font-weight: 800;
+}
+.editIcon:hover {
+  color: #323232;
+}
+.graybox {
+  border: 1px solid #e1e1e1;
+  padding: 10px;
+}
+.HEIGHTFIX {
+  min-height: 130px;
+  min-width: 136px;
+}
+.smokeIcon {
+  background: white;
+  border-radius: 30px;
+  padding: 4px;
+  border: 1px solid gray;
+}
+.details {
+  border: 2px solid #9c9c9c !important;
+  line-height: 40px;
+}
+.BR {
+  border-radius: 3px;
+}
+
+.details a {
+  color: #464545;
+  text-decoration: none;
+  font-size: 15px;
+}
+.binform input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border: 2px solid #dadce0;
+  border-radius: 2px;
+  color: #454545;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+.dropshadow {
+  box-shadow: 0px 3px 5px #e5e5e5 !important;
+}
+.binform label.registerduser {
+  font-size: 12px;
+  top: -10px;
+  color: #0643d1;
+  background-color: #fff;
+  left: 11%;
+}
+.binform label {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: auto;
+  color: #3d3d3d;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.2s all;
+  padding: 0px 10px 0px 10px;
+}
+.btnEffect {
+  background-color: #59ba41;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: 150px;
+  font-weight: 600;
+  overflow: hidden;
+}
+.btnEffect:hover {
+  color: #fff;
+}
+
+
+.faqComponent .displayCA {
+  display: none;
+}
+.faqData {
+  padding: 0px !important;
+}
+.accordion-wrapper {
+  margin: 16px 0px !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ipadSec1 {
+    display: none;
+  }
+  .ipadSec2 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .whitebg2 {
+    padding: 0px 25px 20px 25px;
+  }
+  .LFbold {
+    padding: 0px;
+  }
+  .convertIpadView {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .SelectAmount {
+    padding-right: 0px;
+  }
+}
+@media only screen and (max-width: 767px)  {
+  .MB_mobile{
+    flex-direction: column;
+  }
+  .leftbox {
+    padding: 15px 0px;
+  }
+  .cardText {
+    padding: 0px;
+  }
+  .iconMobView2 {
+    display: grid !important;
+    grid-template-columns: auto auto;
+  }
+  .binform {
+    flex-direction: column;
+    margin-top: 2rem !important;
+  }
+  .guestLastName {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0px;
+  }
+  .guestFirstName {
+    padding: 0px;
+  }
+  .roomCardDetails1 {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .divBorder {
+    padding: 1rem !important;
+  }
+  .roomCount {
+    margin-top: 1rem !important;
+    padding: 0px;
+  }
+  .faqAtConfirmation {
+    margin: 0px !important;
+  }
+  .guestEmail1 {
+    margin-top: 1rem !important;
+  }
+  .convertIpadView {
+    margin-top: 2rem;
+  }
+  .toCurrency {
+    width: 100%;
+  }
+  .fromCurrency {
+    width: 100%;
+  }
+  .propertyDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  .propertyCar {
+    margin-top: 1rem;
+  }
+  .propertyEmail1 {
+    margin-top: 1rem;
+  }
+  .propertyDirection {
+    flex-direction: column;
+    margin-bottom: 1rem !important;
+    margin-top: 0rem !important;
+  }
+  .propertyLocation {
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+  }
+  .propertyEmail {
+    margin-left: 0px;
+  }
+  .propertyMobile {
+    padding: 0px;
+  }
+  .loctionMb {
+    display: flex;
+  }
+  .green {
+    text-align: center !important;
+    margin-bottom: 0px !important;
+  }
+  .bookingSocialIcons {
+    margin-bottom: 1rem;
+    padding: 0px;
+  }
+  .LFbold1 {
+    justify-content: end;
+  }
+  .whitebg2 {
+    padding: 0px 30px 20px 30px;
+  }
+  .LFbold {
+    display: block !important;
+  }
+}

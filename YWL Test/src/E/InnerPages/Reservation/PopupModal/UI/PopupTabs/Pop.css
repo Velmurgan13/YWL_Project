@@ -1,0 +1,203 @@
+.anemeties {
+  height: 50vh;
+}
+.RateCalenderCards {
+  height: 50vh;
+}
+.termsCards {
+  height: 50vh;
+}
+
+.accessibilityCards {
+  height: 50vh;
+}
+.anemitiesList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.calendar-day-head {
+  width: 13%;
+}
+.avgRate {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  color: #28a745;
+}
+.iIcon:hover {
+  color: #23527c !important;
+}
+.iIcon:before {
+  content: "\e086";
+}
+.FS18 {
+  font-size: 18px;
+}
+
+/* jutrduthjyt77e7ytr */
+.calendar-no {
+  background: #f9f9f9;
+  display: inline-block;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 5px 15px 5px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.roomDetailSec {
+  left: 25%;
+  justify-content: center;
+}
+.popUpInclusion p {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.anemtiesIcon {
+  justify-content: space-around;
+}
+.tabs {
+  padding: 0px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.termScroll {
+  overflow-y: scroll;
+}
+.active-tabs {
+  /* background:#215f35; */
+  border-bottom: 1px solid transparent;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+.dropdown-toggle::after {
+  margin-left: 10px;
+}
+.PopModal_modal__3C6o- {
+  top: 10vh !important;
+}
+.terms-card {
+  justify-content: space-evenly;
+  height: 45px;
+  margin-top: 20px;
+  max-height: 50vh;
+}
+.dropdown-toggle {
+  font-size: 18px !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+}
+.drpdwn-icon {
+  margin-right: 8px;
+  height: 20px;
+  width: 20px;
+  margin-bottom: 4px;
+}
+.check-details {
+  top: 25%;
+  position: relative;
+}
+
+.cancel-details {
+  margin-top: 20px;
+}
+
+.cancel-desc {
+  margin-top: 20px !important;
+}
+.cancel-desc h3 {
+  font-size: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  .mobileScroll {
+    overflow-y: scroll;
+    padding: 0 0 20px;
+    max-height: 50vh;
+  }
+  .accessBtn {
+    margin-top: 20px !important;
+  }
+  .roomIconMob {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .anemitiesList {
+    padding-left: 20px;
+  }
+  .aniDropDown {
+    margin-top: 20px;
+    text-align-last: start;
+  }
+  .css-1aquho2-MuiTabs-indicator {
+    display: none;
+  }
+  .aniMobIcon {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .aniMobName {
+    margin-bottom: 15px;
+  }
+  .roomDetailSec {
+    left: 0%;
+    display: flex;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+  }
+  .termScroll {
+    padding: 0px !important;
+  }
+  .css-19kzrtu {
+    padding: 10px !important;
+  }
+  .termsTime {
+    flex: 0 0 80%;
+    max-width: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+  .terms-card {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .roomDetailSec {
+    /* width: 100%; */
+    max-width: 100% !important;
+    left: 0% !important;
+  }
+  .termsTime {
+    padding: 5px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  .roomDetailSec {
+    /* width: 100%; */
+    max-width: 100% !important;
+    left: 0% !important;
+  }
+}

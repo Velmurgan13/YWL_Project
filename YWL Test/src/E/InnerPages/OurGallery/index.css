@@ -1,0 +1,7 @@
+.galleryImage {
+    flex-direction: row;
+}
+
+.imagePosition {
+    object-fit: cover;
+}

@@ -1,0 +1,270 @@
+.Gallery {
+  .tags {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: rgb(43, 92, 226);
+  }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+      "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+  }
+
+  .tag {
+    outline: none;
+    border: none;
+    color: #eee;
+    margin: 0px 10px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .active {
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+  }
+  .containerr {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .image-card {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+  }
+
+  .image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: all 2s;
+    cursor: pointer;
+  }
+
+  .react_lightgallery_item:hover img {
+    transform: scale(1.2);
+  }
+
+  .react_lightgallery_item {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .react_lightgallery_item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    opacity: 0;
+    z-index: 0;
+  }
+
+  .react_lightgallery_item:hover::after {
+    opacity: 1;
+  }
+
+  .gallSearchicon {
+    position: absolute;
+    z-index: 9;
+    background: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff; /* transform: scale(0); */
+    opacity: 0;
+    transition: all 2s;
+  }
+
+  .react_lightgallery_item:hover .gallSearchicon {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+
+  .image-list-div ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .image-list-div {
+    line-height: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .image-list-div li {
+    padding: 10px 20px; /* border-right: 1px solid #000; */
+    position: relative;
+  }
+
+  .image-list-div :not(li:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 2px;
+    height: 60%;
+    background: #000;
+  }
+
+  .image-list-div li a::after {
+    display: none;
+  }
+
+  .image-list-div li a {
+    color: #444;
+  }
+
+  .image-list-div li.active-albmList a {
+    color: #1b5538;
+    font-weight: 600;
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .containerr {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .containerr {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .containerr {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+.gallery-caption {
+  width: auto;
+  background: rgba(0, 0, 0, 0.5);
+  display: inline;
+  padding: 10px 10px;
+  border-radius: 8px;
+  vertical-align: middle;
+}
+
+.lg-outer.lg-pull-caption-up.lg-thumb-open .lg-sub-html {
+  background: none;
+  text-align: center;
+  padding: 0px 70px 40px 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hidden-lg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  span.mob-albumname {
+    background: #1b5538;
+    color: #fff;
+    font-size: 27px;
+    padding: 4.8px 15px 4.7px;
+  }
+
+  .menuIconDd {
+    background: transparent;
+    color: #fff;
+    padding: 5px 5px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .galleryMobMenuDiv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #4e4e4e;
+    margin-bottom: 20px;
+  }
+
+  .mob-gallery-menu {
+    list-style: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .mob-gallery-menu .list-albumName {
+    padding: 10px 20px;
+    position: relative;
+  }
+
+  .mob-gallery-menu :not(li:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 2px;
+    height: 60%;
+    background: #000;
+  }
+
+  .mob-gallery-menu li a::after {
+    display: none;
+  }
+
+  .mob-gallery-menu .list-albumName a {
+    color: #444;
+    font-size: 18px;
+  }
+
+  .mob-gallery-menu .list-albumName.active-albmList a {
+    color: #1b5538;
+    font-weight: bolder;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .lg-outer.lg-pull-caption-up.lg-thumb-open .lg-sub-html {
+    bottom: 150px;
+  }
+
+  .hidden-md {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+
+  .mob-gallery-menu {
+    flex-direction: column;
+  }
+
+  .mob-gallery-menu li::after {
+    display: none;
+  }
+}

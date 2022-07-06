@@ -1,0 +1,266 @@
+@media screen and (max-width: 991px) {
+  .Cookie-page .smallview {
+    width: 100%;
+    overflow: auto;
+  }
+  .Cookie-page .cookiebg p {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Cookie-page .smallview {
+    width: 100%;
+    overflow: inherit;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Cookie-page p.xtra {
+    word-break: break-all;
+  }
+}
+.Cookie-page .sign_bg > a {
+  font-size: 15px !important;
+}
+.Cookie-page table.cookiesp {
+  background-color: #f9f8f8;
+  color: #000;
+}
+.Cookie-page .F30 {
+  font-size: 31px;
+}
+.Cookie-page .glyphicon {
+  top: 3px;
+}
+.Cookie-page .room_home {
+  margin: 0;
+  display: inline-block;
+  color: #475a20;
+  cursor: pointer;
+}
+.Cookie-page .room_home:hover {
+  color: #475a20;
+  text-decoration: none;
+}
+.Cookie-page .inner_res .home_collapse {
+  top: 50px;
+}
+.Cookie-page .sign_bg {
+  background: none;
+}
+.Cookie-page .MT_5 {
+  margin-top: -6px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .Cookie-page .mobiletop-box-divs {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .Cookie-page .reservation label,
+.Cookie-page .panel-body {
+    color: #475a20;
+  }
+}
+.Cookie-page h1 {
+  font-size: 30px;
+}
+.Cookie-page .smallview td {
+  padding: 0;
+  border: 1px solid;
+  padding: 10px;
+  vertical-align: top;
+}
+.Cookie-page .cookietxt p {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+.Cookie-page .cookietxt a {
+  word-wrap: break-word;
+  color: #444;
+}
+.Cookie-page .iNNFont {
+  font-weight: 600;
+}
+.Cookie-page h2 {
+  font-size: 24px;
+  text-align: left;
+}
+.Cookie-page .BGGREY {
+  background: #ccc;
+}
+.Cookie-page .BGGREY p {
+  font-size: 18px;
+}
+.Cookie-page .cookiebg p {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  width: 50%;
+}
+.Cookie-page .cookiebg span {
+  color: #fff;
+}
+.Cookie-page .span1 {
+  font-size: 26px;
+}
+.Cookie-page .sign_bg > a {
+  font-size: 15px !important;
+}
+.Cookie-page table.cookiesp {
+  background-color: #f9f8f8;
+  color: #000;
+}
+.Cookie-page .F30 {
+  font-size: 31px;
+  font-family: "Didact Gothic", sans-serif;
+  color: #333;
+}
+.Cookie-page .glyphicon {
+  top: 3px;
+}
+.Cookie-page .room_home {
+  margin: 0;
+  display: inline-block;
+  color: #475a20;
+  cursor: pointer;
+}
+.Cookie-page .room_home:hover {
+  color: #475a20;
+  text-decoration: none;
+}
+.Cookie-page .inner_res .home_collapse {
+  top: 50px;
+}
+.Cookie-page .sign_bg {
+  background: none;
+}
+.Cookie-page .MT_5 {
+  margin-top: -6px;
+}
+@media screen and (max-width: 991px) {
+  .Cookie-page .Cookie-page .smallview {
+    width: 100%;
+    overflow: auto;
+  }
+  .Cookie-page .Cookie-page .cookiebg p {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Cookie-page .Cookie-page p.xtra {
+    word-break: break-all;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .Cookie-page .Cookie-page .mobiletop-box-divs {
+    display: block !important;
+  }
+  .Cookie-page .Cookie-page .reservation label,
+.Cookie-page .Cookie-page .panel-body {
+    color: #475a20;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Cookie-page .Cookie-page .cookiebg p {
+    width: 64%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .Cookie-page .Cookie-page .cookietable {
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 760px), (min-width: 768px) and (max-width: 1024px) {
+  .Cookie-page .Cookie-page {
+    /* Force table to not be like tables anymore */
+    /* Hide table headers (but not display: none;, for accessibility) */
+    /*
+      Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+      */
+  }
+  .Cookie-page .Cookie-page table.cookiet,
+.Cookie-page .Cookie-page .cookiet thead,
+.Cookie-page .Cookie-page .cookiet tbody,
+.Cookie-page .Cookie-page .cookiet th,
+.Cookie-page .Cookie-page .cookiet td,
+.Cookie-page .Cookie-page .cookiet tr {
+    display: block;
+  }
+  .Cookie-page .Cookie-page .cookiet thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .Cookie-page .Cookie-page .cookiet tr:nth-child(odd) {
+    background: #ccc;
+  }
+  .Cookie-page .Cookie-page .cookiet td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50% !important;
+  }
+  .Cookie-page .Cookie-page .cookiet td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+  .Cookie-page .Cookie-page .cookiet td:nth-of-type(1):before {
+    content: "Provider";
+  }
+  .Cookie-page .Cookie-page .cookiet td:nth-of-type(2):before {
+    content: "Name";
+  }
+  .Cookie-page .Cookie-page .cookiet td:nth-of-type(3):before {
+    content: "Purpose";
+  }
+}
+.Cookie-page .Cookie-page .cookiet th {
+  background: #d9d9d9;
+  border-left: 1px solid;
+  min-width: 130px;
+}
+.Cookie-page .Cookie-page .suscribed-box {
+  display: none;
+}
+.Cookie-page .Cookie-page .cookiet {
+  padding: 10px;
+  border: 1px solid;
+  word-break: break-all;
+}
+.Cookie-page .Cookie-page .cookiet th {
+  padding-left: 10px;
+}
+.Cookie-page p {
+  font-size: 16px;
+  padding: 0px;
+  font-family: "Didact Gothic", sans-serif;
+}
+.Cookie-page h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Didact Gothic", sans-serif;
+}
+.Cookie-page .cookietable {
+  font-size: 15px;
+}
+.Cookie-page .company-details {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}

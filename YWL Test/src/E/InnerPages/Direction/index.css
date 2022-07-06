@@ -1,0 +1,114 @@
+.card-position {
+  position: relative;
+  bottom: 5rem;
+}
+.mapboxgl-ctrl-attrib-inner {
+  display: none;
+}
+
+
+.mapBox_popup{
+  display: none;
+}
+
+.mapBoxShadow {
+  box-shadow: 0px 2px 34px 1px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  background: white;
+  margin-bottom: -1rem !important;
+}
+a.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
+.map-marker {
+  position: relative;
+  left: 112px
+}
+
+.mapboxgl-popup-anchor-bottom {
+  z-index: 1 !important;
+}
+
+.mapIcon {
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.mapFormLabel {
+  font-weight: 500;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.button_bg:hover {
+  transform: none;
+}
+.button_bg {
+  font-size: 18px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  border-radius: 3px;
+  font-weight: 400;
+}
+.mapFormInput {
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+}
+.mapFormInput:focus {
+  border-color: #215f35;
+}
+.directIcon a {
+  color: white;
+}
+.directIcon a:hover {
+  color: white !Important;
+}
+.initialmapwd select{padding:10px; font-size:14px; margin-top:15px;}
+.mapIcon {
+  background: #215f35;
+}
+@media only screen and (max-width: 767px) {
+  .mapIcon {
+    justify-content: end;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .mapBoxShadow {
+    margin-bottom: -2rem !important;
+  }
+  .directMOb {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-top: 2rem;
+  }
+  .mapboxgl-map {
+    height: 450px !important;
+  }
+  .mapboxgl-ctrl-logo {
+    display: none !important;
+  }
+  .card-position {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .mapFormInput {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .direcMap {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 100%;
+  }
+  .mapboxgl-canvas {
+    width: -webkit-fill-available !important;
+    height: -webkit-fill-available !important;
+  }
+}

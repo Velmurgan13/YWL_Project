@@ -1,0 +1,122 @@
+.check-title {
+  font-size: 13px;
+}
+.justify-content-center {
+  padding: 5px;
+}
+.bg-color-datepicker {
+  background: none;
+  /* position: absolute; */
+  /* top: 96px; */
+  width: 51%;
+  z-index: 8;
+  margin-left: 150px !important;
+  background: transparent;
+  /* opacity: 0.7; */
+}
+
+/******adultsChildren****/
+h1,
+p {
+  font-family: Lato;
+}
+.container {
+  /* width: 300px; */
+  margin: auto;
+  /* text-align: center; */
+}
+.col {
+  box-shadow: 0 0 16px 1px #ddd;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #fff;
+}
+.col:hover {
+  background-color: #eee;
+  border: 1px solid #ddd;
+}
+.margin-right-10 {
+  margin-right: 10px;
+}
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+.btn-common {
+  padding: 6px 15px;
+  border: 1px solid #d5d6d7;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.danger-button,
+.danger-button[disabled],
+.danger-button[disabled]:hover,
+.danger-button[disabled]:focus,
+.danger-button[disabled]:active:focus {
+  border-color: #ff0000 !important;
+  color: #ff0000;
+  background-color: transparent;
+}
+.danger-button[disabled],
+.danger-button[disabled]:hover,
+.danger-button[disabled]:focus,
+.danger-button[disabled]:active:focus,
+.succes-button[disabled],
+.succes-button[disabled]:hover,
+.succes-button[disabled]:focus,
+.succes-button[disabled]:active:focus {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.danger-button:hover,
+.danger-button:focus,
+.danger-button:active:focus {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.succes-button,
+.succes-button[disabled],
+.succes-button[disabled]:hover,
+.succes-button[disabled]:focus,
+.succes-button[disabled]:active:focus {
+  border-color: #1ebb82 !important;
+  color: #1ebb82;
+  background-color: transparent;
+}
+
+.succes-button:hover,
+.succes-button:focus,
+.succes-button:active:focus {
+  background-color: #15a470;
+  color: #fff;
+}
+/* .btn-small {
+  border-radius: 4px;
+  padding: 6px 15px;
+  border: 1px solid #d5d6d7;
+  cursor: pointer;
+  font-family: sans-serif;
+  box-shadow: inset none;
+  transition: all 0.5s ease-in-out;
+} */
+.counter-value {
+  padding: 0 10px;
+  font-family: sans-serif;
+}
+.counter-heading {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.age-col {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+}

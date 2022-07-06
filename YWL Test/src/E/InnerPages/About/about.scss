@@ -1,0 +1,726 @@
+.About {
+  .bg-ada-color {
+    background-color: #0e3886;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .bg-ada-color1 {
+    background-color: #882e38;
+  }
+  .aboutBtn {
+    width: 170px !important;
+    line-height: 40px !important;
+    color: #1a563a;
+    padding: 3px 20px !important;
+    font-size: 14px !important;
+  }
+  .policyInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .policyBtn {
+    color: #212529;
+  }
+  .under-line-style {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  .under-line-style:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #1b4c36;
+  }
+  .under-line-style:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #1b4c36;
+  }
+
+  .primary-title span {
+    font-size: 36px;
+    letter-spacing: 3px;
+    line-height: 55px;
+    color: #5a5a5a;
+    font-weight: 700;
+    font-family: "Averia Serif Libre", cursive;
+    display: block;
+  }
+  .features-title {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #0ba167;
+    font-weight: 500;
+    font-family: "Averia Serif Libre";
+    text-transform: uppercase;
+  }
+  .grid-amenities {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-weight: 400;
+    margin: 0px !important;
+    padding: 0px 70px 0px 40px!important;
+  }
+
+  .cust-border-polices {
+    border: 1px solid #958383;
+    cursor: default !important;
+    // width: 20%;
+    color: #000000;
+  }
+  .grid-ada-features {
+    display: grid;
+    grid-template-columns: 55% 45%;
+  }
+
+  .btn-light:hover {
+    background-color: #f8f9fa;
+  }
+  .parent-child {
+    overflow: hidden;
+    height: 360px;
+    transition: height 1s ease-in-out;
+  }
+
+  .enable-parent-child {
+    overflow: hidden;
+    height: 785px;
+    transition: height 1s ease-in-out;
+  }
+
+  .wel-btn-style {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-style {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 25px;
+    background: linear-gradient(to right, #1a563a 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+  }
+
+  .about-title-two {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #0ba167;
+    font-weight: 500;
+    font-family: "Averia Serif Libre";
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .btn-style:hover {
+    background-position: left bottom;
+    color: white !important;
+    background-color: #0ba167;
+  }
+
+  .about-readmore-btn {
+    width: 170px !important;
+    color: #1a563a;
+  }
+
+  .about-readmore-btn {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-left: 25px;
+    background: linear-gradient(to right, #1a563a 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    letter-spacing: 2px;
+    border: 1px solid #1d7c4b;
+    color: #000000;
+  }
+
+  .ada-list-color li p {
+    font-size: 16px;
+  }
+  .abt-text-color > p {
+    font-size: 16px;
+    font-family: "Lato";
+  }
+  .ada-title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: "Averia Serif Libre";
+  }
+
+  .bg-img-features {
+    background-image: url("../../../E//Yosemitewestgate//assets//Icons//leaf.svg");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 323px 320px;
+  }
+  .content-title {
+    font-size: 20px;
+    color: #000000;
+    /* font-weight: 700; */
+    font-family: "Lato";
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .ada-main-title {
+    font-size: 54px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Crimson Text";
+  }
+  .ada-sub-title {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Averia Serif Libre";
+  }
+  .individualCard {
+    margin-bottom: 20px;
+  }
+
+  .abt-fs-12 {
+    font-size: 12px;
+  }
+  .ada-list-color {
+    font-size: 16px;
+    color: #06518d;
+    font-family: "Lato";
+    line-height: 25px;
+    letter-spacing: 0.5px;
+  }
+  .polices-subtitle {
+    font-size: 20px;
+    color: #1b8b57;
+    font-weight: 500;
+    font-family: "Averia Serif Libre";
+  }
+  .bg-grey-color {
+    background-color: #fafafa;
+  }
+  .abt-text-color {
+    color: #5e5454;
+    letter-spacing: 1px;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: #a2a2ca;
+    right: 120px;
+    margin: 11px;
+    bottom: 10px;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 40px !important;
+  }
+
+  .slick-next :hover {
+    background-color: #0ba167 !important;
+  }
+
+  .slick-next {
+    position: absolute;
+    left: -3%;
+    box-shadow: 1px 3px 10px #afafaf;
+    top: 140px;
+  }
+
+  .slick-prev:before {
+    content: "";
+    background-image: url("../../Yosemitewestgate/assets/Icons/left-arrow.png") !important;
+    padding: 11px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 1;
+  }
+
+  .slick-next:before {
+    content: "";
+    background-image: url("../../Yosemitewestgate/assets/Icons/right-arrow.png") !important;
+    padding: 11px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 1;
+  }
+
+  .slick-slider:last-child > button:before {
+    display: none !important;
+  }
+
+  .slick-slider:last-child {
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  .slick-slider {
+    width: 84%;
+    margin-left: 16%;
+  }
+  .slick-prev,
+  .slick-next,
+  .slick-prev:hover,
+  .slick-next:hover {
+    background: #fff;
+    width: 45px;
+    height: 45px;
+  }
+  .slick-next:active,
+  .slick-prev:active {
+    background: #12452e;
+  }
+  .slick-prev {
+    left: -3%;
+    box-shadow: 1px 3px 10px #afafaf;
+    top: 70px;
+    position: absolute;
+    z-index: 1;
+  }
+  .overview-second-arrow .slick-arrow.slick-prev,
+  .overview-second-arrow .slick-arrow.slick-next {
+    display: none !important;
+  }
+  .slick-dots li button {
+    display: none;
+  }
+
+  .slick-active {
+    color: #444;
+  }
+}
+
+.slick-prev:before,
+.About .slick-next:before {
+  right: 72px !important;
+}
+
+.overview-second-arrow .slick-arrow.slick-prev,
+.overview-second-arrow .slick-arrow.slick-next {
+  display: none !important;
+}
+.slick-dots li button {
+  display: none;
+}
+
+// .content-title p a:hover,
+.content-title p a,
+.content-title p {
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  color: #686868;
+  font-family: "Lato";
+  margin-top: 5px;
+}
+
+// .content-title a:hover,
+.content-title h2 a {
+  font-size: 24px;
+  letter-spacing: 0.9px;
+  color: #215f35 !important;
+  font-family: "Averia Serif Libre", cursive;
+  margin-top: 5px;
+}
+
+// .content-title a:hover,
+// .content-title a {
+//   font-size: 24px;
+//   letter-spacing: 0.9px;
+//   color: #444 !important;
+
+//   margin-top: 5px;
+// }
+
+.check-avail-content {
+  margin-top: 15px;
+}
+// .check-availablity1 {
+//   // margin-right: 10px;
+// }
+.terms-condition {
+  padding-left: 0px !important;
+}
+// .check-availablity3 {
+//   // margin-right: 10px;
+//   // padding-right: 70px;
+//   // margin-top: 10px;
+// }
+.policy-heading {
+  text-align: left;
+  padding-left: 0px;
+}
+// .check-availablity4 {
+//   // margin-top: 10px;
+// }
+// MEDIA QUERY //
+
+// MOBILE VIEW RESPONSIVENESS //
+@media only screen and (max-width: 767px) {
+  .About .parent-child {
+    height: 395px;
+  }
+
+  // .features-details {
+  //   display: flex;
+  // }
+  .About .policyInfo {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  .About .about-title-two {
+    font-size: 26px !important;
+  }
+  .About .ada-sub-title {
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
+  }
+
+  .About .ada-list-color {
+    padding-left: revert;
+  }
+  .About .ada-title {
+    font-size: 20px;
+  }
+  .primary-title span {
+    font-size: 26px !important;
+    letter-spacing: 2px !important;
+    letter-spacing: 45px;
+  }
+  .about-readmore-btn {
+    font-size: 14px;
+    line-height: 26px !important;
+  }
+  .About .about-readmore-btn {
+    width: 150px !important;
+  }
+  .content-title h2 a {
+    font-size: 18px;
+    letter-spacing: 0.1px;
+    line-height: 0.9px;
+    font-family: "Lato" !important;
+    font-weight: 500;
+  }
+  // .primary-title {
+  //   font-size: 36px !important;
+  // }
+
+  .About .enable-parent-child {
+    height: 128rem;
+  }
+  .content-title p {
+    font-size: 16px !important;
+  }
+  .About .bg-ada-color h4 {
+    font-size: 30px;
+  }
+  .grid-ada-features {
+    display: grid !important;
+    grid-template-columns: 100% !important;
+  }
+  // .parent-child1 {
+  //   overflow: hidden;
+  //   height: 200px;
+  //   transition: height 1s ease-in-out;
+  // }
+  .enable-parent-child {
+    height: 2550px;
+  }
+  .features-title {
+    font-size: 26px !important;
+    text-align: left;
+  }
+  .features-subtitle {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 25px !important;
+  }
+  .content-title {
+    text-align: justify;
+    letter-spacing: -1px;
+  }
+  .content-title a {
+    font-size: 28px;
+  }
+  .slick-next:before {
+    margin-left: 12px !important;
+  }
+
+  .slick-next {
+    left: 0px !important;
+    position: sticky !important;
+    display: inline-block !important;
+    top: 120px !important;
+    padding: 10px;
+  }
+  .hello {
+    width: 100% !important;
+  }
+  .slick-prev {
+    left: 0px !important;
+    display: inline-block !important;
+    position: sticky !important;
+    top: 120px !important;
+    padding: 10px;
+  }
+
+  .pd-xs-0 {
+    padding: 0px !important;
+  }
+
+  .ada-list-color li {
+    padding: 5px 0px;
+  }
+  .slick-width {
+    box-shadow: none !important;
+  }
+  // .enable-parent-child1 {
+  //   height: 850px;
+  //   transition: height 1s ease-in-out;
+  //   overflow: hidden;
+  // }
+  .overview-details1 {
+    color: black;
+    font-weight: 500;
+    display: list-item;
+  }
+  // .general-mob-view {
+  //   padding-left: 30px;
+  // }
+  .ada-main-title {
+    font-size: 30px !important;
+    font-weight: 500;
+    color: #fff;
+    padding: 3px 9px;
+  }
+  .slick-next:before {
+    margin-left: 12px !important;
+  }
+  .slick-prev:before,
+  .About .slick-next:before {
+    right: 72px !important;
+  }
+  .about-title {
+    margin: 0px 0px !important;
+  }
+  .title-two {
+    margin-bottom: 30px;
+  }
+  .overview-body h2 {
+    text-align: left !important;
+  }
+  .ada-access {
+    padding: 0px !important;
+  }
+  .check-availablity1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .check-availablity2 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .check-availablity3 {
+    width: 100%;
+  }
+  .check-availablity4 {
+    width: 100%;
+  }
+  .policy-main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+//ipad
+// @media screen and (min-width: 1367px) {
+//   .bg-img-icon {
+//     top: -22px;
+//     left: -16px;
+//     width: 157px;
+//     position: absolute;
+//   }
+// }
+
+@media only screen and (min-width: 1200px) {
+  .bg-img-icon {
+    top: -10px;
+    left: -12px;
+    width: 119px;
+    position: absolute;
+  }
+}
+
+// @media only screen and (max-width: 900px),
+// (height: 1024px) and (width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape)
+//   {
+
+//   .bg-img-icon {
+//     top: -22px;
+//     left: -16px;
+//     width: 157px;
+//     position: absolute;
+//   }
+// }
+
+@media screen and (max-width: 992px) {
+  .About .about-readmore-btn {
+    width: 150px !important;
+    color: #1a563a;
+  }
+  .about-readmore-btn {
+    line-height: 24px !important;
+  }
+}
+
+// IPAD VIEW RESPONSIVENESS //
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .content-title p {
+    font-size: 16px !important;
+  }
+  .About .slick-slider:last-child {
+    margin: 0px 0px 0px 15px!important;
+}
+  .About .grid-amenities {
+    grid-template-columns: auto auto;
+  }
+
+  .About .slick-slider {
+    margin-left: 17%;
+  }
+
+  .ada-title {
+    font-size: 32px !important;
+  }
+  .primary-title span {
+    font-size: 32px !important;
+  }
+  .primary-title {
+    font-size: 46px !important;
+  }
+  .ada-sub-title {
+    font-size: 24px !important;
+  }
+
+  .about-title-two {
+    font-size: 32px !important;
+  }
+  .features {
+    padding: 0px !important;
+  }
+  .title-two {
+    font-size: 57px;
+    letter-spacing: 2px;
+    color: #0ba167;
+    font-weight: 700;
+    font-family: "Crimson Text";
+  }
+  .terms-condition {
+    padding-left: 0px !important;
+  }
+  .enable-parent-child {
+    height: 1155px !important;
+  }
+  .check-availablity1 {
+    width: 85%;
+  }
+  .check-availablity2 {
+    width: 85%;
+    margin-top: 10px;
+  }
+  .check-availablity3 {
+    width: 85%;
+  }
+  .check-availablity4 {
+    width: 85%;
+  }
+  .check-avail-content {
+    margin-top: 10px;
+  }
+  .policy-heading {
+    top: 25px;
+    text-align: left;
+    padding-left: 0px;
+  }
+  .parent-child {
+    height: 230px !important;
+    overflow: hidden;
+  }
+  .About .slick-next {
+    left: -25px;
+  }
+  .About .slick-prev {
+    left: -25px;
+  }
+
+  .bg-ada-color {
+    padding-bottom: 8px !important;
+  }
+
+  .About .ada-list-color {
+    grid-template-columns: auto;
+  }
+
+  .ada-list-color li {
+    padding: 5px 0px;
+  }
+}
+
+// IPAD PRO VIEW RESPONSIVENESS //
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .parent-child {
+    overflow: hidden;
+    height: 412px !important;
+    transition: height 1s ease-in-out;
+  }
+  .About .slick-slider:last-child {
+    margin: 0px 0px 0px 30px!important;
+}
+  .About .slick-next {
+    left: -55px;
+  }
+  .About .slick-prev {
+    left: -55px;
+  }
+  .enable-parent-child {
+    height: 900px !important;
+  }
+  .ipad-pro-view li {
+    margin-left: -60px;
+    padding: 0px !important;
+  }
+
+  .About .slick-slider {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+  .bg-ada-color {
+    padding-bottom: 14px !important;
+  }
+}
+
+// DESKTOP VIEW RESPONSIVENESS //
+
+// CUSTOM MEDIA QUERY //
+
+// Yae dek Code //

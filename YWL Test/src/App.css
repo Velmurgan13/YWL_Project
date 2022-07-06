@@ -1,0 +1,121 @@
+.error_box {
+    /* background: #eeeeee; */
+    padding: 0px 0;
+    border-radius: 7px;
+    margin: 100px auto;
+    /* color: #2d2d2d; */
+    /* -webkit-box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); */
+    /* box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 75%); */
+    border: 1px solid #74917d;
+}
+.error_box img {
+   height: 400px;
+   object-fit: contain;
+}
+
+
+@media only screen and (min-width: 767px) {
+  .reservationDiv {
+    display: block !important;
+  }
+}
+.fixedReservationBtn a {
+  color: #fff !important;
+  background: #1b5538;
+  padding: 10px 10px;
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 0;
+  z-index: 9;
+}
+
+/* .error_right {
+    max-width: 500px;
+    margin: 100px auto 0;
+} */
+
+.oops {
+    font-size: 30px;
+    position: relative;
+    color: #1b5638;
+}
+.App + div > div {position: relative !important;}
+.links-icon li {
+    display: block;
+    /* float: left; */
+    width: 100%;
+    margin: 0 4% 0 0;
+    padding: 8px 0px;
+    color: #1b5638;
+    font-size: 18px;
+    /* background: url('../../../../../../../') no-repeat left center; */
+    background-image: url("./E/Yosemitewestgate/assets/Icons/404_arrow.jpg") no-repeat left center;;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+/***new common css later we can create new file***/
+.btn-style {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #1a563a 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
+    border: 1px solid #215f35;
+}
+  .btn-style:hover {
+    background-position: left bottom;
+    color: white !important;
+    background-color: #0ba167;
+    text-decoration: none;
+  }
+
+  /* .primary-title {
+    font-size: 26.9px;
+    color: #215f35;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #215f35;
+    display: inline-block;
+    padding-bottom: 7px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+} */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {  
+  background: #1b5538;
+  border-radius: 10px;
+  border: 1px solid #fefefe;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* .switch-wrapper {
+    position: relative;
+  }
+   */
+  /* .switch-wrapper > div {
+    position: absolute;
+  } */

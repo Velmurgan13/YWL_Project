@@ -1,0 +1,438 @@
+
+// .Cookie-page {
+//   @media screen and (max-width: 991px) {
+//     .smallview {
+//       width: 100%;
+//       overflow: auto;
+//     }
+//     .cookiebg p {
+//       width: 100% !important;
+//     }
+//   }
+// @media only screen and (min-width: 768px) and (max-width: 991px) {
+// .smallview {
+//     width: 100%;
+//     overflow: inherit;
+//   }
+// }
+//   @media screen and (max-width: 420px) {
+//     p.xtra {
+//       word-break: break-all;
+//     }
+//   }
+//   .sign_bg > a {
+//     font-size: 15px !important;
+//   }
+//   table.cookiesp {
+//     background-color: #f9f8f8;
+//     color: #000;
+//   }
+//   .F30 {
+//     font-size: 31px;
+//   }
+//   .glyphicon {
+//     top: 3px;
+//   }
+//   .room_home {
+//     margin: 0;
+//     display: inline-block;
+//     color: #475a20;
+//     cursor: pointer;
+//   }
+//   .room_home:hover {
+//     color: #475a20;
+//     text-decoration: none;
+//   }
+//   .inner_res .home_collapse {
+//     top: 50px;
+//   }
+//   .sign_bg {
+//     background: none;
+//   }
+//   .MT_5 {
+//     margin-top: -6px;
+//   }
+
+//   @media screen and (min-width: 320px) and (max-width: 767px) {
+//     .mobiletop-box-divs {
+//       display: block !important;
+//     }
+//   }
+//   @media screen and (min-width: 320px) and (max-width: 767px) {
+//     .reservation label,
+//     .panel-body {
+//       color: #475a20;
+//     }
+//   }
+
+//   h1 {
+//     font-size: 30px;
+//   }
+//   .smallview td {
+//     padding: 0;
+//     border: 1px solid;
+//     padding: 10px;
+//     vertical-align: top;
+//   }
+//   .cookietxt p {
+//     text-align: justify;
+//     margin-bottom: 5px;
+//   }
+//   .cookietxt a {
+//     word-wrap: break-word;
+//     color: #444;
+//     // font-weight: bold;
+//   }
+// .iNNFont {
+//   font-weight: 600;
+// }
+//   h2 {
+//     font-size: 20px;
+//     text-align: left;
+//     font-family: "Lato";
+//   }
+
+//   .BGGREY {
+//     background: #ccc;
+//   }
+//   .BGGREY p {
+//     font-size: 18px;
+//   }
+//   .cookiebg p {
+//     background-color: rgba(0, 0, 0, 0.7);
+//     position: absolute;
+//     left: 0px;
+//     right: 0px;
+//     bottom: 100px;
+//     width: 100%;
+//     margin: 0 auto;
+//     padding: 10px;
+//     color: #fff;
+//     text-align: center;
+//     font-size: 22px;
+//     width: 50%;
+//   }
+//   .cookiebg span {
+//     color: #fff;
+//   }
+//   .span1 {
+//     font-size: 26px;
+//   }
+
+//   .sign_bg > a {
+//     font-size: 15px !important;
+//   }
+//   table.cookiesp {
+//     background-color: #f9f8f8;
+//     color: #000;
+//   }
+//   .F30 {
+//     font-size: 24px;
+//     font-family: "Lato";
+//     color: #333;
+//     font-weight: 600;
+//   }
+//   .glyphicon {
+//     top: 3px;
+//   }
+//   .room_home {
+//     margin: 0;
+//     display: inline-block;
+//     color: #475a20;
+//     cursor: pointer;
+//   }
+//   .room_home:hover {
+//     color: #475a20;
+//     text-decoration: none;
+//   }
+//   .inner_res .home_collapse {
+//     top: 50px;
+//   }
+//   .sign_bg {
+//     background: none;
+//   }
+//   .MT_5 {
+//     margin-top: -6px;
+//   }
+
+// .Cookie-page {
+//   @media screen and (max-width: 991px) {
+//     .smallview {
+//       width: 100%;
+//       overflow: auto;
+//     }
+//     .cookiebg p {
+//       width: 100% !important;
+//     }
+//   }
+
+//   @media screen and (max-width: 420px) {
+//     p.xtra {
+//       word-break: break-all;
+//     }
+//   }
+
+//   @media screen and (min-width: 320px) and (max-width: 767px) {
+//     .mobiletop-box-divs {
+//       display: block !important;
+//     }
+//        .reservation label,
+//     .panel-body {
+//       color: #475a20;
+//     }
+//   }
+ 
+//   @media screen and (max-width: 1024px) {
+//     .cookiebg p {
+//       width: 64%;
+//     }
+//   }
+//   @media screen and (max-width: 767px) {
+//     .cookietable {
+//       display: block !important;
+//     }
+//   }
+
+//   @media only screen and (max-width: 760px),
+//     (min-width: 768px) and (max-width: 1024px) {
+//     /* Force table to not be like tables anymore */
+//     table.cookiet,
+//     .cookiet thead,
+//     .cookiet tbody,
+//     .cookiet th,
+//     .cookiet td,
+//     .cookiet tr {
+//       display: block;
+//     }
+
+//     /* Hide table headers (but not display: none;, for accessibility) */
+//     .cookiet thead tr {
+//       position: absolute;
+//       top: -9999px;
+//       left: -9999px;
+//     }
+
+//     .cookiet tr:nth-child(odd) {
+//       background: #ccc;
+//     }
+
+//     .cookiet td {
+//       /* Behave  like a "row" */
+//       border: none;
+//       border-bottom: 1px solid #eee;
+//       position: relative;
+//       padding-left: 50% !important;
+//     }
+
+//     .cookiet td:before {
+//       /* Now like a table header */
+//       position: absolute;
+//       /* Top/left values mimic padding */
+//       top: 0;
+//       left: 6px;
+//       width: 45%;
+//       padding-right: 10px;
+//       white-space: nowrap;
+//     }
+
+//     /*
+//   Label the data
+// You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+//   */
+//     .cookiet td:nth-of-type(1):before {
+//       content: "Provider";
+//     }
+//     .cookiet td:nth-of-type(2):before {
+//       content: "Name";
+//     }
+//     .cookiet td:nth-of-type(3):before {
+//       content: "Purpose";
+//     }
+//   }
+//   .cookiet th {
+//     background: #d9d9d9;
+//     border-left: 1px solid;
+//     min-width: 130px;
+//   }
+//   .suscribed-box {
+//     display: none;
+//   }
+//   .cookiet {
+//     padding: 10px;
+//     border: 1px solid;
+//     word-break: break-all;
+//   }
+// }
+
+// // .Cookie-page .cookiet th {
+// //   padding-left: 10px;
+// // }
+
+// // p {
+// //   font-size: 16px;
+// //   padding: 0px;
+// //   font-family: "Lato";
+// // }
+
+// // .columnheader{
+// //   background: #d9d9d9;
+// //   padding: 8px;
+// //   border: 1px solid;
+// //   min-width: 130px;
+// // }
+
+
+// // h2 {
+// //   margin-top: 20px;
+// //   margin-bottom: 10px;
+// //   font-family: "Lato";
+// //   font-weight: 700;
+// // }
+// // .cookietable {
+// //   font-size: 15px;
+// // }
+
+// // .company-details {
+// //   font-family: "Lato";
+// //   font-size: 24px;
+// //   font-weight: 700;
+// // }
+
+// // MEDIA QUERY //
+// // MOBILE VIEW RESPONSIVENESS //
+// @media only screen and (max-width: 767px) {
+// }
+
+// // IPAD VIEW RESPONSIVENESS //
+
+
+// // IPAD PRO VIEW RESPONSIVENESS //
+// @media only screen and (min-width: 992px) and (max-width: 1199px) {
+// }
+
+// // DESKTOP VIEW RESPONSIVENESS //
+
+// // CUSTOM MEDIA QUERY //
+// }
+p strong {
+  color: #333;
+  font-weight: 500;
+}
+
+.cookietxt a {
+  word-wrap: break-word;
+  color: #444;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 4px;
+}
+
+@media screen and (max-width:991px){ .smallview {width:100%; overflow:auto;} .cookiebg p {width:100% !important;}}
+
+ @media screen and (max-width:420px) {p.xtra { word-break:break-all;}}
+ .sign_bg > a {font-size:15px !important;}
+ table.cookiesp {
+         background-color: #f9f8f8;
+       color: #000;
+        }
+   .F30 {font-size:31px; }
+            .glyphicon{top:3px;}
+            .room_home{margin:0; display:inline-block; color:#475a20; cursor:pointer;}
+            .room_home:hover{color:#475a20; text-decoration:none;}
+            .inner_res .home_collapse {top: 50px;}
+            .sign_bg{background:none;}
+            .MT_5{ margin-top:-6px}
+           
+            @media screen and (min-width: 320px) and (max-width: 767px) {
+            .mobiletop-box-divs{display:block !important;}
+            }
+            @media screen and (min-width: 320px) and (max-width: 767px) {
+            .reservation label, .panel-body{ color:#475a20;}
+            }
+h1 {font-size:30px;}
+.smallview td {
+             padding: 0;
+             border: 1px solid;  padding: 10px; vertical-align:top;
+          }
+.cookietxt p {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+ .cookietxt a {word-wrap:break-word; color: #444; font-weight: bold}
+
+h2 {font-size:24px;  text-align:left; font-weight: 400; margin-top: 20px;}
+
+.BGGREY {background:#ccc;}
+.BGGREY p {font-size:18px;}
+.cookiebg p{   background-color: rgba(0, 0, 0, 0.7);  position: absolute;  left: 0px;  right: 0px;   bottom:100px;
+                      width: 100%;    margin: 0 auto;  padding:10px;  color: #fff; text-align:center; font-size:22px; width:50%}
+.cookiebg span {color:#fff;  }
+.span1{font-size:26px;}
+
+.slider,.innholder,.giveblock,.header-img,.xyzcookies {/*display:none;*/}
+   @media screen and (max-width: 1024px){.cookiebg p {width:64%;}}
+@media screen and (max-width: 768px) { .cookietable{display:block !important;}}
+/*.cookietable{display:none}*/ .cookiet td, .cookiet th{padding:10px}
+/*
+Max width before this PARTICULAR table gets nasty. This query will take effect for any screen smaller than 760px and also iPads specifically.
+*/
+
+  @media screen and (max-width: 767px) {
+    .cookiet td  {
+      padding-left: 40% !important;
+    }
+  }
+@media
+ only screen
+    and (max-width: 760px), (min-width: 768px)
+    and (max-width: 1024px)  {
+
+/* Force table to not be like tables anymore */
+table.cookiet, .cookiet thead, .cookiet tbody, .cookiet th, .cookiet td, .cookiet tr {
+display: block;
+}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+.cookiet thead tr {
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+
+    tr {
+      /*margin: 0 0 1rem 0;*/
+    }
+     
+    .cookiet tr:nth-child(odd) {
+      background: #ccc;
+    }
+   
+.cookiet td {
+/* Behave  like a "row" */
+border: none;
+border-bottom: 1px solid #eee;
+position: relative;
+padding-left: 50%;
+}
+
+.cookiet td:before {
+/* Now like a table header */
+position: absolute;
+/* Top/left values mimic padding */
+top: 0;
+left: 6px;
+width: 45%;
+padding-right: 10px;
+white-space: nowrap;
+}
+
+/*
+Label the data
+    You could also use a data-* attribute and content for this. That way "bloats" the HTML, this way means you need to keep HTML and CSS in sync. Lea Verou has a clever way to handle with text-shadow.
+*/
+.cookiet td:nth-of-type(1):before { content: "Provider"; }
+.cookiet td:nth-of-type(2):before { content: "Name"; }
+.cookiet td:nth-of-type(3):before { content: "Purpose"; }
+}
+.cookiet th{background:#d9d9d9; border-left:1px solid; min-width: 130px;} .suscribed-box{display:none}
+.cookiet{padding:10px; border:1px solid;word-break: break-all;}

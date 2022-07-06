@@ -1,0 +1,75 @@
+.specialComponent .EventBox {
+  color: #606060;
+  text-align: center;
+  background: #f9f9f9;
+  position: relative;
+  box-shadow: 0 1px 13px -2px rgba(130, 130, 130, 0.59);
+  min-height: 500px;
+}
+.specialComponent .btnPosition {
+  position: absolute;
+  /* left: 0px; */
+  /* right: 0px; */
+  /* width: 75%; */
+  bottom: 5%;
+  left: 19%;
+}
+.specialComponent .carousel-control-prev,
+.specialComponent .carousel-control-next {
+  display: none;
+}
+.specialComponent .p-summary span .sub-content {
+  color: #7b7b7b;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  font-family: "Averia Serif";
+  text-align: justify;
+  font-size: 18px;
+}
+.specialComponent .p-summary {
+  color: #7b7b7b;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  font-family: "Averia Serif";
+  text-align: justify;
+  font-size: 18px;
+}
+.specialComponent .p-summary p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+  font-family: "Averia Serif";
+  text-align: left;
+  font-size: 18px;
+}
+.specialComponent .packagedetail {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-family: "Averia Serif";
+  color: #444;
+}
+.specialComponent .EventBox .title {
+  color: #215f35;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  font-family: "Lato";
+}
+.specialComponent .bggrey {
+  background: #e7e7e747;
+  padding: 20px;
+  box-shadow: 0 0 11px 0 rgba(0, 0, 0, 0.27);
+}
+.specialComponent .back-custm-btn {
+  color: #ffffff;
+  background: #444;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  padding: 12px 35px;
+}
+.specialComponent .EventBox a img {
+  height: 300px;
+}

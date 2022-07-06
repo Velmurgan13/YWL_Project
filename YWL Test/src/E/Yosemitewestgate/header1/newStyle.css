@@ -1,0 +1,102 @@
+.dropbtn {
+  /* background-color: #04AA6D; */
+  display: inline-block;
+  /* font-size: 1.8rem; */
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: rgb(33 85 58);
+  /* padding: 1rem 2rem; */
+  background-size: 240%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+/* a:hover{
+    color: rgb(33 85 58) !important;
+    text-decoration: none;
+  } */
+
+.dropdown-content a {
+  color: rgb(33 85 58);
+  /* padding: 12px 16px; */
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin-left: 10px;
+}
+
+/* .dropdown-content a:hover {background-color: #ddd;} */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-position: 100%;
+  color: rgb(33 85 58);
+  -webkit-transform: translateX(0.5rem);
+  -ms-transform: translateX(0.5rem);
+  transform: translateX(0.5rem);
+}
+
+.hamburgerStyle .dropdown {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: rgb(33 85 58);
+  padding: 1rem 2rem;
+  background-size: 240%;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+@media only screen and (min-width: 1200px) {
+  .smaller .humburger-icon {
+    left: 15px;
+    position: fixed;
+    top: 45px;
+    right: unset;
+    bottom: unset;
+  }
+
+  .smaller .humburger-icon span,
+  .smaller .humburger-icon span::before,
+  .smaller .humburger-icon span::after {
+    background: #fff;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  /* ul{
+        font-size: 18px !important;
+        display: flex !important;
+      } */
+  .dropbtn {
+    font-size: 1.5rem !important;
+    padding: 0px 25px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  /* .cdkMtd {
+        display: flex !important;
+        left: 60% !important;
+    } */
+  /* .nav ul li a{
+      display: inline-block !important;
+      left: 60% !important;
+    } */
+}

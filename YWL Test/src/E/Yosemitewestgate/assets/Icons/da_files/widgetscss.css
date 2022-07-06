@@ -1,0 +1,1007 @@
+@font-face {
+    font-family: "candara";
+    font-style: normal;
+    font-weight: normal;
+    font-display: fallback;
+    src: url("fonts/Candara.eot?#iefix") format("embedded-opentype"), url("fonts/Candara.woff") format("woff"), url("fonts/Candara.ttf") format("truetype"), url("fonts/Candara.svg#Candara") format("svg");
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKew72j00.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKcw72j00.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfA72j00.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKcQ72j00.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjvWyNL4U.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjtGyNL4U.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjvGyNL4U.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjs2yNL4U.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjvmyNL4U.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCv6KVjbNBYlgoCxCvjsGyN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+#ada_enable_toolbar *{font-family: "Ubuntu",sans-serif;}
+.bottomtray .ada-links{padding:5px 0px 5px 20px !important; margin-right:1%; margin-bottom:10px}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.all_links1{height:200px !important}
+	.adawidget-boxbg{max-width: 115px !important; width:100%; padding: 0px 3px 4px !important; min-height: 72px !important;}
+	.adaf8 *{font-size: 8px !important;}
+	#ada_enable_toolbar_buttons{  max-height: 50vh;overflow-y: scroll;} .ada-P{font-size:22px !important}
+	#ada_enable_toolbar *{/*font-size: 12px !important;*/} .adawidget-boxtext{font-size: 12px !important;} .adaicons > img{height:50px; width:30px}
+	.ADA-PR{position:inherit !important} .all_links{padding-top:0 !important} .adaEnableToolbarContent{max-width:100%} .ATA-tray{padding:0 !important}
+	.ada-widget-assecibilityicon{width: auto !important; height:65px !important}
+	.wsc-icons-width {width: 70px !important;}
+	#loader img {width: 60% !important;} .ADA-PR{position:inherit} .all_links{padding-top:0} .flexbox{justify-content:center !important} .ada-links{padding:5px 0px 15px 0px !important} .bottomtray .ada-links{padding:5px 0px 5px 0px !important; max-width:100%; min-width:inherit} .content_adjust, .content_adjust1{padding-left:20px !important}
+	#adawidgetstitlecolorbox.bcPicker-palette{right:0% !important; width:158px !important; left:0 !important} #adawidgetstextcolorbox.bcPicker-palette{width:158px !important; left:0 !important}
+}
+@media screen and (min-width: 320px) and (max-width: 400px){
+#adawidgetstextcolorbox.bcPicker-palette{left:0 !important}
+#adawidgetstitlecolorbox.bcPicker-palette{right:0 !important}
+}
+@media screen and (min-width: 320px) and (max-width: 1199px){
+	
+
+.adawidget-boxbg{/*float:none !important;display: inline-block !important; margin: 5px !important;*/}
+}
+@media screen and (min-width: 320px) and (max-width: 1023px){
+	#enable_keyboard_nav{display:none !important} .righttray .ADA-PR, .lefttray .ADA-PR{height:145px !important} #adawidgetstextcolorbox.bcPicker-palette{top:0 !important}
+#ada_enable_toolbar_buttons{text-align: center !important; max-height:50vh; overflow-y:hidden; width:100vw} .ADA-PR{position:inherit !important; width:100% !important; max-width:inherit !important; padding-bottom:0 !important} .all_links{padding-top:0 !important} .ada-fixed{/*overflow:hidden;*/ height:10%} .top_poweredby img{height:38px !important; width:110px !important}
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+.content_adjust{font-size:16px !important}
+.adawidget-boxbg{/*max-width:inherit !important; width:15% !important*/} .ada-links .adawidget-boxbg{max-width:100px} .bottomtray .ada-links .adawidget-boxbg{min-width:110px}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+.adawidget-boxbg{max-width:inherit !important; width:15% !important} .esc{margin-top:10px !important} .bottomtray .flexbox1 .adawidget-boxbg{max-width:115px !important; width:100% !important} .bottomtray .flexbox .adawidget-boxbg{width:23% !important}
+.ATA-tray .adawidget-boxbg{max-width:inherit !important; width:15% !important; min-width:120px}
+}	
+@media screen and (min-width: 320px) and (max-width: 991px){
+.ada-none-xssm{display: none !important;}
+	.adacross{background: #888888;border-radius: 2px;padding: 5px 6px;}
+	.ADAnonexs{ display: none !important;}
+	.ADA-none-lgmd{display: block !important;}
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+.wsc-icons-width{/*width:40px !important*/} 
+}
+
+@media screen and (min-width: 992px) and (max-width: 8000px){
+	.ADA-none-lgmd{display:none !important; margin: 5px !important;}
+	
+}
+
+#ada_enable_toolbar{zoom:reset;}
+.adaEnableToolbarContent{position:fixed;bottom:0px;z-index:99999999;background:#eaeaea}
+.ada_enable_toolbar_notice_top,#ada_enable_toolbar_buttons{display:none;}
+.ada-widget-assecibilityicon{width:60px;cursor: pointer; margin-left:10px; margin-right:5px; height:85px}
+#ada_enable_toolbar_buttons{/*background:rgba(0, 0, 0, 0.8); margin-top:50px;*/ padding:0px 10px  0px  10px ; text-align:center}
+.ADAF18 *{font-size: 18px; font-weight: bold;}
+body.highlights-links a {background: #02c1f6 !important;
+    color: #fff !important;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;}
+body.highlight-titles .title,body.highlight-titles h1,body.highlight-titles h1 *,body.highlight-titles h2,body.highlight-titles h2 *,
+body.highlight-titles h3,body.highlight-titles h3 *,body.highlight-titles h4,body.highlight-titles h4 *,body.highlight-titles h5,body.highlight-titles h5 *,
+body.highlight-titles h6,body.highlight-titles h6 *{font-weight:900;background-color:#d4ff32!important;border-radius:4px;color:#08344c!important}
+
+body.adashield-filter-monochrome>:not(#ada_enable_toolbar){-ms-filter:grayscale(100%);-webkit-filter:grayscale(100%);filter:grayscale(100%)}
+/*body.adashield-filter-monochrome *{
+    -ms-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}*/
+body.adashield-filter-sepia>:not(#ada_enable_toolbar){-ms-filter:sepia(100%);-webkit-filter:sepia(100%);filter:sepia(100%)}
+/*body.adashield-filter-sepia *{
+    -ms-filter: sepia(100%);
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}*/
+
+/*body.adashield-filter-blackyellow *{
+    background-color: #000!important;
+    color: #fff!important;
+}
+body.adashield-filter-blackyellow a, body.adashield-filter-blackyellow a span, body.adashield-filter-blackyellow b, body.adashield-filter-blackyellow blockquote, body.adashield-filter-blackyellow button, body.adashield-filter-blackyellow canvas, body.adashield-filter-blackyellow caption, body.adashield-filter-blackyellow center, body.adashield-filter-blackyellow cite, body.adashield-filter-blackyellow code, body.adashield-filter-blackyellow col, body.adashield-filter-blackyellow colgroup, body.adashield-filter-blackyellow dd, body.adashield-filter-blackyellow details, body.adashield-filter-blackyellow dfn, body.adashield-filter-blackyellow dir, body.adashield-filter-blackyellow div, body.adashield-filter-blackyellow dl, body.adashield-filter-blackyellow dt, body.adashield-filter-blackyellow em, body.adashield-filter-blackyellow embed, body.adashield-filter-blackyellow fieldset, body.adashield-filter-blackyellow figcaption, body.adashield-filter-blackyellow figure, body.adashield-filter-blackyellow font, body.adashield-filter-blackyellow footer, body.adashield-filter-blackyellow form, body.adashield-filter-blackyellow header, body.adashield-filter-blackyellow i, body.adashield-filter-blackyellow iframe, body.adashield-filter-blackyellow img, body.adashield-filter-blackyellow input, body.adashield-filter-blackyellow kbd, body.adashield-filter-blackyellow label, body.adashield-filter-blackyellow legend, body.adashield-filter-blackyellow li, body.adashield-filter-blackyellow mark, body.adashield-filter-blackyellow menu, body.adashield-filter-blackyellow meter, body.adashield-filter-blackyellow nav, body.adashield-filter-blackyellow nobr, body.adashield-filter-blackyellow object, body.adashield-filter-blackyellow ol, body.adashield-filter-blackyellow option, body.adashield-filter-blackyellow pre, body.adashield-filter-blackyellow progress, body.adashield-filter-blackyellow q, body.adashield-filter-blackyellow s, body.adashield-filter-blackyellow section, body.adashield-filter-blackyellow select, body.adashield-filter-blackyellow small, body.adashield-filter-blackyellow span, body.adashield-filter-blackyellow strike, body.adashield-filter-blackyellow strong, body.adashield-filter-blackyellow sub, body.adashield-filter-blackyellow summary, body.adashield-filter-blackyellow sup, body.adashield-filter-blackyellow table, body.adashield-filter-blackyellow td, body.adashield-filter-blackyellow textarea, body.adashield-filter-blackyellow th, body.adashield-filter-blackyellow time, body.adashield-filter-blackyellow tr, body.adashield-filter-blackyellow tt, body.adashield-filter-blackyellow u, body.adashield-filter-blackyellow ul, body.adashield-filter-blackyellow var {
+    color: #ff0!important;
+}
+*/
+body.adashield-filter-blackyellow,body.adashield-filter-blackyellow :not(#ada_enable_toolbar){background-color:#000!important;color:#fff!important}
+
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) a,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) a span,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) b,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) blockquote,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) button,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) canvas,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) caption,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) center,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) cite,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) code,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) col,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) colgroup,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) dd,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) details,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) dfn,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) dir,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) div,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) dl,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) dt,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) em,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) embed,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) fieldset,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) figcaption,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) figure,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) font,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) footer,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) form,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) header,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) i,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) iframe,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) img,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) input,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) kbd,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) label,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) legend,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) li,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) mark,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) menu,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) meter,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) nav,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) nobr,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) object,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) ol,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) option,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) pre,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) progress,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) q,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) s,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) section,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) select,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) small,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) span,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) strike,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) strong,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) sub,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) summary,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) sup,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) table,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) td,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) textarea,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) th,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) time,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) tr,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) tt,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) u,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) ul,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) var,body.adashield-filter-blackyellow a,body.adashield-filter-blackyellow a span,body.adashield-filter-blackyellow b,
+body.adashield-filter-blackyellow blockquote,body.adashield-filter-blackyellow button,body.adashield-filter-blackyellow canvas,body.adashield-filter-blackyellow caption,
+body.adashield-filter-blackyellow center,body.adashield-filter-blackyellow cite,body.adashield-filter-blackyellow code,body.adashield-filter-blackyellow col,
+body.adashield-filter-blackyellow colgroup,body.adashield-filter-blackyellow dd,body.adashield-filter-blackyellow details,body.adashield-filter-blackyellow dfn,
+body.adashield-filter-blackyellow dir,body.adashield-filter-blackyellow div,body.adashield-filter-blackyellow dl,body.adashield-filter-blackyellow dt,
+body.adashield-filter-blackyellow em,body.adashield-filter-blackyellow embed,body.adashield-filter-blackyellow fieldset,body.adashield-filter-blackyellow figcaption,
+body.adashield-filter-blackyellow figure,body.adashield-filter-blackyellow font,body.adashield-filter-blackyellow footer,body.adashield-filter-blackyellow form,
+body.adashield-filter-blackyellow header,body.adashield-filter-blackyellow i,body.adashield-filter-blackyellow iframe,body.adashield-filter-blackyellow img,
+body.adashield-filter-blackyellow input,body.adashield-filter-blackyellow kbd,body.adashield-filter-blackyellow label,body.adashield-filter-blackyellow legend,
+body.adashield-filter-blackyellow li,body.adashield-filter-blackyellow mark,body.adashield-filter-blackyellow menu,body.adashield-filter-blackyellow meter,
+body.adashield-filter-blackyellow nav,body.adashield-filter-blackyellow nobr,body.adashield-filter-blackyellow object,body.adashield-filter-blackyellow ol,
+body.adashield-filter-blackyellow option,body.adashield-filter-blackyellow pre,body.adashield-filter-blackyellow progress,body.adashield-filter-blackyellow q,
+body.adashield-filter-blackyellow s,body.adashield-filter-blackyellow section,body.adashield-filter-blackyellow select,body.adashield-filter-blackyellow small,
+body.adashield-filter-blackyellow span,body.adashield-filter-blackyellow strike,body.adashield-filter-blackyellow strong,body.adashield-filter-blackyellow sub,
+body.adashield-filter-blackyellow summary,body.adashield-filter-blackyellow sup,body.adashield-filter-blackyellow table,body.adashield-filter-blackyellow td,
+body.adashield-filter-blackyellow textarea,body.adashield-filter-blackyellow th,body.adashield-filter-blackyellow time,body.adashield-filter-blackyellow tr,
+body.adashield-filter-blackyellow tt,body.adashield-filter-blackyellow u,body.adashield-filter-blackyellow ul,body.adashield-filter-blackyellow var{color:#ff0!important}
+
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) button,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) input,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) select,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) table,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) td,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) textarea,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) th,body.adashield-filter-blackyellow :not(#ada_enable_toolbar) tr,
+body.adashield-filter-blackyellow :not(#ada_enable_toolbar) tt,body.adashield-filter-blackyellow button,body.adashield-filter-blackyellow input,
+body.adashield-filter-blackyellow select,body.adashield-filter-blackyellow table,body.adashield-filter-blackyellow td,
+body.adashield-filter-blackyellow textarea,body.adashield-filter-blackyellow th,body.adashield-filter-blackyellow tr,
+body.adashield-filter-blackyellow tt,body.adashield-filter-blackyellow #ada_enable_toolbar_buttons a.adawidget-boxbg{border:1px solid #fff!important}
+body.adashield-filter-blackyellow #ada_enable_toolbar_buttons a.adaiconsactive,
+body.adashield-filter-blackyellow #ada_enable_toolbar_buttons a:not([disabled=disabled]):hover{box-shadow:inset 0 0 0 3px #ff0!important}
+
+body.adashield-filter-highContrast #ada_enable_toolbar #ada_enable_toolbar_buttons a.adawidget-boxbg:focus{border:2px solid #fff}
+body.adashield-filter-highContrast #ada_enable_toolbar #ada_enable_toolbar_buttons a.adawidget-boxbg:focus span.adawidget-boxtext{color:#fff!important}
+
+body.adashield-filter-highContrast{background-color:#000!important}
+
+body.adashield-filter-highContrast .placebo{line-height:normal}
+
+body.adashield-filter-highContrast *{box-shadow:none!important}
+
+body.adashield-filter-highContrast a,body.adashield-filter-highContrast abbr,body.adashield-filter-highContrast acronym,body.adashield-filter-highContrast address,
+body.adashield-filter-highContrast article,body.adashield-filter-highContrast aside,body.adashield-filter-highContrast b,body.adashield-filter-highContrast basefont,
+body.adashield-filter-highContrast bdi,body.adashield-filter-highContrast big,body.adashield-filter-highContrast blink,body.adashield-filter-highContrast blockquote,
+body.adashield-filter-highContrast body,body.adashield-filter-highContrast button,body.adashield-filter-highContrast canvas,body.adashield-filter-highContrast caption,
+body.adashield-filter-highContrast center,body.adashield-filter-highContrast cite,body.adashield-filter-highContrast code,body.adashield-filter-highContrast col,
+body.adashield-filter-highContrast colgroup,body.adashield-filter-highContrast command,body.adashield-filter-highContrast dd,body.adashield-filter-highContrast del,
+body.adashield-filter-highContrast details,body.adashield-filter-highContrast dfn,body.adashield-filter-highContrast dir,body.adashield-filter-highContrast div,
+body.adashield-filter-highContrast dl,body.adashield-filter-highContrast dt,body.adashield-filter-highContrast em,body.adashield-filter-highContrast embed,
+body.adashield-filter-highContrast fieldset,body.adashield-filter-highContrast figcaption,body.adashield-filter-highContrast figure,body.adashield-filter-highContrast font,
+body.adashield-filter-highContrast footer,body.adashield-filter-highContrast form,body.adashield-filter-highContrast h1,body.adashield-filter-highContrast h1 a,
+body.adashield-filter-highContrast h1 a b,body.adashield-filter-highContrast h1 abbr,body.adashield-filter-highContrast h1 b,body.adashield-filter-highContrast h1 center,
+body.adashield-filter-highContrast h1 em,body.adashield-filter-highContrast h1 i,body.adashield-filter-highContrast h1 span,body.adashield-filter-highContrast h1 strong,
+body.adashield-filter-highContrast h2,body.adashield-filter-highContrast h2 a,body.adashield-filter-highContrast h2 a b,body.adashield-filter-highContrast h2 abbr,
+body.adashield-filter-highContrast h2 b,body.adashield-filter-highContrast h2 center,body.adashield-filter-highContrast h2 em,body.adashield-filter-highContrast h2 i,
+body.adashield-filter-highContrast h2 span,body.adashield-filter-highContrast h2 strong,body.adashield-filter-highContrast h3,body.adashield-filter-highContrast h3 a,
+body.adashield-filter-highContrast h3 a b,body.adashield-filter-highContrast h3 abbr,body.adashield-filter-highContrast h3 b,body.adashield-filter-highContrast h3 center,
+body.adashield-filter-highContrast h3 em,body.adashield-filter-highContrast h3 i,body.adashield-filter-highContrast h3 span,body.adashield-filter-highContrast h3 strong,
+body.adashield-filter-highContrast h4,body.adashield-filter-highContrast h4 a,body.adashield-filter-highContrast h4 a b,body.adashield-filter-highContrast h4 abbr,
+body.adashield-filter-highContrast h4 b,body.adashield-filter-highContrast h4 center,body.adashield-filter-highContrast h4 em,
+body.adashield-filter-highContrast h4 i,body.adashield-filter-highContrast h4 span,body.adashield-filter-highContrast h4 strong,body.adashield-filter-highContrast h5,
+body.adashield-filter-highContrast h5 a,body.adashield-filter-highContrast h5 a b,body.adashield-filter-highContrast h5 abbr,body.adashield-filter-highContrast h5 b,
+body.adashield-filter-highContrast h5 center,body.adashield-filter-highContrast h5 em,body.adashield-filter-highContrast h5 i,body.adashield-filter-highContrast h5 span,
+body.adashield-filter-highContrast h5 strong,body.adashield-filter-highContrast h6,body.adashield-filter-highContrast h6 a,body.adashield-filter-highContrast h6 a b,
+body.adashield-filter-highContrast h6 abbr,body.adashield-filter-highContrast h6 b,body.adashield-filter-highContrast h6 center,body.adashield-filter-highContrast h6 em,
+body.adashield-filter-highContrast h6 i,body.adashield-filter-highContrast h6 span,body.adashield-filter-highContrast h6 strong,body.adashield-filter-highContrast header,
+body.adashield-filter-highContrast hgroup,body.adashield-filter-highContrast html,body.adashield-filter-highContrast i,body.adashield-filter-highContrast iframe,
+body.adashield-filter-highContrast img,body.adashield-filter-highContrast input,body.adashield-filter-highContrast ins,body.adashield-filter-highContrast kbd,
+body.adashield-filter-highContrast label,body.adashield-filter-highContrast legend,body.adashield-filter-highContrast li,body.adashield-filter-highContrast listing,
+body.adashield-filter-highContrast main,body.adashield-filter-highContrast mark,body.adashield-filter-highContrast marquee,body.adashield-filter-highContrast menu,
+body.adashield-filter-highContrast meter,body.adashield-filter-highContrast multicol,body.adashield-filter-highContrast nav,body.adashield-filter-highContrast nobr,
+body.adashield-filter-highContrast object,body.adashield-filter-highContrast ol,body.adashield-filter-highContrast option,body.adashield-filter-highContrast output,
+body.adashield-filter-highContrast p,body.adashield-filter-highContrast plaintext,body.adashield-filter-highContrast pre,body.adashield-filter-highContrast progress,
+body.adashield-filter-highContrast q,body.adashield-filter-highContrast rb,body.adashield-filter-highContrast rp,body.adashield-filter-highContrast rt,
+body.adashield-filter-highContrast ruby,body.adashield-filter-highContrast s,body.adashield-filter-highContrast samp,body.adashield-filter-highContrast section,
+body.adashield-filter-highContrast select,body.adashield-filter-highContrast small,body.adashield-filter-highContrast span,body.adashield-filter-highContrast strike,
+body.adashield-filter-highContrast strong,body.adashield-filter-highContrast sub,body.adashield-filter-highContrast summary,body.adashield-filter-highContrast sup,
+body.adashield-filter-highContrast svg,body.adashield-filter-highContrast table,body.adashield-filter-highContrast tbody,body.adashield-filter-highContrast td,
+body.adashield-filter-highContrast text,body.adashield-filter-highContrast textarea,body.adashield-filter-highContrast th,body.adashield-filter-highContrast thead,
+body.adashield-filter-highContrast time,body.adashield-filter-highContrast tr,body.adashield-filter-highContrast tt,body.adashield-filter-highContrast u,
+body.adashield-filter-highContrast ul,body.adashield-filter-highContrast var,body.adashield-filter-highContrast video,
+body.adashield-filter-highContrast xmp{-moz-appearance:none!important;-moz-user-select:text!important;-webkit-user-select:text!important;
+                               background-image:none!important;text-shadow:none!important;-ms-user-select:text!important;user-select:text!important}
+
+body.adashield-filter-highContrast a,body.adashield-filter-highContrast abbr,body.adashield-filter-highContrast acronym,body.adashield-filter-highContrast address,
+body.adashield-filter-highContrast article,body.adashield-filter-highContrast aside,body.adashield-filter-highContrast b,
+body.adashield-filter-highContrast basefont,body.adashield-filter-highContrast bdi,body.adashield-filter-highContrast big,body.adashield-filter-highContrast blink,
+body.adashield-filter-highContrast blockquote,body.adashield-filter-highContrast body,body.adashield-filter-highContrast canvas,body.adashield-filter-highContrast caption,
+body.adashield-filter-highContrast center,body.adashield-filter-highContrast cite,body.adashield-filter-highContrast code,body.adashield-filter-highContrast col,
+body.adashield-filter-highContrast colgroup,body.adashield-filter-highContrast command,body.adashield-filter-highContrast dd,body.adashield-filter-highContrast del,
+body.adashield-filter-highContrast details,body.adashield-filter-highContrast dfn,body.adashield-filter-highContrast dir,body.adashield-filter-highContrast div,
+body.adashield-filter-highContrast dl,body.adashield-filter-highContrast dt,body.adashield-filter-highContrast em,body.adashield-filter-highContrast embed,
+body.adashield-filter-highContrast fieldset,body.adashield-filter-highContrast figcaption,body.adashield-filter-highContrast figure,body.adashield-filter-highContrast font,
+body.adashield-filter-highContrast footer,body.adashield-filter-highContrast form,body.adashield-filter-highContrast h1,body.adashield-filter-highContrast h1 a,
+body.adashield-filter-highContrast h1 a b,body.adashield-filter-highContrast h1 abbr,body.adashield-filter-highContrast h1 b,body.adashield-filter-highContrast h1 center,
+body.adashield-filter-highContrast h1 em,body.adashield-filter-highContrast h1 i,body.adashield-filter-highContrast h1 span,
+body.adashield-filter-highContrast h1 strong,body.adashield-filter-highContrast h2,body.adashield-filter-highContrast h2 a,body.adashield-filter-highContrast h2 a b,
+body.adashield-filter-highContrast h2 abbr,body.adashield-filter-highContrast h2 b,body.adashield-filter-highContrast h2 center,body.adashield-filter-highContrast h2 em,
+body.adashield-filter-highContrast h2 i,body.adashield-filter-highContrast h2 span,body.adashield-filter-highContrast h2 strong,body.adashield-filter-highContrast h3,
+body.adashield-filter-highContrast h3 a,body.adashield-filter-highContrast h3 a b,body.adashield-filter-highContrast h3 abbr,body.adashield-filter-highContrast h3 b,
+body.adashield-filter-highContrast h3 center,body.adashield-filter-highContrast h3 em,body.adashield-filter-highContrast h3 i,body.adashield-filter-highContrast h3 span,
+body.adashield-filter-highContrast h3 strong,body.adashield-filter-highContrast h4,body.adashield-filter-highContrast h4 a,body.adashield-filter-highContrast h4 a b,
+body.adashield-filter-highContrast h4 abbr,body.adashield-filter-highContrast h4 b,body.adashield-filter-highContrast h4 center,body.adashield-filter-highContrast h4 em,
+body.adashield-filter-highContrast h4 i,body.adashield-filter-highContrast h4 span,body.adashield-filter-highContrast h4 strong,body.adashield-filter-highContrast h5,
+body.adashield-filter-highContrast h5 a,body.adashield-filter-highContrast h5 a b,body.adashield-filter-highContrast h5 abbr,body.adashield-filter-highContrast h5 b,
+body.adashield-filter-highContrast h5 center,body.adashield-filter-highContrast h5 em,body.adashield-filter-highContrast h5 i,body.adashield-filter-highContrast h5 span,
+body.adashield-filter-highContrast h5 strong,body.adashield-filter-highContrast h6,body.adashield-filter-highContrast h6 a,body.adashield-filter-highContrast h6 a b,
+body.adashield-filter-highContrast h6 abbr,body.adashield-filter-highContrast h6 b,body.adashield-filter-highContrast h6 center,body.adashield-filter-highContrast h6 em,
+body.adashield-filter-highContrast h6 i,body.adashield-filter-highContrast h6 span,body.adashield-filter-highContrast h6 strong,body.adashield-filter-highContrast header,
+body.adashield-filter-highContrast hgroup,body.adashield-filter-highContrast html,body.adashield-filter-highContrast i,body.adashield-filter-highContrast iframe,
+body.adashield-filter-highContrast input,body.adashield-filter-highContrast ins,body.adashield-filter-highContrast kbd,body.adashield-filter-highContrast label,
+body.adashield-filter-highContrast legend,body.adashield-filter-highContrast li,body.adashield-filter-highContrast listing,body.adashield-filter-highContrast main,
+body.adashield-filter-highContrast mark,body.adashield-filter-highContrast marquee,body.adashield-filter-highContrast menu,body.adashield-filter-highContrast meter,
+body.adashield-filter-highContrast multicol,body.adashield-filter-highContrast nav:not(#pojo-a11y-toolbar),body.adashield-filter-highContrast nobr,
+body.adashield-filter-highContrast object,body.adashield-filter-highContrast ol,body.adashield-filter-highContrast option,body.adashield-filter-highContrast output,
+body.adashield-filter-highContrast p,body.adashield-filter-highContrast plaintext,body.adashield-filter-highContrast pre,body.adashield-filter-highContrast progress,
+body.adashield-filter-highContrast q,body.adashield-filter-highContrast rb,body.adashield-filter-highContrast rp,body.adashield-filter-highContrast rt,
+body.adashield-filter-highContrast ruby,body.adashield-filter-highContrast s,body.adashield-filter-highContrast samp,body.adashield-filter-highContrast section,
+body.adashield-filter-highContrast small,body.adashield-filter-highContrast span,body.adashield-filter-highContrast strike,body.adashield-filter-highContrast strong,
+body.adashield-filter-highContrast sub,body.adashield-filter-highContrast summary,body.adashield-filter-highContrast sup,body.adashield-filter-highContrast svg,
+body.adashield-filter-highContrast table,body.adashield-filter-highContrast tbody,body.adashield-filter-highContrast td,body.adashield-filter-highContrast text,
+body.adashield-filter-highContrast textarea,body.adashield-filter-highContrast th,body.adashield-filter-highContrast thead,body.adashield-filter-highContrast time,
+body.adashield-filter-highContrast tr,body.adashield-filter-highContrast tt,body.adashield-filter-highContrast u,body.adashield-filter-highContrast ul,
+body.adashield-filter-highContrast var,body.adashield-filter-highContrast video,body.adashield-filter-highContrast xmp{background:#000!important;
+                               background-color:#000!important}
+
+body.adashield-filter-highContrast a,body.adashield-filter-highContrast article,body.adashield-filter-highContrast aside,body.adashield-filter-highContrast basefont,
+body.adashield-filter-highContrast bdi,body.adashield-filter-highContrast big,body.adashield-filter-highContrast blink,body.adashield-filter-highContrast blockquote,
+body.adashield-filter-highContrast body,body.adashield-filter-highContrast button,body.adashield-filter-highContrast canvas,body.adashield-filter-highContrast caption,
+body.adashield-filter-highContrast center,body.adashield-filter-highContrast code,body.adashield-filter-highContrast col,body.adashield-filter-highContrast colgroup,
+body.adashield-filter-highContrast command,body.adashield-filter-highContrast dd,body.adashield-filter-highContrast del,body.adashield-filter-highContrast details,
+body.adashield-filter-highContrast dir,body.adashield-filter-highContrast div,body.adashield-filter-highContrast dl,body.adashield-filter-highContrast dt,
+body.adashield-filter-highContrast embed,body.adashield-filter-highContrast fieldset,body.adashield-filter-highContrast figcaption,body.adashield-filter-highContrast figure,
+body.adashield-filter-highContrast font,body.adashield-filter-highContrast footer,body.adashield-filter-highContrast form,body.adashield-filter-highContrast header,
+body.adashield-filter-highContrast hgroup,body.adashield-filter-highContrast html,body.adashield-filter-highContrast iframe,body.adashield-filter-highContrast img,
+body.adashield-filter-highContrast input,body.adashield-filter-highContrast ins,body.adashield-filter-highContrast kbd,body.adashield-filter-highContrast label,
+body.adashield-filter-highContrast legend,body.adashield-filter-highContrast li,body.adashield-filter-highContrast listing,body.adashield-filter-highContrast main,
+body.adashield-filter-highContrast mark,body.adashield-filter-highContrast marquee,body.adashield-filter-highContrast menu,body.adashield-filter-highContrast meter,
+body.adashield-filter-highContrast multicol,body.adashield-filter-highContrast nav,body.adashield-filter-highContrast nobr,body.adashield-filter-highContrast object,
+body.adashield-filter-highContrast ol,body.adashield-filter-highContrast option,body.adashield-filter-highContrast output,body.adashield-filter-highContrast p,
+body.adashield-filter-highContrast plaintext,body.adashield-filter-highContrast pre,body.adashield-filter-highContrast progress,body.adashield-filter-highContrast q,
+body.adashield-filter-highContrast rb,body.adashield-filter-highContrast rp,body.adashield-filter-highContrast rt,body.adashield-filter-highContrast ruby,
+body.adashield-filter-highContrast s,body.adashield-filter-highContrast samp,body.adashield-filter-highContrast section,body.adashield-filter-highContrast select,
+body.adashield-filter-highContrast small,body.adashield-filter-highContrast span,body.adashield-filter-highContrast strike,body.adashield-filter-highContrast sub,
+body.adashield-filter-highContrast summary,body.adashield-filter-highContrast sup,body.adashield-filter-highContrast svg,body.adashield-filter-highContrast table,
+body.adashield-filter-highContrast tbody,body.adashield-filter-highContrast td,body.adashield-filter-highContrast text,body.adashield-filter-highContrast textarea,
+body.adashield-filter-highContrast th,body.adashield-filter-highContrast thead,body.adashield-filter-highContrast time,body.adashield-filter-highContrast tr,
+body.adashield-filter-highContrast tt,body.adashield-filter-highContrast ul,body.adashield-filter-highContrast var,body.adashield-filter-highContrast video,
+body.adashield-filter-highContrast xmp{color:#fff!important}
+
+body.adashield-filter-highContrast abbr,body.adashield-filter-highContrast acronym,body.adashield-filter-highContrast b,body.adashield-filter-highContrast b span,
+body.adashield-filter-highContrast h1 b,body.adashield-filter-highContrast h1 strong,body.adashield-filter-highContrast h2 b,body.adashield-filter-highContrast h2 strong,
+body.adashield-filter-highContrast h3 b,body.adashield-filter-highContrast h3 strong,body.adashield-filter-highContrast h4 b,body.adashield-filter-highContrast h4 strong,
+body.adashield-filter-highContrast h5 b,body.adashield-filter-highContrast h5 strong,body.adashield-filter-highContrast h6 b,body.adashield-filter-highContrast h6 strong,
+body.adashield-filter-highContrast strong,body.adashield-filter-highContrast strong span{color:#ff0!important}
+
+body.adashield-filter-highContrast address,body.adashield-filter-highContrast address span,body.adashield-filter-highContrast cite,
+body.adashield-filter-highContrast cite span,body.adashield-filter-highContrast dfn,body.adashield-filter-highContrast dfn span,body.adashield-filter-highContrast em,
+body.adashield-filter-highContrast em span,body.adashield-filter-highContrast h1 em,body.adashield-filter-highContrast h1 i,body.adashield-filter-highContrast h2 em,
+body.adashield-filter-highContrast h2 i,body.adashield-filter-highContrast h3 em,body.adashield-filter-highContrast h3 i,body.adashield-filter-highContrast h4 em,
+body.adashield-filter-highContrast h4 i,body.adashield-filter-highContrast h5 em,body.adashield-filter-highContrast h5 i,body.adashield-filter-highContrast h6 em,
+body.adashield-filter-highContrast h6 i,body.adashield-filter-highContrast i,body.adashield-filter-highContrast i span,body.adashield-filter-highContrast u,
+body.adashield-filter-highContrast u span{color:#ffff80!important}
+
+body.adashield-filter-highContrast dt{border-top:thin solid grey!important}
+
+body.adashield-filter-highContrast h1,body.adashield-filter-highContrast h1 a,body.adashield-filter-highContrast h1 a b,body.adashield-filter-highContrast h1 abbr,
+body.adashield-filter-highContrast h1 center,body.adashield-filter-highContrast h1 span,body.adashield-filter-highContrast h2,body.adashield-filter-highContrast h2 a,
+body.adashield-filter-highContrast h2 a b,body.adashield-filter-highContrast h2 abbr,body.adashield-filter-highContrast h2 center,body.adashield-filter-highContrast h2 span,
+body.adashield-filter-highContrast h3,body.adashield-filter-highContrast h3 a,body.adashield-filter-highContrast h3 a b,body.adashield-filter-highContrast h3 abbr,
+body.adashield-filter-highContrast h3 center,body.adashield-filter-highContrast h3 span,body.adashield-filter-highContrast h4,body.adashield-filter-highContrast h4 a,
+body.adashield-filter-highContrast h4 a b,body.adashield-filter-highContrast h4 abbr,body.adashield-filter-highContrast h4 center,body.adashield-filter-highContrast h4 span,
+body.adashield-filter-highContrast h5,body.adashield-filter-highContrast h5 a,body.adashield-filter-highContrast h5 a b,body.adashield-filter-highContrast h5 abbr,
+body.adashield-filter-highContrast h5 center,body.adashield-filter-highContrast h5 span,body.adashield-filter-highContrast h6,body.adashield-filter-highContrast h6 a,
+body.adashield-filter-highContrast h6 a b,body.adashield-filter-highContrast h6 abbr,body.adashield-filter-highContrast h6 center,
+body.adashield-filter-highContrast h6 span{color:#40c090!important}
+
+body.adashield-filter-highContrast img{background:gray!important;background-color:gray!important}
+
+body.adashield-filter-highContrast abbr,body.adashield-filter-highContrast acronym{border-bottom:1px dotted!important}
+
+body.adashield-filter-highContrast :focus{outline:thin dotted!important}
+
+body.adashield-filter-highContrast a.button,body.adashield-filter-highContrast a.button abbr,body.adashield-filter-highContrast a.button acronym,
+body.adashield-filter-highContrast a.button b,body.adashield-filter-highContrast a.button basefont,body.adashield-filter-highContrast a.button big,
+body.adashield-filter-highContrast a.button br,body.adashield-filter-highContrast a.button code,body.adashield-filter-highContrast a.button div,
+body.adashield-filter-highContrast a.button em,body.adashield-filter-highContrast a.button font,body.adashield-filter-highContrast a.button h1,
+body.adashield-filter-highContrast a.button h2,body.adashield-filter-highContrast a.button h3,body.adashield-filter-highContrast a.button h4,
+body.adashield-filter-highContrast a.button h5,body.adashield-filter-highContrast a.button h6,body.adashield-filter-highContrast a.button i,
+body.adashield-filter-highContrast a.button kbd,body.adashield-filter-highContrast a.button rb,body.adashield-filter-highContrast a.button rp,
+body.adashield-filter-highContrast a.button rt,body.adashield-filter-highContrast a.button ruby,body.adashield-filter-highContrast a.button samp,
+body.adashield-filter-highContrast a.button small,body.adashield-filter-highContrast a.button span,body.adashield-filter-highContrast a.button strong,
+body.adashield-filter-highContrast a.button tt,body.adashield-filter-highContrast a.button u,body.adashield-filter-highContrast a.button var,
+body.adashield-filter-highContrast a:link,body.adashield-filter-highContrast a:link abbr,body.adashield-filter-highContrast a:link acronym,
+body.adashield-filter-highContrast a:link b,body.adashield-filter-highContrast a:link basefont,body.adashield-filter-highContrast a:link big,
+body.adashield-filter-highContrast a:link br,body.adashield-filter-highContrast a:link code,body.adashield-filter-highContrast a:link div,
+body.adashield-filter-highContrast a:link em,body.adashield-filter-highContrast a:link font,body.adashield-filter-highContrast a:link h1,
+body.adashield-filter-highContrast a:link h2,body.adashield-filter-highContrast a:link h3,body.adashield-filter-highContrast a:link h4,
+body.adashield-filter-highContrast a:link h5,body.adashield-filter-highContrast a:link h6,body.adashield-filter-highContrast a:link i,
+body.adashield-filter-highContrast a:link kbd,body.adashield-filter-highContrast a:link rb,body.adashield-filter-highContrast a:link rp,
+body.adashield-filter-highContrast a:link rt,body.adashield-filter-highContrast a:link ruby,body.adashield-filter-highContrast a:link samp,
+body.adashield-filter-highContrast a:link small,body.adashield-filter-highContrast a:link span,body.adashield-filter-highContrast a:link strong,
+body.adashield-filter-highContrast a:link tt,body.adashield-filter-highContrast a:link u,body.adashield-filter-highContrast a:link var,
+body.adashield-filter-highContrast div#secondaryNav div#documentNavigation ul.navigationTabs li.tabItem{color:#0080ff!important}
+
+body.adashield-filter-highContrast #ada_enable_toolbar_buttons a.adawidget-boxbg{/*background:#600040!important;background-color:#600040!important*/border:1px solid #fff;}
+
+body.adashield-filter-highContrast select{-webkit-appearance:listbox!important;background:#600060!important;background-color:#600060!important}
+
+body.adashield-filter-highContrast a:visited,body.adashield-filter-highContrast a:visited abbr,body.adashield-filter-highContrast a:visited acronym,
+body.adashield-filter-highContrast a:visited b,body.adashield-filter-highContrast a:visited basefont,body.adashield-filter-highContrast a:visited big,
+body.adashield-filter-highContrast a:visited br,body.adashield-filter-highContrast a:visited code,body.adashield-filter-highContrast a:visited div,
+body.adashield-filter-highContrast a:visited em,body.adashield-filter-highContrast a:visited font,body.adashield-filter-highContrast a:visited h1,
+body.adashield-filter-highContrast a:visited h2,body.adashield-filter-highContrast a:visited h3,body.adashield-filter-highContrast a:visited h4,
+body.adashield-filter-highContrast a:visited h5,body.adashield-filter-highContrast a:visited h6,body.adashield-filter-highContrast a:visited i,
+body.adashield-filter-highContrast a:visited kbd,body.adashield-filter-highContrast a:visited rb,body.adashield-filter-highContrast a:visited rp,
+body.adashield-filter-highContrast a:visited rt,body.adashield-filter-highContrast a:visited ruby,body.adashield-filter-highContrast a:visited samp,
+body.adashield-filter-highContrast a:visited small,body.adashield-filter-highContrast a:visited span,body.adashield-filter-highContrast a:visited strong,
+body.adashield-filter-highContrast a:visited tt,body.adashield-filter-highContrast a:visited u,body.adashield-filter-highContrast a:visited var,
+body.adashield-filter-highContrast div#secondaryNav div#documentNavigation ul.navigationTabs li.tabItem.active{color:#0ff!important}
+
+body.adashield-filter-highContrast ::-moz-selection{background:#4080c0!important;background-color:#4080c0!important}
+
+body.adashield-filter-highContrast ::-moz-selection,body.adashield-filter-highContrast ::selection{background:#4080c0!important;background-color:#4080c0!important}
+
+body.adashield-filter-highContrast a.button:hover,body.adashield-filter-highContrast a.button:hover abbr,body.adashield-filter-highContrast a.button:hover acronym,
+body.adashield-filter-highContrast a.button:hover b,body.adashield-filter-highContrast a.button:hover basefont,body.adashield-filter-highContrast a.button:hover big,
+body.adashield-filter-highContrast a.button:hover br,body.adashield-filter-highContrast a.button:hover code,body.adashield-filter-highContrast a.button:hover div,
+body.adashield-filter-highContrast a.button:hover em,body.adashield-filter-highContrast a.button:hover font,body.adashield-filter-highContrast a.button:hover h1,
+body.adashield-filter-highContrast a.button:hover h2,body.adashield-filter-highContrast a.button:hover h3,body.adashield-filter-highContrast a.button:hover h4,
+body.adashield-filter-highContrast a.button:hover h5,body.adashield-filter-highContrast a.button:hover h6,body.adashield-filter-highContrast a.button:hover i,
+body.adashield-filter-highContrast a.button:hover kbd,body.adashield-filter-highContrast a.button:hover rb,body.adashield-filter-highContrast a.button:hover rp,
+body.adashield-filter-highContrast a.button:hover rt,body.adashield-filter-highContrast a.button:hover ruby,body.adashield-filter-highContrast a.button:hover samp,
+body.adashield-filter-highContrast a.button:hover small,body.adashield-filter-highContrast a.button:hover span,body.adashield-filter-highContrast a.button:hover strong,
+body.adashield-filter-highContrast a.button:hover tt,body.adashield-filter-highContrast a.button:hover u,body.adashield-filter-highContrast a.button:hover var,
+body.adashield-filter-highContrast a:link:hover,body.adashield-filter-highContrast a:link:hover abbr,body.adashield-filter-highContrast a:link:hover acronym,
+body.adashield-filter-highContrast a:link:hover b,body.adashield-filter-highContrast a:link:hover basefont,body.adashield-filter-highContrast a:link:hover big,
+body.adashield-filter-highContrast a:link:hover br,body.adashield-filter-highContrast a:link:hover code,body.adashield-filter-highContrast a:link:hover div,
+body.adashield-filter-highContrast a:link:hover em,body.adashield-filter-highContrast a:link:hover font,body.adashield-filter-highContrast a:link:hover h1,
+body.adashield-filter-highContrast a:link:hover h2,body.adashield-filter-highContrast a:link:hover h3,body.adashield-filter-highContrast a:link:hover h4,
+body.adashield-filter-highContrast a:link:hover h5,body.adashield-filter-highContrast a:link:hover h6,body.adashield-filter-highContrast a:link:hover i,
+body.adashield-filter-highContrast a:link:hover kbd,body.adashield-filter-highContrast a:link:hover rb,body.adashield-filter-highContrast a:link:hover rp,
+body.adashield-filter-highContrast a:link:hover rt,body.adashield-filter-highContrast a:link:hover ruby,body.adashield-filter-highContrast a:link:hover samp,
+body.adashield-filter-highContrast a:link:hover small,body.adashield-filter-highContrast a:link:hover span,body.adashield-filter-highContrast a:link:hover strong,
+body.adashield-filter-highContrast a:link:hover tt,body.adashield-filter-highContrast a:link:hover u,body.adashield-filter-highContrast a:link:hover var,
+body.adashield-filter-highContrast a:visited:hover,body.adashield-filter-highContrast a:visited:hover abbr,body.adashield-filter-highContrast a:visited:hover acronym,
+body.adashield-filter-highContrast a:visited:hover b,body.adashield-filter-highContrast a:visited:hover basefont,body.adashield-filter-highContrast a:visited:hover big,
+body.adashield-filter-highContrast a:visited:hover br,body.adashield-filter-highContrast a:visited:hover code,body.adashield-filter-highContrast a:visited:hover div,
+body.adashield-filter-highContrast a:visited:hover em,body.adashield-filter-highContrast a:visited:hover font,body.adashield-filter-highContrast a:visited:hover h1,
+body.adashield-filter-highContrast a:visited:hover h2,body.adashield-filter-highContrast a:visited:hover h3,body.adashield-filter-highContrast a:visited:hover h4,
+body.adashield-filter-highContrast a:visited:hover h5,body.adashield-filter-highContrast a:visited:hover h6,body.adashield-filter-highContrast a:visited:hover i,
+body.adashield-filter-highContrast a:visited:hover kbd,body.adashield-filter-highContrast a:visited:hover rb,body.adashield-filter-highContrast a:visited:hover rp,
+body.adashield-filter-highContrast a:visited:hover rt,body.adashield-filter-highContrast a:visited:hover ruby,body.adashield-filter-highContrast a:visited:hover samp,
+body.adashield-filter-highContrast a:visited:hover small,body.adashield-filter-highContrast a:visited:hover span,body.adashield-filter-highContrast a:visited:hover strong,
+body.adashield-filter-highContrast a:visited:hover tt,body.adashield-filter-highContrast a:visited:hover u,
+body.adashield-filter-highContrast a:visited:hover var{background:#400000!important;background-color:#400000!important}
+
+body.adashield-filter-highContrast body>input#site+div#wrapper span.mk,body.adashield-filter-highContrast body>input#site+div#wrapper span.mk b,
+body.adashield-filter-highContrast input[type=reset]{background:#400060!important;background-color:#400060!important}
+
+body.adashield-filter-highContrast div[role=button],body.adashield-filter-highContrast input[type=button],
+body.adashield-filter-highContrast input[type=submit]{background:#600040!important;background-color:#600040!important}
+
+body.adashield-filter-highContrast input[type=search]{-webkit-appearance:textfield!important}
+
+body.adashield-filter-highContrast html button[disabled],body.adashield-filter-highContrast html input[disabled],body.adashield-filter-highContrast html select[disabled],
+body.adashield-filter-highContrast html textarea[disabled]{background:#404040!important;background-color:#404040!important}
+
+body.adashield-filter-highContrast .menu li a span.label{text-transform:none!important}
+
+body.adashield-filter-highContrast .menu li a span.label,body.adashield-filter-highContrast div.jwplayer span.jwcontrolbar,
+body.adashield-filter-highContrast div.jwplayer span.jwcontrols{display:inline!important}
+
+body.adashield-filter-highContrast a:link.new,body.adashield-filter-highContrast a:link.new b,body.adashield-filter-highContrast a:link.new i,
+body.adashield-filter-highContrast span.Apple-style-span{color:#ffff40!important}
+
+body.adashield-filter-highContrast body.mediawiki img.tex{background:#fff!important;background-color:#fff!important;border:3px solid #fff!important}
+
+body.adashield-filter-highContrast text>tspan:first-letter,body.adashield-filter-highContrast text>tspan:first-line{background:inherit!important;
+           background-color:inherit!important;color:inherit!important}
+
+body.adashield-filter-highContrast div.sbtc div.sbsb_a li.sbsb_d div,body.adashield-filter-highContrast table.gssb_c tr.gssb_i a,
+body.adashield-filter-highContrast table.gssb_c tr.gssb_i b,body.adashield-filter-highContrast table.gssb_c tr.gssb_i span,
+body.adashield-filter-highContrast table.gssb_c tr.gssb_i td{background:#003050!important;background-color:#003050!important}
+
+body.adashield-filter-highContrast img[width="18"][height="18"]{height:18px!important;width:18px!important}
+
+body.adashield-filter-highContrast a>span.iconHelp:empty:after{content:"Help"!important}
+
+body.adashield-filter-highContrast.show-enable-toolbar #enable-toolbar-links li#language-bar button.tr-trigger.active{background-color:#c66b36!important;
+       color:#000!important;border-color:#000!important}
+/*body.adashield-filter-highContrast *{
+    background-color: #000!important;
+	color:#fff !important;
+}*/
+body.adashield-filter-grayscale>:not(#ada_enable_toolbar){-ms-filter:grayscale(100%);-webkit-filter:grayscale(100%);filter:grayscale(100%)}
+/*body.adashield-filter-grayscale *{
+    -ms-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}*/
+body.adashield-bold-fonts{
+    font-weight:bold !important;
+}
+body.cursor-larger-white{cursor:url('https://www.innstaging.com/adawidget/assets/images/white-arrow.png'),auto!important}
+
+body.cursor-larger-white a,body.cursor-larger-white button,body.cursor-larger-white input[type="submit"],body.cursor-larger-white input[type="button"]{cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDgwIDgwIj48cGF0aCBkPSJNOS40IDQ4LjdjLTAuNiAwLjktMC45IDEuOC0wLjcgMi43IDAuMiAxLjYgMS41IDMuMyAzLjYgNC44TDM4LjEgNzMuM2wzMi41LTE3LjYgMC0xLjZjLTAuMi03LjktMi4yLTE1LjctNi0yMi43bC0zLjMtNi4xYy0wLjEtMC4zLTAuMy0wLjUtMC40LTAuNyAtMC45LTEuNC0yLjUtMi4zLTQuMy0yLjMgLTAuOCAwLTEuNyAwLjItMi41IDAuNmwtMC4zIDAuMiAzLjkgNy4zYzAuMyAwLjYgMC40IDEuNCAwLjIgMiAtMC4yIDAuNy0wLjcgMS4yLTEuMyAxLjYgLTAuMyAwLjItMC43IDAuMy0xLjEgMC4zIC0wLjEgMC0wLjEgMC0wLjIgMCAtMSAwLTEuOS0wLjUtMi40LTEuNGwtOC45LTE2LjVjLTAuNC0wLjgtMS4yLTEuNC0yLjEtMS43IC0wLjMtMC4xLTAuNi0wLjEtMS0wLjEgLTAuNiAwLTEuMSAwLjEtMS42IDAuNGwtMi42IDEuNCA2LjIgMTEuNWMwLjMgMC42IDAuNCAxLjMgMC4yIDIgLTAuMiAwLjctMC43IDEuMy0xLjMgMS42IC0wLjMgMC4yLTAuNyAwLjMtMS4xIDAuMyAtMC4xIDAtMC4xIDAtMC4yIDAgLTEgMC0xLjktMC41LTIuNC0xLjRMMzAuOSAxNi43Yy0wLjQtMC43LTAuOS0xLjItMS4zLTEuNCAtMC4yLTAuMS0wLjQtMC4xLTAuNy0wLjEgLTAuNiAwLTEuNCAwLjMtMi4zIDAuN2wtMS43IDAuOSA2LjYgMTIuM2MwLjcgMS4zIDAuMiAyLjktMS4xIDMuNiAtMC4zIDAuMi0wLjcgMC4zLTEuMSAwLjMgLTAuMSAwLTAuMSAwLTAuMiAwIC0xIDAtMS45LTAuNS0yLjQtMS40TDE0LjEgOC4yYy0wLjktMS42LTIuMi0yLjYtMy44LTIuOCAtMC4yIDAtMC4zIDAtMC41IDAgLTEuMiAwLTIuMyAwLjUtMy4xIDEuMyAtMS4yIDEuMy0yIDMuNS0wLjcgNS45bDE2LjcgMzEgNi41IDUuM2MwLjYgMC41IDAuOSAxLjEgMSAxLjggMC4xIDAuNy0wLjEgMS40LTAuNiAyIC0wLjUgMC42LTEuMSAwLjktMS45IDEgLTAuMSAwLTAuMSAwLTAuMiAwIC0wLjYgMC0xLjItMC4yLTEuNy0wLjZsLTYuOC01LjVjLTEtMC42LTIuNC0wLjktMy45LTAuOSAtMi4zIDAtNC41IDAuOC01LjUgMkM5LjUgNDguNiA5LjUgNDguNyA5LjQgNDguN3oiIGZpbGw9IiNGRkYiLz48cGF0aCBkPSJNMzcuOSA3OS4xYy0wLjUgMC0xLTAuMi0xLjUtMC40TDkuMyA2MC43Yy0zLjUtMi41LTUuNS01LjQtNS45LTguNSAtMC4zLTIuNSAwLjQtNSAyLjItNy4xIDAuMS0wLjEgMC4yLTAuMyAwLjQtMC40IDIuMS0yLjEgNS41LTMuNCA5LjItMy40IDAuMSAwIDAuMiAwIDAuMiAwTDEuMyAxNS4xYy0yLjEtMy45LTEuNi04LjYgMS40LTEyQzQuNCAxLjEgNyAwIDkuNyAwYzAuNCAwIDAuOCAwIDEuMiAwLjEgMy4zIDAuNCA2LjIgMi40IDcuOSA1LjZsMy41IDYuNSAxLjctMC45YzEuNy0wLjkgMy40LTEuNCA0LjktMS40IDEgMCAxLjkgMC4yIDIuNyAwLjUgMC45IDAuNCAxLjcgMC45IDIuNCAxLjdsMi45LTEuNWMxLjMtMC43IDIuNy0xLjEgNC4yLTEuMSAwLjggMCAxLjcgMC4xIDIuNSAwLjQgMi4zIDAuNyA0LjEgMi4yIDUuMyA0LjNsMi40IDQuNSAwLjMtMC4yYzEuNS0wLjggMy4yLTEuMiA1LTEuMiAwLjkgMCAxLjcgMC4xIDIuNiAwLjMgMi42IDAuNiA0LjggMi4yIDYuMiA0LjQgMC4yIDAuNCAwLjUgMC43IDAuNyAxLjFsMy4zIDYuMWM0LjIgNy43IDYuNCAxNi40IDYuNiAyNS4xbDAuMSAzLjJjMCAxLTAuNSAxLjktMS40IDIuNGwtMzUuMyAxOS4xYy0wLjMgMC4yLTAuNyAwLjMtMS4xIDAuM0MzOC4xIDc5LjEgMzggNzkuMSAzNy45IDc5LjF6TTkuNCA0OC43Yy0wLjYgMC45LTAuOSAxLjgtMC43IDIuNyAwLjIgMS42IDEuNSAzLjMgMy42IDQuOEwzOC4xIDczLjNsMzIuNS0xNy42IDAtMS42Yy0wLjItNy45LTIuMi0xNS43LTYtMjIuN2wtMy4zLTYuMWMtMC4xLTAuMy0wLjMtMC41LTAuNC0wLjcgLTAuOS0xLjQtMi41LTIuMy00LjMtMi4zIC0wLjggMC0xLjcgMC4yLTIuNSAwLjZsLTAuMyAwLjIgMy45IDcuM2MwLjMgMC42IDAuNCAxLjQgMC4yIDIgLTAuMiAwLjctMC43IDEuMi0xLjMgMS42IC0wLjMgMC4yLTAuNyAwLjMtMS4xIDAuMyAtMC4xIDAtMC4xIDAtMC4yIDAgLTEgMC0xLjktMC41LTIuNC0xLjRsLTguOS0xNi41Yy0wLjQtMC44LTEuMi0xLjQtMi4xLTEuNyAtMC4zLTAuMS0wLjYtMC4xLTEtMC4xIC0wLjYgMC0xLjEgMC4xLTEuNiAwLjRsLTIuNiAxLjQgNi4yIDExLjVjMC4zIDAuNiAwLjQgMS4zIDAuMiAyIC0wLjIgMC43LTAuNyAxLjMtMS4zIDEuNiAtMC4zIDAuMi0wLjcgMC4zLTEuMSAwLjMgLTAuMSAwLTAuMSAwLTAuMiAwIC0xIDAtMS45LTAuNS0yLjQtMS40TDMwLjkgMTYuN2MtMC40LTAuNy0wLjktMS4yLTEuMy0xLjQgLTAuMi0wLjEtMC40LTAuMS0wLjctMC4xIC0wLjYgMC0xLjQgMC4zLTIuMyAwLjdsLTEuNyAwLjkgNi42IDEyLjNjMC43IDEuMyAwLjIgMi45LTEuMSAzLjYgLTAuMyAwLjItMC43IDAuMy0xLjEgMC4zIC0wLjEgMC0wLjEgMC0wLjIgMCAtMSAwLTEuOS0wLjUtMi40LTEuNEwxNC4xIDguMmMtMC45LTEuNi0yLjItMi42LTMuOC0yLjggLTAuMiAwLTAuMyAwLTAuNSAwIC0xLjIgMC0yLjMgMC41LTMuMSAxLjMgLTEuMiAxLjMtMiAzLjUtMC43IDUuOWwxNi43IDMxIDYuNSA1LjNjMC42IDAuNSAwLjkgMS4xIDEgMS44IDAuMSAwLjctMC4xIDEuNC0wLjYgMiAtMC41IDAuNi0xLjEgMC45LTEuOSAxIC0wLjEgMC0wLjEgMC0wLjIgMCAtMC42IDAtMS4yLTAuMi0xLjctMC42bC02LjgtNS41Yy0xLTAuNi0yLjQtMC45LTMuOS0wLjkgLTIuMyAwLTQuNSAwLjgtNS41IDJDOS41IDQ4LjYgOS41IDQ4LjcgOS40IDQ4Ljd6IiBjbGFzcz0iYSIvPjxwYXRoIGQ9Ik02OC4zIDI5LjVsLTMuMy02LjFjLTAuMi0wLjQtMC40LTAuNy0wLjYtMSAtMS4zLTItMy4zLTMuNC01LjUtMy45IC0yLjMtMC42LTQuNy0wLjMtNi43IDAuOGwtMS4zIDAuNyAtMi45LTUuNGMtMS0xLjgtMi42LTMuMS00LjYtMy43IC0yLTAuNi00LjEtMC40LTUuOSAwLjZsLTMuNiAxLjljLTAuNy0wLjktMS42LTEuNi0yLjYtMiAtMS45LTAuOC00LjItMC41LTYuNyAwLjhsLTIuNyAxLjUgLTQtNy40Yy0xLjUtMi45LTQuMS00LjctNy4xLTVDOCAwLjggNS4zIDEuOCAzLjUgMy44IDAuOCA2LjggMC40IDExIDIuMyAxNC41bDE1IDI3LjljLTMuOS0wLjYtOC4yIDAuNS0xMC42IDMgLTAuMSAwLjEtMC4yIDAuMi0wLjMgMC4zIC0xLjYgMS45LTIuMiA0LjEtMS45IDYuMyAwLjQgMi44IDIuMiA1LjUgNS40IDcuNyAwIDAgMCAwIDAgMGwyNy4yIDE4YzAuMyAwLjIgMC43IDAuMyAxIDAuMyAwLjIgMCAwLjQtMC4xIDAuNi0wLjJsMzUuMy0xOS4xYzAuNS0wLjMgMC44LTAuOCAwLjgtMS40bC0wLjEtMy4yQzc0LjYgNDUuNiA3Mi40IDM3LjEgNjguMyAyOS41ek03MS42IDU0LjJsMCAyLjNMMzggNzQuNiAxMS42IDU3LjFjLTIuNC0xLjctMy44LTMuNi00LTUuNSAtMC4yLTEuMyAwLjItMi41IDEtMy42IDAuMS0wLjEgMC4xLTAuMSAwLjItMC4yIDIuMS0yLjUgNy44LTMuMiAxMC45LTEuMmw2LjkgNS42YzAuMyAwLjMgMC43IDAuNCAxLjEgMC40IDAuNCAwIDAuOC0wLjIgMS4xLTAuNiAwLjYtMC43IDAuNC0xLjctMC4yLTIuMmwtNi43LTUuNUw1IDEzQzMuNSAxMC4yIDQuNCA3LjUgNS45IDUuOWMxLjEtMS4yIDIuOC0xLjggNC41LTEuNiAxLjkgMC4yIDMuNiAxLjQgNC43IDMuNGwxMi43IDIzLjVjMC4zIDAuNiAwLjkgMC45IDEuNSAwLjggMC4yIDAgMC40LTAuMSAwLjYtMC4yIDAuOC0wLjQgMS4xLTEuNCAwLjYtMi4xbC03LjItMTMuMyAyLjctMS41YzEuNi0wLjkgMi45LTEuMSA0LTAuNyAwLjcgMC4zIDEuNCAxIDEuOSAxLjlsMCAwIDcuNSAxMy44YzAuMyAwLjYgMC45IDAuOSAxLjUgMC44IDAuMiAwIDAuNC0wLjEgMC42LTAuMiAwLjgtMC40IDEuMS0xLjQgMC42LTIuMWwtNi43LTEyLjUgMy41LTEuOWMwIDAgMCAwIDAgMCAxLjEtMC42IDIuMy0wLjcgMy41LTAuNCAxLjIgMC4zIDIuMSAxLjEgMi43IDIuMmw4LjkgMTYuNWMwLjMgMC42IDAuOSAwLjkgMS41IDAuOCAwLjIgMCAwLjQtMC4xIDAuNi0wLjIgMC44LTAuNCAxLTEuNCAwLjYtMi4xbC00LjUtOC4yTDUzLjYgMjIuMWMyLjktMS41IDYuNC0wLjcgOC4yIDIuMSAwLjIgMC4zIDAuMyAwLjUgMC41IDAuOGwzLjMgNi4xQzY5LjQgMzguMSA3MS41IDQ2LjEgNzEuNiA1NC4yeiIgY2xhc3M9ImEiLz48cGF0aCBkPSJNNjQuMiA1Mi4zbC0xLjggMC45Yy0wLjggMC40LTEgMS40LTAuNiAyLjEgMC4zIDAuNiAwLjkgMC45IDEuNSAwLjggMC4yIDAgMC40LTAuMSAwLjYtMC4ybDEuOC0wLjljMC44LTAuNCAxLTEuNCAwLjYtMi4xQzY1LjkgNTIuMiA2NSA1MS45IDY0LjIgNTIuM3oiIGNsYXNzPSJhIi8+PHBhdGggZD0iTTU3LjEgNTYuMkwzOC40IDY2LjNjLTAuOCAwLjQtMS4xIDEuNC0wLjYgMi4xIDAuMyAwLjYgMC45IDAuOSAxLjUgMC44IDAuMiAwIDAuNC0wLjEgMC42LTAuMmwxOC43LTEwLjFjMC44LTAuNCAxLjEtMS40IDAuNi0yLjFDNTguOCA1Ni4xIDU3LjkgNTUuOCA1Ny4xIDU2LjJ6IiBjbGFzcz0iYSIvPjwvc3ZnPg=="),auto!important}
+
+body.cursor-larger-black{cursor:url('https://www.innstaging.com/adawidget/assets/images/black-arrow.png'),auto!important}
+
+html.Enable-Edge body.cursor-larger-black,html.Enable-IE body.cursor-larger-black{cursor:url("https://www.innstaging.com/adawidget/assets/images/black-arrow.cur"),auto!important}
+
+body.cursor-larger-black a,body.cursor-larger-black button,body.cursor-larger-white input[type="submit"],body.cursor-larger-white input[type="button"]{cursor:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDgwIDgwIj48c3R5bGU+LmF7ZmlsbDojRDhEOEQ4O308L3N0eWxlPjxwYXRoIGQ9Ik05LjQgNDguN2MtMC42IDAuOS0wLjkgMS44LTAuNyAyLjcgMC4yIDEuNiAxLjUgMy4zIDMuNiA0LjhMMzguMSA3My4zbDMyLjUtMTcuNiAwLTEuNmMtMC4yLTcuOS0yLjItMTUuNy02LTIyLjdsLTMuMy02LjFjLTAuMS0wLjMtMC4zLTAuNS0wLjQtMC43IC0wLjktMS40LTIuNS0yLjMtNC4zLTIuMyAtMC44IDAtMS43IDAuMi0yLjUgMC42bC0wLjMgMC4yIDMuOSA3LjNjMC4zIDAuNiAwLjQgMS40IDAuMiAyIC0wLjIgMC43LTAuNyAxLjItMS4zIDEuNiAtMC4zIDAuMi0wLjcgMC4zLTEuMSAwLjMgLTAuMSAwLTAuMSAwLTAuMiAwIC0xIDAtMS45LTAuNS0yLjQtMS40bC04LjktMTYuNWMtMC40LTAuOC0xLjItMS40LTIuMS0xLjcgLTAuMy0wLjEtMC42LTAuMS0xLTAuMSAtMC42IDAtMS4xIDAuMS0xLjYgMC40bC0yLjYgMS40IDYuMiAxMS41YzAuMyAwLjYgMC40IDEuMyAwLjIgMiAtMC4yIDAuNy0wLjcgMS4zLTEuMyAxLjYgLTAuMyAwLjItMC43IDAuMy0xLjEgMC4zIC0wLjEgMC0wLjEgMC0wLjIgMCAtMSAwLTEuOS0wLjUtMi40LTEuNEwzMC45IDE2LjdjLTAuNC0wLjctMC45LTEuMi0xLjMtMS40IC0wLjItMC4xLTAuNC0wLjEtMC43LTAuMSAtMC42IDAtMS40IDAuMy0yLjMgMC43bC0xLjcgMC45IDYuNiAxMi4zYzAuNyAxLjMgMC4yIDIuOS0xLjEgMy42IC0wLjMgMC4yLTAuNyAwLjMtMS4xIDAuMyAtMC4xIDAtMC4xIDAtMC4yIDAgLTEgMC0xLjktMC41LTIuNC0xLjRMMTQuMSA4LjJjLTAuOS0xLjYtMi4yLTIuNi0zLjgtMi44IC0wLjIgMC0wLjMgMC0wLjUgMCAtMS4yIDAtMi4zIDAuNS0zLjEgMS4zIC0xLjIgMS4zLTIgMy41LTAuNyA1LjlsMTYuNyAzMSA2LjUgNS4zYzAuNiAwLjUgMC45IDEuMSAxIDEuOCAwLjEgMC43LTAuMSAxLjQtMC42IDIgLTAuNSAwLjYtMS4xIDAuOS0xLjkgMSAtMC4xIDAtMC4xIDAtMC4yIDAgLTAuNiAwLTEuMi0wLjItMS43LTAuNmwtNi44LTUuNWMtMS0wLjYtMi40LTAuOS0zLjktMC45IC0yLjMgMC00LjUgMC44LTUuNSAyQzkuNSA0OC42IDkuNSA0OC43IDkuNCA0OC43eiIvPjxwYXRoIGQ9Ik0zNy45IDc5LjFjLTAuNSAwLTEtMC4yLTEuNS0wLjRMOS4zIDYwLjdjLTMuNS0yLjUtNS41LTUuNC01LjktOC41IC0wLjMtMi41IDAuNC01IDIuMi03LjEgMC4xLTAuMSAwLjItMC4zIDAuNC0wLjQgMi4xLTIuMSA1LjUtMy40IDkuMi0zLjQgMC4xIDAgMC4yIDAgMC4yIDBMMS4zIDE1LjFjLTIuMS0zLjktMS42LTguNiAxLjQtMTJDNC40IDEuMSA3IDAgOS43IDBjMC40IDAgMC44IDAgMS4yIDAuMSAzLjMgMC40IDYuMiAyLjQgNy45IDUuNmwzLjUgNi41IDEuNy0wLjljMS43LTAuOSAzLjQtMS40IDQuOS0xLjQgMSAwIDEuOSAwLjIgMi43IDAuNSAwLjkgMC40IDEuNyAwLjkgMi40IDEuN2wyLjktMS41YzEuMy0wLjcgMi43LTEuMSA0LjItMS4xIDAuOCAwIDEuNyAwLjEgMi41IDAuNCAyLjMgMC43IDQuMSAyLjIgNS4zIDQuM2wyLjQgNC41IDAuMy0wLjJjMS41LTAuOCAzLjItMS4yIDUtMS4yIDAuOSAwIDEuNyAwLjEgMi42IDAuMyAyLjYgMC42IDQuOCAyLjIgNi4yIDQuNCAwLjIgMC40IDAuNSAwLjcgMC43IDEuMWwzLjMgNi4xYzQuMiA3LjcgNi40IDE2LjQgNi42IDI1LjFsMC4xIDMuMmMwIDEtMC41IDEuOS0xLjQgMi40bC0zNS4zIDE5LjFjLTAuMyAwLjItMC43IDAuMy0xLjEgMC4zQzM4LjEgNzkuMSAzOCA3OS4xIDM3LjkgNzkuMXpNOS40IDQ4LjdjLTAuNiAwLjktMC45IDEuOC0wLjcgMi43IDAuMiAxLjYgMS41IDMuMyAzLjYgNC44TDM4LjEgNzMuM2wzMi41LTE3LjYgMC0xLjZjLTAuMi03LjktMi4yLTE1LjctNi0yMi43bC0zLjMtNi4xYy0wLjEtMC4zLTAuMy0wLjUtMC40LTAuNyAtMC45LTEuNC0yLjUtMi4zLTQuMy0yLjMgLTAuOCAwLTEuNyAwLjItMi41IDAuNmwtMC4zIDAuMiAzLjkgNy4zYzAuMyAwLjYgMC40IDEuNCAwLjIgMiAtMC4yIDAuNy0wLjcgMS4yLTEuMyAxLjYgLTAuMyAwLjItMC43IDAuMy0xLjEgMC4zIC0wLjEgMC0wLjEgMC0wLjIgMCAtMSAwLTEuOS0wLjUtMi40LTEuNGwtOC45LTE2LjVjLTAuNC0wLjgtMS4yLTEuNC0yLjEtMS43IC0wLjMtMC4xLTAuNi0wLjEtMS0wLjEgLTAuNiAwLTEuMSAwLjEtMS42IDAuNGwtMi42IDEuNCA2LjIgMTEuNWMwLjMgMC42IDAuNCAxLjMgMC4yIDIgLTAuMiAwLjctMC43IDEuMy0xLjMgMS42IC0wLjMgMC4yLTAuNyAwLjMtMS4xIDAuMyAtMC4xIDAtMC4xIDAtMC4yIDAgLTEgMC0xLjktMC41LTIuNC0xLjRMMzAuOSAxNi43Yy0wLjQtMC43LTAuOS0xLjItMS4zLTEuNCAtMC4yLTAuMS0wLjQtMC4xLTAuNy0wLjEgLTAuNiAwLTEuNCAwLjMtMi4zIDAuN2wtMS43IDAuOSA2LjYgMTIuM2MwLjcgMS4zIDAuMiAyLjktMS4xIDMuNiAtMC4zIDAuMi0wLjcgMC4zLTEuMSAwLjMgLTAuMSAwLTAuMSAwLTAuMiAwIC0xIDAtMS45LTAuNS0yLjQtMS40TDE0LjEgOC4yYy0wLjktMS42LTIuMi0yLjYtMy44LTIuOCAtMC4yIDAtMC4zIDAtMC41IDAgLTEuMiAwLTIuMyAwLjUtMy4xIDEuMyAtMS4yIDEuMy0yIDMuNS0wLjcgNS45bDE2LjcgMzEgNi41IDUuM2MwLjYgMC41IDAuOSAxLjEgMSAxLjggMC4xIDAuNy0wLjEgMS40LTAuNiAyIC0wLjUgMC42LTEuMSAwLjktMS45IDEgLTAuMSAwLTAuMSAwLTAuMiAwIC0wLjYgMC0xLjItMC4yLTEuNy0wLjZsLTYuOC01LjVjLTEtMC42LTIuNC0wLjktMy45LTAuOSAtMi4zIDAtNC41IDAuOC01LjUgMkM5LjUgNDguNiA5LjUgNDguNyA5LjQgNDguN3oiIGNsYXNzPSJhIi8+PHBhdGggZD0iTTY4LjMgMjkuNWwtMy4zLTYuMWMtMC4yLTAuNC0wLjQtMC43LTAuNi0xIC0xLjMtMi0zLjMtMy40LTUuNS0zLjkgLTIuMy0wLjYtNC43LTAuMy02LjcgMC44bC0xLjMgMC43IC0yLjktNS40Yy0xLTEuOC0yLjYtMy4xLTQuNi0zLjcgLTItMC42LTQuMS0wLjQtNS45IDAuNmwtMy42IDEuOWMtMC43LTAuOS0xLjYtMS42LTIuNi0yIC0xLjktMC44LTQuMi0wLjUtNi43IDAuOGwtMi43IDEuNSAtNC03LjRjLTEuNS0yLjktNC4xLTQuNy03LjEtNUM4IDAuOCA1LjMgMS44IDMuNSAzLjggMC44IDYuOCAwLjQgMTEgMi4zIDE0LjVsMTUgMjcuOWMtMy45LTAuNi04LjIgMC41LTEwLjYgMyAtMC4xIDAuMS0wLjIgMC4yLTAuMyAwLjMgLTEuNiAxLjktMi4yIDQuMS0xLjkgNi4zIDAuNCAyLjggMi4yIDUuNSA1LjQgNy43IDAgMCAwIDAgMCAwbDI3LjIgMThjMC4zIDAuMiAwLjcgMC4zIDEgMC4zIDAuMiAwIDAuNC0wLjEgMC42LTAuMmwzNS4zLTE5LjFjMC41LTAuMyAwLjgtMC44IDAuOC0xLjRsLTAuMS0zLjJDNzQuNiA0NS42IDcyLjQgMzcuMSA2OC4zIDI5LjV6TTcxLjYgNTQuMmwwIDIuM0wzOCA3NC42IDExLjYgNTcuMWMtMi40LTEuNy0zLjgtMy42LTQtNS41IC0wLjItMS4zIDAuMi0yLjUgMS0zLjYgMC4xLTAuMSAwLjEtMC4xIDAuMi0wLjIgMi4xLTIuNSA3LjgtMy4yIDEwLjktMS4ybDYuOSA1LjZjMC4zIDAuMyAwLjcgMC40IDEuMSAwLjQgMC40IDAgMC44LTAuMiAxLjEtMC42IDAuNi0wLjcgMC40LTEuNy0wLjItMi4ybC02LjctNS41TDUgMTNDMy41IDEwLjIgNC40IDcuNSA1LjkgNS45YzEuMS0xLjIgMi44LTEuOCA0LjUtMS42IDEuOSAwLjIgMy42IDEuNCA0LjcgMy40bDEyLjcgMjMuNWMwLjMgMC42IDAuOSAwLjkgMS41IDAuOCAwLjIgMCAwLjQtMC4xIDAuNi0wLjIgMC44LTAuNCAxLjEtMS40IDAuNi0yLjFsLTcuMi0xMy4zIDIuNy0xLjVjMS42LTAuOSAyLjktMS4xIDQtMC43IDAuNyAwLjMgMS40IDEgMS45IDEuOWwwIDAgNy41IDEzLjhjMC4zIDAuNiAwLjkgMC45IDEuNSAwLjggMC4yIDAgMC40LTAuMSAwLjYtMC4yIDAuOC0wLjQgMS4xLTEuNCAwLjYtMi4xbC02LjctMTIuNSAzLjUtMS45YzAgMCAwIDAgMCAwIDEuMS0wLjYgMi4zLTAuNyAzLjUtMC40IDEuMiAwLjMgMi4xIDEuMSAyLjcgMi4ybDguOSAxNi41YzAuMyAwLjYgMC45IDAuOSAxLjUgMC44IDAuMiAwIDAuNC0wLjEgMC42LTAuMiAwLjgtMC40IDEtMS40IDAuNi0yLjFsLTQuNS04LjJMNTMuNiAyMi4xYzIuOS0xLjUgNi40LTAuNyA4LjIgMi4xIDAuMiAwLjMgMC4zIDAuNSAwLjUgMC44bDMuMyA2LjFDNjkuNCAzOC4xIDcxLjUgNDYuMSA3MS42IDU0LjJ6IiBjbGFzcz0iYSIvPjxwYXRoIGQ9Ik02NC4yIDUyLjNsLTEuOCAwLjljLTAuOCAwLjQtMSAxLjQtMC42IDIuMSAwLjMgMC42IDAuOSAwLjkgMS41IDAuOCAwLjIgMCAwLjQtMC4xIDAuNi0wLjJsMS44LTAuOWMwLjgtMC40IDEtMS40IDAuNi0yLjFDNjUuOSA1Mi4yIDY1IDUxLjkgNjQuMiA1Mi4zeiIgY2xhc3M9ImEiLz48cGF0aCBkPSJNNTcuMSA1Ni4yTDM4LjQgNjYuM2MtMC44IDAuNC0xLjEgMS40LTAuNiAyLjEgMC4zIDAuNiAwLjkgMC45IDEuNSAwLjggMC4yIDAgMC40LTAuMSAwLjYtMC4ybDE4LjctMTAuMWMwLjgtMC40IDEuMS0xLjQgMC42LTIuMUM1OC44IDU2LjEgNTcuOSA1NS44IDU3LjEgNTYuMnoiIGNsYXNzPSJhIi8+PC9zdmc+"),auto!important}
+
+html.Enable-Edge body.cursor-larger-white,html.Enable-IE body.cursor-larger-white{cursor:url("https://www.innstaging.com/adawidget/assets/images/white-arrow.cur"),auto!important}
+
+/*
+html.Enable-Edge body.cursor-larger-white a,html.Enable-Edge body.cursor-larger-white button,html.Enable-IE body.cursor-larger-white a,
+html.Enable-IE body.cursor-larger-white button{cursor:url("http://ws.enable.co.il/assets/cursor/cursor-larger-white-button.cur"),auto!important}
+
+html.Enable-Edge body.cursor-larger-black a,html.Enable-Edge body.cursor-larger-black button,html.Enable-IE body.cursor-larger-black a,
+html.Enable-IE body.cursor-larger-black button{cursor:url("http://ws.enable.co.il/assets/cursor/cursor-larger-black-button.cur"),auto!important}
+*/
+/*
+body.cursor-larger-black {
+    cursor: url('https://www.innstaging.com/adawidget/assets/images/black-arrow.png'), auto !important;
+}
+body.cursor-larger-white {
+     cursor: url('https://www.innstaging.com/adawidget/assets/images/white-arrow.png'), auto !important;
+}
+*/
+
+body.stopblinks {
+  -webkit-transition: none !important;
+   -moz-transition: none !important;
+   -o-transition: none !important;
+   transition: none !important;
+}
+body.adashield-invert>:not(#ada_enable_toolbar){-webkit-filter:invert(100%);-moz-filter:invert(100%);-o-filter:invert(100%);-ms-filter:invert(100%);
+        filter:invert(100%)}
+/*body.adashield-invert *{
+  filter: invert(100%);
+}*/
+
+.answerTypeIndicator {
+  position: absolute;
+  font-size: 10pt;
+  background:#999999;
+  color:#fff;
+  padding: 0.2em 0.5em 0.1em;
+  border:1px solid #f701d7;
+  fill-opacity: 0.2;
+  display: none;
+  z-index: 999;
+}
+.showing {
+  display: block;
+}
+
+
+body.highlights-links a.adawidget-boxbg{background:#ffffff !important; color:#000 !important; border-radius:5px !important;}
+body.highlights-links a.adawidget-boxbg:focus, body.highlights-links a.adawidget-boxbg:active, body.highlights-links a.adaiconsactive {
+    background: rgb(44,201,222) !important;
+    background: linear-gradient(90deg, rgba(44,201,222,1) 0%, rgba(110,201,190,1) 100%) !important;
+}
+body.highlights-links a.adawidget-boxbg:hover {
+    background: rgb(24,176,197) !important;
+    background: linear-gradient(-45deg, #6ac3ad 0%, #02abca 100%) !important;
+}
+/*body.highlights-links #enable_keyboard_nav,body.highlights-links #helpview*/
+body.highlights-links .top_poweredby,body.highlights-links .adainnsight a,body.highlights-links #topresetada{
+	background: none !important;
+    color: #848484 !important;
+    display: block;}
+body.highlights-links p.ada-P{color:#ffffff !important; }
+body.highlights-links a.ADA-white{color:#ffffff !important;}
+body.highlights-links span.adawidget-boxtext{color:#35a0d4 !important;}
+body.highlights-links div.adainnsight {color: #ffffff !important;}
+body.highlights-links .adaiconsactive span.adawidget-boxtext {color: #ffffff !important;}
+body.highlights-links a.adawidget-boxbg:hover .adawidget-boxtext{color:#ffffff !important}
+body.adashield-bold-fonts #ada_enable_toolbar *{font-weight: normal !important;}
+#ada_enable_toolbar *{font-size: 14px;letter-spacing: 0;text-decoration: none; line-height:normal}
+.text-center{text-align:center}
+body.adashield-filter-sepia #ada_enable_toolbar,body.adashield-filter-sepia #ada_enable_toolbar *{    
+    filter: none !important;
+}
+body.adashield-filter-monochrome #ada_enable_toolbar,body.adashield-filter-monochrome #ada_enable_toolbar *,body.adashield-filter-grayscale #ada_enable_toolbar,body.adashield-filter-grayscale #ada_enable_toolbar *,body.adashield-invert #ada_enable_toolbar,body.adashield-invert #ada_enable_toolbar *{
+    filter: none !important;
+}
+
+
+.adaicons > img{display: inline-block;vertical-align: top; margin-right: 7px 5px 0 0 ; height:46px !important; width:28px; /*padding:5px 0 0*/}
+.adaicons-top > img{width:27px; height:27px; display:inline-block; vertical-align:top; padding:5px 0 0}
+.help img.help img,.resettopada img{display: inline-block; height:15px; margin:0 5px 0 0;} .help a,.resettopada a{color:#ffffff; cursor:pointer}
+.ada-P{color: #1a6992;display: inline-block;font-size: 22px !important;
+font-weight: bold;/*margin:42px 0 0px 8px;*/ vertical-align: middle; padding:5px 10px 10px} .ada-P sup{top:-.8em; padding-left:2px}
+.ADA-white{color:#848484 !important;}
+.adawidget-boxtext{display: inline-block; max-width: 100%; width: 93%; line-height: 14px; color:#35a0d4}
+
+/*.adawidget-boxbg:focus .adawidget-boxtext*/
+.adawidget-boxbg:hover .adawidget-boxtext,  .adaiconsactive .adawidget-boxtext, .adawidget-boxbg:hover .ADAF11{color:#ffffff}
+.adainnsight{color: #848484;display: inline-block;text-align: right; float: right; width: 100%; margin-top:5px}
+.adaicons{position: relative;}
+.ada-hover{ position: absolute;display: none; right: 0; top: 0;}
+a.adaiconsactive .ada-hover{display: block; }
+
+
+/*.mobile-phone-nav-dropdown,            
+.floating{
+    display: none;
+}*/
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999999999; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background:#fff; /* Black w/ opacity */
+}
+.modal-content1 {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.close1 {
+    color: #000;
+    float: right;
+    font-size: 60px !important;;
+    font-weight: bold;margin-top:-10px;
+}
+.close1:hover,
+.close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header1 {
+    padding:5px 27px 3px 16px;
+    background-color: #fff;
+    color: white;
+}
+.modal-body1 {padding: 2px 16px;}
+.modal-footer1 {
+    padding: 1px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+.modal-content1 {
+    position: relative;
+    background-color: #fff;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+.ADA-shift{background: #264c9f;border-radius: 4px;clear: both;color: #ffffff;font-size: 12px !important;left: -4px;
+padding: 1px 5px;position: relative;top: -9px;float: left;}
+/*a.adawidget-boxbg:focus,*/
+a.adawidget-boxbg:active, .adaiconsactive{background: rgb(44,201,222) !important; background: linear-gradient(90deg, rgba(44,201,222,1) 0%, rgba(110,201,190,1) 100%) !important;}
+
+.ADA-outer-bor{-webkit-box-shadow: inset 0px 0px 0px 3px rgb(247,1,215);
+-moz-box-shadow: inset 0px 0px 0px 3px rgb(247,1,215);
+box-shadow: inset 0px 0px 0px 3px rgb(247,1,215);}
+.ATA-tray .adawidget-boxbg{margin:0px 3px; padding:5px 2px}
+.adawidget-boxbg{background:#ffffff; padding:10px 2px; border-radius:5px;color:#000 !important; /*display:block;*/ margin: 5px 3px;max-width: 115px;vertical-align:top;  /*min-height:115px;*/width: 30%; text-align: center;border-radius:5px; -webkit-box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); -moz-box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); display:flex !important; align-items:center; justify-content:center; flex-wrap:wrap}
+.bottomtray .flexbox .adawidget-boxbg{max-width:110px}
+.adawidget-boxbg:hover{background: rgb(24,176,197); background: linear-gradient(-45deg, #6ac3ad 0%, #02abca 100%);}
+.adawidget-boxbg-padding{/*padding-top: 0px;*/}
+.ADA-shift-DN{display: none;}
+.ADA-shift-DN-block{display: block !important;left:2px;position: absolute;top: 4px;}
+.ATA-tray{width:100%; text-align:left; background: none;border-radius: 6%;color: #000000;padding: 0px 0px 0px 0px;display: inline-block;/*position: absolute;*/ vertical-align:middle}
+.ADA-PR{position: relative;display:none; background:#fefefe; border-radius:0 0 5px 5px; -webkit-box-shadow: 0px -1px 5px 3px rgba(217,217,217,1);
+-moz-box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); position:fixed; width:100%; max-width:400px; z-index:999; top:0px; padding:10px 0 10px}
+.bottomtray .ADA-PR{-webkit-box-shadow: 0px 3px 5px 3px rgba(217,217,217,1); -moz-box-shadow: 0px 3px 5px 3px rgba(217,217,217,1); box-shadow: 0px 3px 5px 3px rgba(217,217,217,1);	}
+#readerContent_loder img{width:100% ;} /*#readerContent img,*/
+#readerContent img .fixheadertop img{max-width:40px}
+#readerContent h1,#readerContent_loder h1{font-size: 24px}
+#readerContent P,#readerContent_loder p{font-size: 16px}
+#readerContent span,#readerContent_loder span{display:block;}
+#loader img{width:25%; text-align: center; padding:15px;position: relative; left: 0; right: 0; }
+
+
+
+@media screen and (min-width: 768px) and (max-width:991px){
+	#loader img{width:40%!important;}
+}
+
+@media screen and (min-width: 320px) and (max-width:991px){
+	.DNXSSM{display: none !important;}
+}
+
+@media screen and (min-width: 360px) and (max-width:400px){
+	.ATA-tray{padding:0 !important}
+}
+.ADA-text-center{text-align: center; margin-top:0px;}
+.ada-accessibility{color: #ffffff;display: inline-block;
+    font-size: 16px !important;
+    margin-top: 0px;
+    text-align: center;}
+.esc{float:right; margin-top:20px} .bottomtray .esc{margin-top:10px} .bottomtray .wsc-icons-width{width:auto !important}
+
+#hoverShow2 {
+    background-color: #ffcc33;
+    display: none;
+    position: absolute;
+    top: 32px;
+    width: 50px;color:#3399cc;border-radius:4px 0 0 4px;font-weight: bold;text-align: center;
+}
+span.adafixedicon:hover #hoverShow2{display: block;}
+.ADA-pointer{cursor: pointer;}
+.ADA-MT-35{ display: inline-block; /*margin-top: -10px; display: inline-block;*/}
+.wsc-icons-width{width:60px; margin-right:10px}
+.ADAF11{font-size: 11px !important;}
+
+
+
+
+/* Float Shadow */
+.ada-widget-assecibilityicon {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.ada-widget-assecibilityicon:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.ada-widget-assecibilityicon:hover, .ada-widget-assecibilityicon:focus, .ada-widget-assecibilityicon:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.ada-widget-assecibilityicon:hover:before, .ada-widget-assecibilityicon:focus:before, .ada-widget-assecibilityicon:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+
+
+
+html.Enable-Firefox #ada_enable_toolbar #ada_enable_toolbar_buttons #increasezoom,html.Enable-Firefox #ada_enable_toolbar #ada_enable_toolbar_buttons #decreasezoom,html.Enable-IE #ada_enable_toolbar #ada_enable_toolbar_buttons #enableinvert,
+html.Enable-IE #ada_enable_toolbar #ada_enable_toolbar_buttons #enablemonocromes,html.Enable-IE #ada_enable_toolbar #ada_enable_toolbar_buttons #enablesepia,html.Enable-IE #ada_enable_toolbar #ada_enable_toolbar_buttons #enablegrayscale{display:none!important}
+
+body.zoom-in-1{zoom:1.2}
+
+body.zoom-in-2{zoom:1.5}
+
+body.zoom-in-3{zoom:1.7}
+
+body.zoom-out-1{zoom:.8}
+
+body.zoom-out-2{zoom:.65}
+
+body.zoom-out-3{zoom:.5}
+
+body.zoom-in-1 #ada_enable_toolbar{zoom:0.95}
+
+body.zoom-in-2 #ada_enable_toolbar{zoom:.95}
+
+body.zoom-in-3 #ada_enable_toolbar{zoom:0.95}
+
+body.zoom-out-1 #ada_enable_toolbar{zoom:1.25}
+
+body.zoom-out-2 #ada_enable_toolbar{zoom:1.538}
+
+body.zoom-out-3 #ada_enable_toolbar{zoom:2}
+
+#ada_enable_toolbar_trigger a:focus, a:hover{text-decoration: none;}
+/*body.zoom-inn-1{transform: scale(1.2);transform-origin: 0px 0px 0px;}
+body.zoom-inn-2{transform: scale(1.4);transform-origin: 0px 0px 0px;}
+body.zoom-inn-3{transform: scale(1.6);transform-origin: 0px 0px 0px;}
+body.zoom-inn-4{transform: scale(1.8);transform-origin: 0px 0px 0px;}
+body.zoom-out-1{transform: scale(0.8);transform-origin: 0px 0px 0px;}
+body.zoom-out-2{transform: scale(0.6);transform-origin: 0px 0px 0px;}
+body.zoom-out-3{transform: scale(0.4);transform-origin: 0px 0px 0px;}
+body.zoom-out-4{transform: scale(0.2);transform-origin: 0px 0px 0px;}
+body.zoom-inn-1 .container,body.zoom-inn-2 .container,body.zoom-inn-3 .container,body.zoom-inn-4 .container,body.zoom-out-1 .container,body.zoom-out-2 .container,
+body.zoom-out-3 .container,body.zoom-out-4 .container{width:95%;}*/
+.widgets_focus_dotted{
+    outline: dashed 4px #c00!important;
+} 
+.help img,.resettopada img{height:20px} .pull-right{float:right} .help{float:right; margin:12px 10px 12px 20px;}.resettopada{float:right; margin:12px 10px}.resettopada img{height:18px;}
+@media screen and (min-width: 1024px){
+#ada_enable_toolbar_content.righttray{max-width:470px; height:100vh; overflow-y:scroll; right:-40px; padding:0 20px; margin-right:0px}
+#ada_enable_toolbar_content.righttray::-webkit-scrollbar{display: none; }
+.righttray .ADA-MT-35{/*display:none*/max-width:40px; margin-top:5px; margin-left:10px} .righttray .ada-P{/*margin:30px 0 0*/} .righttray #ada_enable_toolbar_buttons{/*margin:0 6% 0 3%;*/ padding:0px 0 0 0}
+#ada_enable_toolbar_content.righttray .ada-P a.ADA-white{display:block} #ada_enable_toolbar_content.righttray .adainnsight{/*margin-right:10%;*/ width:100%}
+
+#ada_enable_toolbar_content.lefttray{max-width:440px; min-width:440px; /*height:100vh; overflow-y:scroll;*/ left:0; padding:0 20px}
+#ada_enable_toolbar_content.lefttray::-webkit-scrollbar{display: none; }
+.lefttray .ADA-MT-35{/*display:none*/max-width:40px; margin-top:5px; margin-left:10px} .lefttray .ada-P{/*margin:30px 0 0*/} .lefttray #ada_enable_toolbar_buttons{/*margin:0 4%;*/ padding:0px 0 0 0}
+#ada_enable_toolbar_content.lefttray .ada-P a.ADA-white{display:block} #ada_enable_toolbar_content.lefttray .adainnsight{/*margin-right:10%;*/ width:100%}
+.lefttray .ADA-PR{max-width:400px} .righttray .ADA-PR{max-width:400px; right:10px}
+#ada_enable_toolbar_content.bottomtray{left:0px; max-height:400px; width:100%} #ada_enable_toolbar_content.bottomtray .ADA-PR{position:relative; width:100%; max-width:inherit; padding:5px 0 0px} #ada_enable_toolbar_content.bottomtray .all_links{padding-top:0}
+}
+
+#help{display:none} #readerContent p, #readerContent p strong,#readerContent_loder p,readerContent_loder p strong{font-size:13px;color:#35a0d4; margin-right:10px}
+.scrollhelpcontent p{color:#000000; margin-bottom:20px} .MB10{margin-bottom:10px !important}
+.widgetsHelpModel{max-width:350px;left:-350px;transition: opacity 0.3s linear, left 0.3s ease-out;}
+.blankbelow, .lineheightdecreaselevelbox, .zoomincreaselevelbox,.zoomdecreaselevelbox,.fontdecreaselevelbox,.fontincreaselevelbox, .wordspacingincreaselevelbox, .fontdecreaselevelboxm, .lineheightincreaselevelbox, .wordspacingdecreaselevelbox, .letterspacingincreaselevelbox, .letterspacingdecreaselevelbox{width: 100%; display:block; margin:5px 0 0 0; min-height:6px}
+.adaiconsactive .zoomindicaters{width:29%;display:block;background:#ffffff;height:6px;margin: 0 2%;float:left}
+.zoomindicaters{width:29%;display:block;background:#35a0d4;height:6px;margin: 0 2%;float:left}
+.adawidget-boxbg:hover .zoomindicaters{background:#ffffff;}
+.adaiconsactive .fontindicaters{width:16%;display:block;background:#fefefe;height:6px;margin: 0 2%;float:left}
+.fontindicaters{width:16%;display:block;background:#35a0d4;height:6px;margin: 0 2%;float:left}
+.adawidget-boxbg:hover .fontindicaters{background:#ffffff;}
+
+body.enableadatextaligncenter>*:not(#ada_enable_toolbar) *, body.enableadatextaligncenter>*:not(#ada_enable_toolbar) *, body.enableadatextaligncenter>*:not(#ada_enable_toolbar) * {
+    text-align: center !important;
+}
+body.enableadatextalignleft>*:not(#ada_enable_toolbar) *, body.enableadatextalignleft>*:not(#ada_enable_toolbar) *, body.enableadatextalignleft>*:not(#ada_enable_toolbar) * {
+    text-align: left !important;
+}
+body.enableadatextalignright>*:not(#ada_enable_toolbar) *, body.enableadatextalignright>*:not(#ada_enable_toolbar) *, body.enableadatextalignright>*:not(#ada_enable_toolbar) * {
+    text-align: right !important;
+}
+body.enableadatextalignjustify>*:not(#ada_enable_toolbar) *, body.enableadatextalignjustify>*:not(#ada_enable_toolbar) *, body.enableadatextalignjustify>*:not(#ada_enable_toolbar) * {
+    text-align: justify !important;
+}
+
+body.adastopanimations>*:not(#ada_enable_toolbar) *, body.adastopanimations>*:not(#ada_enable_toolbar) *, body.adastopanimations>*:not(#ada_enable_toolbar) * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    -webkit-animation-fill-mode: forwards !important;
+    -moz-animation-fill-mode: forwards !important;
+    -ms-animation-fill-mode: forwards !important;
+    -o-animation-fill-mode: forwards !important;
+    animation-fill-mode: forwards !important;
+    -webkit-animation-iteration-count: 1 !important;
+    -moz-animation-iteration-count: 1 !important;
+    -ms-animation-iteration-count: 1 !important;
+    -o-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+    -webkit-animation-duration: .01s !important;
+    -moz-animation-duration: .01s !important;
+    -ms-animation-duration: .01s !important;
+    -o-animation-duration: .01s !important;
+    animation-duration: .01s !important;
+}
+body.adaremoveallimages img, body.adaremoveallimages video {
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+body.adaremoveallimages #ada_enable_toolbar img{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+body.adaremoveallimages>*:not(#ada_enable_toolbar) *{
+    background-image: none !important;
+}
+ @media all and (-ms-high-contrast:none)
+     {
+     #whitecursor, #blackcursor {display:none} /* IE10 */
+     *::-ms-backdrop, #whitecursor, #blackcursor { display:none } /* IE11 */
+     }
+
+.ada-links{background:#fefefe; border-radius:5px; -webkit-box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); -moz-box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); margin-top:10px; padding:5px 0px 5px 15px; min-width:320px} .content_adjust{font-size:18px !important; text-align:left; color:#1d658d; padding:5px 0; font-weight:700} .content_adjust1{font-size:18px !important; text-align:left; color:#1d658d; padding:5px 0; font-weight:700} #ada_enable_toolbar .flexbox{display:flex; flex-direction:row; flex-wrap:wrap; justify-content:flex-start; align-items:stretch; align-content:space-between; width:100%} .PR{position:relative} .all_links{/*padding-top:165px*/}
+.lefttray .ATA-tray .flexbox, .righttray .ATA-tray .flexbox{justify-content:center !important}	 
+.flexbox1{/*width:8% !important;*/ margin-top:5px; float:left; display:flex; flex-direction:column; flex-wrap:wrap; justify-content:flex-start; align-items:stretch; align-content:space-between; width:130px}
+.flexbox1 .adawidget-boxbg{width:100%}
+.all_links1{width:calc(100% - 150px); float:left; height:295px; overflow:auto}
+.all_links2{width:100%;}
+
+#adawidgetstextcolorbox.bcPicker-palette {width: 186px; position: absolute; top: -97px; left:121px; padding: 5px; border: 1px solid #efefef; background-color: #fdfdfd;  z-index: 10;display:none;    box-shadow: 0px 3px 5px 3px rgba(217,217,217,1);}
+.bottomtray #adawidgetstextcolorbox.bcPicker-palette{top:0 !important}
+#adawidgetstitlecolorbox.bcPicker-palette {width: 186px; position: absolute; top: 0px;right:0px; padding: 5px; border: 1px solid #efefef; background-color: #fdfdfd;  z-index: 10;display:none;    box-shadow: 0px 3px 5px 3px rgba(217,217,217,1);}
+.bcPicker-palette > .bcPicker-color {width: 25px;height: 25px; margin: 2px; display: inline-block; border: 1px solid #cecece; background-color: #9da97b;} .top_poweredby{font-weight:normal; color:#848484; font-size:11px !important; display:block} .top_poweredby i{font-size:11px !important}
+.closedwhealbox img{max-width:15px} #monochromecolors p{text-align:left}
+
+span.bcPickerActiveada:before{
+		content: '';
+    display: block;
+    margin: 7px 0 0 4px;
+    height: 8px;
+    width: 14px;
+    border: solid #888;
+    border-width: 0 0 4px 4px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+	}
+.adablkbx{display:block;width:100%;}	
+.adaicons .adablkbx > img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 7px 5px 0 0;
+    height: 46px;
+    width: 28px;
+    padding: 5px 0 0;
+} 
+.arrowdown{margin-top:8px; width: 0; height: 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid #1f9cd6; float:right; margin-right:20px}
+.arrowup{border-bottom: 8px solid #1f9cd6; border-top:0} .keyboardtop{float:left; padding:0 25px} .keyboardtop > img{margin-right:5px} .keyboardtop .ADA-text-center{padding-top:12px; display:inline-block;} .keyboardtop .ADAF11{color:#000000}
+.righttray .ada-links{/*margin-right:50px*/} .righttray .ADA-PR{height:180px} .righttray .all_links{height:calc(100vh - 220px); margin-top:190px; overflow-y: auto;}
+.lefttray .ada-links{/*margin-right:50px*/} .lefttray .ADA-PR{height:180px} .lefttray .all_links{height:calc(100vh - 220px); margin-top:190px; overflow-y: auto;}
+@media screen and (max-width: 1023px){.bottomtray #adawidgetstextcolorbox.bcPicker-palette{left:-195px} .righttray .all_links{margin-top:0; height:calc(50vh - 200px);} .righttray .ada-links{margin-right:0} .lefttray .all_links{margin-top:0; height:calc(50vh - 220px)} .bottomtray .all_links{margin-top:0}}
+@media screen and (min-width: 360px) and (max-width:410px){ .PT5{padding-top:0} }
+@media screen and (min-width: 1023px){.righttray .mCustomScrollBox{max-width:90%} .righttray .all_links{min-width:400px; right:30px; position:relative; margin-left:30px} }
+.scrollbar
+{
+	/*margin-left: 30px; margin-bottom: 25px; background: #F5F5F5;*/
+	float: left;
+	height: 300px;
+	width: calc(100% - 130px);
+	
+	overflow-y: scroll;
+	
+}
+.force-overflow
+{
+	min-height: 450px;
+}
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #bdbdbd; margin-top:10px
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #35a0d4;
+}.top_poweredby img{height:54px; width:150px} #readerModal img{max-width:100%; height:auto} 
+.close_color{position:absolute; right:-20px; top:-20px; opacity:1; background:#ffffff; padding:10px; border-radius:100%}

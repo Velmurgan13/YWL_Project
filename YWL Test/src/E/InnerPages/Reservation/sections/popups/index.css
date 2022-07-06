@@ -1,0 +1,265 @@
+.reasons_wrapper {
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ececec;
+}
+.rows:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.W100 {
+  width: 100%;
+}
+.rows {
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ececec;
+  margin-top: 30px;
+  border: 1px solid #215f35;
+}
+.rows p {
+  margin: 20px 0 0;
+  text-align: justify;
+  font-size: 16px;
+}
+.ratePolicyBorder {
+  font-weight: inherit !important;
+  border-bottom: 2px solid #343a40;
+  text-transform: uppercase !important;
+}
+.btnClose svg {
+  border: 2px solid #343a40 !important;
+}
+
+.bgPriceColor {
+  background: #c9c9c9;
+}
+.rows h2 {
+  font-size: 34px;
+  font-size: 28px;
+  display: block;
+  position: relative;
+  padding-bottom: 17px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #333;
+  font-family: "Averia Serif Libre", cursive;
+}
+
+.rows h2:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 160px;
+  height: 2px;
+  background: #215f35;
+}
+.MT30 {
+  margin-top: 30px;
+}
+.MB30 {
+  margin-bottom: 30px;
+}
+
+.resPolicy {
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+.resPolicy:hover {
+  color: inherit;
+}
+
+/* --------------- */
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 0px;
+
+  color: white;
+
+  margin: 0 1rem;
+}
+
+.btn--alt {
+  background-color: transparent;
+}
+
+.btn--alt:hover {
+  padding: 0px;
+}
+
+.newModal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  /* border-radius: 6px; */
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 800px;
+  z-index: 12;
+  display: block;
+  position: fixed;
+  top: 20vh;
+  max-height: 60%;
+  left: 0;
+  right: 0%;
+  margin: auto;
+  overflow-y: auto;
+}
+.currencyList {
+  overflow-y: scroll;
+  height: 300px;
+}
+.currentCurrency {
+  background-color: #e0dede;
+}
+.currencyModal {
+  left: 28%;
+  width: 70%;
+  position: absolute;
+  top: 100%;
+  box-shadow: 0 0 20px rgb(50 50 50 / 50%);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  z-index: 9;
+  display: block;
+  overflow-y: auto;
+}
+.currencyModal .ratePolicyBorder {
+  font-size: 15px;
+  text-align: left !important;
+  padding: 10px;
+  border-bottom: 1px solid #343a40;
+  margin-bottom: 0px !important;
+}
+.currencyModal .btnClose {
+  padding: 0px !important;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+.resFilterBtn .backdrop {
+  background-color: inherit;
+}
+.currencyList ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+.currencyChang:focus {
+  box-shadow: none;
+}
+.currencyName {
+  color: #2a2424c7;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 4px;
+  padding: 6px 0px 6px 10px;
+  line-height: 25px;
+}
+.currencyName:hover {
+  background-color: #f1f1f1;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.95);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.modal-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+  font-family: "Averia Serif Libre", cursive;
+}
+.close {
+  color: #000;
+  position: absolute;
+  top: 2px;
+  right: 0;
+  font-weight: 800;
+  font-size: 24px !important;
+}
+@media only screen and (max-width: 767px) {
+  .newModal {
+    width: 94%;
+    top: 20vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .currencyModal {
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin-top: 10px !important;
+    margin: auto;
+  }
+  .currencyList ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .currencyName {
+    max-width: 100%;
+  }
+  .currencyModal .btnClose {
+    top: 25px;
+  }
+  .ratePolicyBorder {
+    margin-top: 10px;
+    /* padding: 1rem 1rem; */
+    padding: 0px 40px 10px 0px;
+    /* margin-right: 20px; */
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .currencyModal {
+    left: unset;
+    width: 100%;
+    right: 3%;
+}
+.newModal {
+  margin: auto;
+    left: 0;
+    right: 0;
+    width: 95%;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .newModal {
+  width: 85%;
+  }
+  .currencyModal {
+    left: 13%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .MT30-Mob {
+    margin-top: 30px;
+  }
+}

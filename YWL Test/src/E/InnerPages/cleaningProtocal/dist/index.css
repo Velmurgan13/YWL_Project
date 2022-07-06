@@ -1,0 +1,23 @@
+.CleaningProtocal .bg-img-clean-protocal {
+  background-image: url("../../Yosemitewestgate/assets/images/sanitizer.jpg");
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .CleaningProtocal .clean-alignment {
+    padding-left: 0px !important;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .CleaningProtocal .mob-view {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .CleaningProtocal .clean-alignment {
+    padding-left: 0px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .CleaningProtocal .clean-alignment {
+    padding-left: 0px !important;
+  }
+}

@@ -1,0 +1,433 @@
+.specialComponent {
+  .EventBox {
+    color: #606060;
+    text-align: center;
+
+    background: #f9f9f9;
+
+    position: relative;
+
+    box-shadow: 0 1px 13px -2px rgb(130 130 130 / 59%);
+    min-height: 480px;
+  }
+  .packageCalendar .sdp {
+    position: absolute;
+    z-index: 9;
+    opacity: 1;
+    left: 25%;
+  }
+  .specialcls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    min-height: 100px;
+  }
+  .btn-relative a {
+    color: #fff;
+  }
+
+  .carousel-indicators {
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  .carousel-indicators li {
+    background-color: #fff;
+  }
+  .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+
+  // this is committedd
+  .btnPosition {
+    position: absolute;
+    /* left: 0px; */
+    /* right: 0px; */
+    /* width: 75%; */
+    bottom: 5%;
+    left: 15%;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: block;
+    top: 50%;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+margin-top: 13px;
+  }
+  .carousel-control-prev {
+    color: #fff;
+    background: #1b5538;
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    left: 5%;
+    opacity: 1;
+  }
+  .carousel-control-next {
+    color: #fff;
+    background: #1b5538;
+    width: 45px;
+    height: 45px;
+    border-radius: 30px;
+    right: 5%;
+    opacity: 1;
+  }
+
+  .p-summary span .sub-content {
+    color: #7b7b7b;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-family: "Lato";
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .p-summary {
+    color: #7b7b7b;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-family: "Lato";
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .sub-title-package-details {
+    font-size: 27px;
+    font-weight: 600;
+    color: #1b5538;
+    text-align: center;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid #215f35;
+    display: inline-block;
+    line-height: 1.6;
+  }
+
+  .p-summary p {
+    margin-bottom: 10px;
+    line-height: 1.4;
+    font-family: "Lato";
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .carousel-indicators .active {
+    bottom: 9px;
+    background-color: #1B5537;
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .packagedetail {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 35px !important;
+    margin-top: 0;
+    color: #444;
+    font-family: "Lato";
+  }
+  .checkincustometime {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 5px;
+    background-color: #eee !important;
+  }
+  .eventDetImg img {
+    object-fit: cover;
+  }
+  .packageCalendar .form-group {
+    font-size: 16px;
+  }
+  .packageFormSecTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1b5538;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border-bottom: 2px solid #215f35;
+    display: inline-block;
+    line-height: 1.5;
+  }
+  .packageContactNo {
+    color: inherit;
+  }
+  .EventBox .title {
+    color: #215f35;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-family: "Lato";
+  }
+  .packageAnyQues {
+    padding: 0px !important;
+    margin-top: 40px;
+  }
+  .bggrey {
+    background: #e7e7e747;
+    padding: 0px 10px 10px 10px;
+    margin-top: 10px !important;
+    box-shadow: 0 0 11px 0 rgb(0 0 0 / 27%);
+  }
+  .bggrey1 {
+    box-shadow: none;
+    background: none;
+  }
+
+  .back-custm-btn {
+    color: #ffffff;
+    background: #444;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    padding: 12px 35px;
+  }
+
+  .EventBox a img {
+    height: 300px;
+  }
+
+  .home-readmore-btn:hover{
+    background-position: left bottom;
+    color: #000000 !important;
+  }
+  
+  .home-readmore-btn {
+    padding: 6px 20px;
+    line-height: 32px;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background: linear-gradient(to right, white 50%, #1a563a 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.6s ease-out;
+  }
+
+  .inputDiv .custLabel {
+    top: 7px;
+    position: absolute;
+    left: 0px;
+    transition: all 0.2s;
+    visibility: hidden;
+    opacity: 0;
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .inputDiv .form-control {
+    background: transparent;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 14px;
+    border-bottom: 1.5px solid #5b5959;
+    padding: 6px 12px;
+  }
+
+  .inputDiv textarea.form-control {
+    resize: none;
+    height: 35px;
+  }
+
+  .char-count {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 13px;
+    // margin-top: 5px;
+  }
+
+  .packages_summary_title {
+    font-size: 20px;
+    padding: 20px 15px 20px 15px;
+    font-weight: 600;
+  }
+
+  .inputDiv small {
+    // padding: 0 10px;
+    position: absolute;
+  }
+  .packageFormCont {
+    text-align: justify;
+  }
+  .packagesContactform .form-group {
+    // margin-bottom: 30px;
+    margin-top: 3rem;
+  }
+
+  .inputDiv .form-control:not(:placeholder-shown) + .custLabel {
+    opacity: 1;
+    visibility: visible;
+    top: -22px;
+    font-weight: 800;
+  }
+
+  .Checklabel {
+    position: absolute;
+    top: -20px;
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .datepicker_icon_special {
+    position: absolute;
+    right: 10px;
+    top: 32px;
+    color: #444;
+  }
+
+  .btn-relative {
+    padding: 12px 20px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .packageCalendar .sdp {
+      left: 5%;
+    }
+    .bggrey1 {
+      padding-bottom: 0px;
+    }
+  }
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    .btnPosition {
+      position: absolute;
+      bottom: 6%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 50%;
+    }
+    .EventBox .title {
+      font-size: 18px;
+      padding: 0px 10px;
+      line-height: 25px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .btnPosition {
+      position: absolute;
+      bottom: 5%;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      width: 160px;
+    }
+    .btn-style {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 767px)  {
+    .mobCommentView {
+  padding: 0px !important;
+    }
+    .bggrey1 {
+      padding: 20px 10px;
+    }
+    .packageSpecial {
+      margin-top: 3rem !important;
+      padding: 0px 14px;
+    }
+    .packageFormCont {
+      text-align: justify;
+    }
+    .packagedetail {
+      margin-bottom: -1rem !important;
+      margin-top: 1rem;
+  }
+    .packagesContactform .form-group {
+      margin-top: 50px;
+  }
+    .packageDesc1 {
+      padding: 0rem 2rem !important;
+    }
+    .carousel-control-next {
+      right: 4%;
+    }
+    .carousel-control-prev {
+      left: 4%;
+    }
+    .packageCalendar .sdp {
+      left: 14%;
+    }
+    .inputDiv textarea.form-control {
+      height: 45px;
+    }
+    // .bggrey {
+    //   margin-top: 1rem !important    
+    // }
+    .inputDiv2 {
+      margin-top: 70px;
+    }
+ .packages_summary_title {
+  padding: 18px 10px 18px 10px;
+ }
+.inputDiv .form-control:not(:placeholder-shown) + .cust2 {
+  top: -50px;
+}
+  }
+}
+@media screen and (max-width: 400px){
+  .inputDiv .form-control:not(:placeholder-shown) + .cust2 {
+    top: -60px !important;
+}
+// .packages_summary_title {
+//   font-size: 20px !important;
+// }
+}
+@media only screen and (max-width: 767px)  {
+.packageCard {
+  padding: 0px 25px 0px 25px;
+  text-align: -webkit-center;
+}
+.EventBox {
+  width: 95%;
+}
+.p-summary {
+  margin-left: 0px !important;
+}
+.packageInfoMob {
+  margin: 0;
+}
+.packageImage {
+  padding: 0 !important;
+}
+.eventDetImg img {
+  height: 400px;
+  object-fit: cover;
+}
+.packageForm{
+  padding: 0px;
+}
+.packagesContactform .form-group {
+  margin-bottom: 0px;
+}
+.inputDiv textarea.form-control {
+  height: 60px;
+}
+.EventBox a img {
+  height: 275px !important;
+  object-fit: cover;
+}
+.btnPosition {
+  bottom: 10% !important;
+}
+.welcome-btn {
+  padding: 6px 20px !important;
+}
+}
+
+
+
+

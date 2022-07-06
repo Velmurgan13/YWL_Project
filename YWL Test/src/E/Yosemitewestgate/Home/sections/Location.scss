@@ -1,0 +1,241 @@
+.Hm-Location {
+  .location {
+    padding: 0px !important;
+    display: flex;
+  }
+
+  .location_img {
+    width: 100%;
+    height: auto;
+  }
+  /* .location-icon {
+    background-image: url("../../assets/images/locationIcon.png");
+     background: white 0% 0% no-repeat padding-box;
+    background-position-x: 517px;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+} */
+  .location-img {
+    width: 100%;
+    height: auto;
+    margin: 0px !important;
+    object-fit: cover;
+  }
+
+  .ipad-loc {
+    height: 420px;
+  }
+  .brdr {
+    /* border: 1px dotted #000; */
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    /* padding-top: 30px; */
+  }
+
+  .location-details {
+    background-color: #f0efef;
+    padding: 0px !important;
+    position: relative;
+    overflow: hidden;
+  }
+  .loc-icon {
+    position: absolute;
+    bottom: 0px;
+    right: -115px;
+  }
+
+  .location-heading {
+    margin-top: 10%;
+  }
+  .location-details1 {
+    margin-left: 15%;
+    text-align: left;
+  }
+
+  .location-heading1 {
+    font-family: "Averia Serif Libre", cursive;
+    font-weight: 500;
+    font-size: 58px;
+    letter-spacing: 2.4px;
+    color: #0ba167;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    background: #f0efef;
+    text-align: center;
+    z-index: 99;
+  }
+
+  .brdr::after {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 90%;
+    height: 100%;
+    border: 1px dashed #aea9a9;
+    margin: auto;
+    z-index: -1;
+    /* border-right: none; */
+  }
+
+  .loc-title {
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 600;
+    margin-bottom: 0px;
+    width: 70%;
+  }
+
+  .loc-subTitle {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 500;
+  }
+
+  .loc-align1 {
+    margin-top: -15px;
+  }
+
+  .loc-align2 {
+    margin-top: 15px;
+  }
+
+  .direction-btn {
+    margin-top: 30px;
+    display: inline-block;
+    color: #161616;
+    border: none;
+    font-size: 16px;
+    width: 160px;
+    height: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid #0ba167;
+  }
+
+  @media screen and (max-width: 1366px) {
+    .loc-title {
+      text-align: left;
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+  }
+  @media only screen and (min-width: 767px) and (max-width: 991px) {
+    .ipad-loc {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ipad-loc {
+      height: auto;
+    }
+    .location {
+      max-width: 100%;
+    }
+    .location-details {
+      max-width: 100%;
+    }
+    .brdr {
+      height: 400px;
+      margin-left: 50px;
+      margin-right: 90px;
+    }
+    .brdr::after {
+      top: 5px;
+      height: 83%;
+    }
+    .loc-icon {
+      right: 0px;
+    }
+    .location-img {
+      object-fit: cover;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .location-heading1 {
+      font-size: 36px;
+    }
+    .loc-title {
+      font-size: 14px;
+    }
+    .brdr::after {
+      top: 28px;
+    }
+    .brdr {
+      top: -6px;
+      left: 0;
+      width: 99%;
+    }
+    .location-img {
+      object-fit: cover;
+    }
+
+    .ipad-loc {
+      height: 330px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .ipad-loc {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    .location-heading1 {
+      font-size: 30px;
+    }
+
+    .location {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .location-img {
+      height: 383px;
+      object-fit: cover;
+    }
+    .location-details {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .brdr {
+      padding-bottom: 30px;
+      padding-top: 0px;
+    }
+    .brdr::after {
+      top: 0px;
+      height: 82%;
+    }
+    .loc-icon {
+      right: 0px;
+    }
+    .loc-icon img {
+      height: 200px;
+      width: 125px;
+    }
+    .location-details1 {
+      margin-left: 10%;
+      margin-top: 1rem !important;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .brdr {
+      padding-top: 15px;
+    }
+    .location-heading1 {
+      font-size: 30px;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.EmailId{
+input {
+    border-style: none;
+    background: transparent;
+    outline: none;
+  }
+  button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  // colors
+  $input-background: #e8f0fe;
+  $input-text-inactive: #4c4d50;
+  $input-text-active: #010206;
+  
+  // gradient animation
+  @keyframes gradient {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  .webflow-style-input {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-bottom: 1px solid;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      z-index: 2;
+      height: 2px;
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+      background-position: 0% 0%;
+      // background: linear-gradient(
+      //   to right,
+      //   #b294ff,
+      //   #57e6e6,
+      //   #feffb8,
+      //   #57e6e6,
+      //   #b294ff,
+      //   #57e6e6
+      // );
+      background-size: 500% auto;
+      animation: gradient 3s linear infinite;
+    }
+  }
+  
+  .webflow-style-input input {
+    flex-grow: 1;
+    color: $input-text-active;
+    font-size: 18px;
+    line-height: initial;
+    vertical-align: middle;
+    &::-webkit-input-placeholder {
+      color: $input-text-inactive;
+    }
+  }
+  
+  .webflow-style-input button {
+    color: $input-text-inactive;
+    font-size: 25px;
+    line-height: 2.4rem;
+    vertical-align: middle;
+    transition: color 0.25s;
+    position: relative;
+    top: -3px;
+    &:hover {
+      color: $input-text-active;
+    }
+  }
+
+  .form-control:focus{background: none !important;}
+  a:hover, a:focus {color: #010206;
+  }
+  .form-control{width: 332px;}
+  a{color: #4c4d50;
+    font-size: 25px;
+    line-height: 2.4rem;
+    position: relative;
+    top: -3px;
+    transition: color .25s;
+    vertical-align: middle;}
+
+    .enterMail{    max-width: 400px;
+      text-align: left;
+      margin: 0 auto;}
+      .validMail{position: absolute;
+        width: 288px;
+        color: red;
+        bottom: -45px;
+        right: 110px;
+        font-size: 16px;}
+      
+}  

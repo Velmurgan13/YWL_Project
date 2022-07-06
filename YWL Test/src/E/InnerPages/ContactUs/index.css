@@ -1,0 +1,147 @@
+.contact-heading {
+  font-size: 26.9px;
+  color: #215f35;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #215f35;
+  display: inline-block;
+  padding-bottom: 7px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 350;
+}
+.connect-us-bg {
+  background: #636664;
+  font-family: "Lato";
+  padding: 10px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+
+.contact-description {
+  font-family: "Lato";
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.g-recaptcha iframe {
+  width: 181px;
+  border-right: 1px solid #c6c6c6;
+  border-radius: 5px;
+}
+.g-recaptcha div {
+  width: 100%;
+  text-align: -webkit-center;
+}
+
+.ltr-none {
+  border-bottom: 1.5px solid #5b5959;
+  border-radius: none;
+}
+.btn-desc {
+  font-size: 18px;
+  font-family: "Lato";
+}
+
+.btn-lnf {
+  margin: 0px;
+  cursor: pointer;
+  font-family: "Lato";
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.c-pointer {
+  cursor: pointer;
+}
+
+.social-networks {
+  margin: 0px;
+}
+.icon-facebook:hover {
+  color: #0056b3 !important;
+  transition: transform 0.4s ease-out;
+  transform: rotateZ(360deg);
+}
+.icon-facebook svg:hover {
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 60px;
+}
+.icon-tripAdvisor svg:hover {
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 60px;
+}
+.icon-tripAdvisor:hover {
+  color: #00af87 !important;
+  transition: transform 0.4s ease-out;
+  transform: rotateZ(360deg);
+}
+.icon-yelp:hover {
+  color: #c41200 !important;
+  transition: transform 0.4s ease-out;
+  transform: rotateZ(360deg);
+}
+.icon-yelp svg:hover {
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 60px;
+}
+
+.contactSocialIconDiv {
+  display: flex;
+  justify-content: end;
+}
+
+.footSocialIcons {
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  padding: 8px 8px;
+}
+
+.social-networks li a {
+  display: block;
+  margin: 0 20px;
+}
+
+.social-networks li a:last-child {
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .social-networks li a {
+    margin: 0 10px;
+  }
+
+  .contactSocialIconDiv {
+    justify-content: center;
+    padding: 0px !important;
+    margin-top: 10px;
+  }
+
+  .Contact .connect-title {
+    letter-spacing: 2px;
+  }
+
+  .pd-xs-0 {
+    padding: 0px !important;
+  }
+
+  .d-xs-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ml-xs-0 {
+    margin-left: 0px !important;
+  }
+}

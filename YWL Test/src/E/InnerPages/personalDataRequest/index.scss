@@ -1,0 +1,144 @@
+.personal {
+  .border-0,
+  .border-0:active,
+  .border-0:focus {
+    border: none !important;
+    width: 100%;
+  }
+
+  .bdr-left-rght-radius {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 14px;
+        border-bottom: 1.5px solid #444;
+}
+  .custLabel {
+    position: absolute;
+    top: 0;
+    transition: all 0.2s;
+    visibility: hidden;
+  }
+  
+.ant-space-horizontal {
+  display: flex;
+}
+
+  .ant-input:focus-visible {
+    outline: none;
+  }
+
+  .ant-radio-input{
+    accent-color: #1b5538 ;
+    cursor: pointer;
+  }
+  
+  .form-control {
+    background-color: #ffffff !important;
+  }
+  .shadowcustom {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 19%), 0 1px 1px rgb(0 0 0 / 23%);
+  }
+  .bottonBorder {
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top:25px;
+  }
+  .border-none {
+    border: none !important;
+  }
+  span {
+    margin-left: 5px;
+    font-family: "Lato";
+  }
+  .requestformdata div.ant-space-item {float:left; width:100%;}
+
+  .g-recaptcha {
+    justify-content: center;
+  }
+  @media screen and (max-width: 991px) {
+    .d-blockk {
+      display: block;
+    }
+
+    .ant-space-horizontal {
+      display: grid;
+    }
+    
+  }
+  .dfs {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .personal-content {
+    text-align: justify;
+    text-align-last: left;
+    color: #929292;
+  }
+
+  textarea.form-control {
+    height: 40px;
+  }
+  .ltr-none:focus {
+    border-color: #1d7c4b;
+  }
+
+  @media screen and (max-width: 767px) {
+    input::placeholder {
+      font-size: 14px;
+      word-wrap: break-word !important;
+      
+    }
+    textarea.form-control {
+      height: 52px;
+      padding: 0px 6px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+  }
+
+// -----------------------------------------------------
+
+.bottonBorder:placeholder-shown + label {
+  /* visibility: visible; */
+  opacity: 0;
+}
+
+.bottonBorder:not(placeholder-shown) + label {
+ 
+  bottom: 15px;
+  visibility: visible;
+ 
+}
+
+ .custLabel {
+  position: absolute;
+  top: unset;
+  left: 0;
+  transition: all 0.2s;
+}
+
+ .bottonBorder:not(placeholder-shown) + label {
+  opacity: 1;
+  bottom: 15px;
+  visibility: visible;
+  table-layout: all 1s;
+}
+
+ .custLabel {
+  position: absolute;
+  top: unset;
+  transition: all 0.2s;
+  visibility: hidden;
+  left: 0;
+  bottom: -5px;
+  transition: all 0.2s;
+}
+// -----------------------------------------------------
+
+
+}

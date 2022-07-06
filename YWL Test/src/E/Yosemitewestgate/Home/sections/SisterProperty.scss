@@ -1,0 +1,164 @@
+.Hm-SisterProperty {
+
+
+
+.our-team {
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #f3f3f3;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.cardShadow:hover {
+  box-shadow: 0 8px 16px 3px rgb(0 0 0 / 40%);
+}
+
+.sister-card {
+  height: auto;
+}
+.cardShadow {
+  box-shadow: 0 2px 4px 0 #d6d6d6;
+  transform-origin: center top;
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 100%;
+}
+.name {
+  font-size: 18px;
+}
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 140%;
+  background-color: #2a633c;
+}
+.buckMeadows:hover .picture::before {
+  background-color: #451810;
+}
+.stageCoach:hover .picture::before {
+  background-color: #333;
+}
+.sugarPine:hover .picture::before {
+  background-color: #95ce98;
+}
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 95%;
+  border-radius: 50%;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+  transition: all 0.9s ease 0s;
+  background: #ffffff;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 7px #f7f5ec;
+  transform: scale(0.8);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: #4e5052;
+  text-transform: capitalize;
+}
+
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #f3f3f3;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+  height: 50px;
+  border-top: 1px solid #c7cbc8;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.social-icon1 svg {
+  color: #833ab4;
+}
+.social-icon2 svg {
+  color: #3b5a9b;
+}
+.social-icon3 svg {
+  color: #161a69;
+}
+.social-icon4 svg {
+  color: #55903f;
+}
+
+@media only screen and (max-width: 767px) {
+  .our-team:hover .picture::before {
+    height: 150%;
+  }
+  .our-team .picture::before {
+    width: 140%;
+    left: -30px;
+  }
+  .mobCards {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mobCards {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+}
+}

@@ -1,0 +1,95 @@
+.Contact .connect-fs-18 {
+  font-size: 17px;
+  color: #000;
+}
+.Contact .char-count {
+  font-size: 12px;
+}
+.Contact .connect-fs-18 a {
+  font-family: "poppins";
+}
+.Contact .contactEmail {
+  color: inherit;
+}
+.Contact .custom-shadow {
+  box-shadow: 1px 0px 6px 6px #f1f0f0;
+}
+.Contact .inputAni .form-control:not(:placeholder-shown) + label,
+.Contact .inputAni .form-control:not(:placeholder-shown) + label {
+  visibility: visible;
+  opacity: 1;
+  top: -20px !important;
+  color: #444;
+  font-size: 14px;
+  font-weight: 500;
+}
+.Contact .inputAni .form-control:placeholder-shown + label {
+  opacity: 0;
+}
+.Contact .custLabel {
+  position: absolute;
+  top: 0;
+  transition: all 0.2s;
+  visibility: hidden;
+}
+.Contact .inputAni {
+  position: relative;
+}
+.Contact .cust-address-title {
+  font-weight: 500;
+}
+.Contact .bdr-left-rght-radius {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  font-size: 14px;
+}
+.Contact .g-recaptcha iframe {
+  width: 181px;
+  border-right: 1px solid #c6c6c6;
+  border-radius: 5px;
+}
+.Contact .g-recaptcha div {
+  width: 100%;
+  text-align: -webkit-center;
+}
+.Contact .form-group .selectCountry:focus {
+  border-color: #1D7C4B;
+}
+.Contact .form-control:focus {
+  border-color: #1D7C4B;
+}
+@media only screen and (max-width: 767px) {
+  .Contact textarea.form-control {
+    height: 40px;
+  }
+  .Contact .contactDetails {
+    margin-top: -30px;
+  }
+  .Contact .contact-description {
+    margin-top: 0px;
+  }
+  .Contact .contactBtn input {
+    margin: 0px !important;
+  }
+  .Contact .custom-shadow {
+    box-shadow: none;
+  }
+  .Contact .contact-description {
+    font-family: "Averia Serif Libre", cursive;
+    color: #000;
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Contact textarea.form-control {
+    height: 40px;
+  }
+  .Contact .contactFrm {
+    padding-top: 15px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Contact textarea.form-control {
+    height: 40px;
+  }
+}

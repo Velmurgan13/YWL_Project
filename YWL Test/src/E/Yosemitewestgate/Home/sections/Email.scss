@@ -1,0 +1,223 @@
+.Hm-Email {
+  .wordCarousel {
+    font-size: inherit;
+    font-weight: 100;
+    color: #0ba167;
+  }
+  .color1 {
+    color: #316879 !important;
+  }
+  .color2 {
+    color: #f47a60 !important;
+  }
+  .color3 {
+    color: #3d3e3e !important;
+  }
+
+ .form-controlled:focus::placeholder {
+    opacity: 0;
+  }
+
+  .emailContent {
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 80px;
+    padding-top: 10px;
+    margin-top: -10px;
+  }
+  .msg-display {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+  }
+  .wordCarousel::after {
+    content: "";
+    display: block;
+    background: radial-gradient(#222, #000);
+    position: absolute;
+    z-index: -1;
+    transform: rotate(20deg);
+    border-radius: 50%;
+  }
+
+  .flip3 {
+    animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+    padding-left: 0px;
+    margin-left: -5px;
+  }
+  .flip3 li {
+    font-family: "Averia Serif Libre",cursive;
+    color: #0ba167;
+    font-weight: 700;
+    padding: 0 20px;
+    height: 45px;
+    margin-bottom: 45px;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  @keyframes flip3 {
+    0% {
+      margin-top: -270px;
+    }
+
+    5% {
+      margin-top: -180px;
+    }
+
+    33% {
+      margin-top: -180px;
+    }
+
+    38% {
+      margin-top: -90px;
+    }
+
+    66% {
+      margin-top: -90px;
+    }
+
+    71% {
+      margin-top: 0px;
+    }
+
+    99.99% {
+      margin-top: 0px;
+    }
+
+    100% {
+      margin-top: -270px;
+    }
+  }
+
+  .g-recaptcha iframe {
+    width: 181px;
+    border-right: 1px solid #c6c6c6;
+    border-radius: 5px;
+  }
+  .g-recaptcha div {
+    width: 100%;
+    text-align: -webkit-center;
+  }
+
+  .emailHeading {
+    font-family: "Averia Serif Libre", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    letter-spacing: 2.4px;
+    color: #0ba167;
+    word-break: break-word;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  .murgan {
+    width: 100%;
+  }
+  .form-controlled {
+    height: 90px;
+    display: block;
+    width: 100%;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #000 !important;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .btn-subscribed {
+    position: absolute;
+    top: 12px;
+    right: 50px;
+    background-color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    border: 1px solid #5a5a5a;
+    height: 65px;
+    border-radius: 100px;
+    width: 65px;
+  }
+  .emailArrow {
+    margin-left: -70px;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .emailHeading {
+      font-size: 36px;
+      letter-spacing: 1.8px;
+      margin-top: 30px !important;
+      padding-top: 0px !important;
+    }
+    .ipad-email {
+      justify-content: center;
+    }
+    .wordCarousel {
+      margin-bottom: 0px;
+    }
+    .form-controlled {
+      height: 68px;
+      width: 100%;
+      font-size: 16px;
+    }
+    .btn-subscribed {
+      top: 9px;
+      // right: 100px;
+      height: 50px;
+      width: 50px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .emailHeading {
+      font-size: 25px;
+      letter-spacing: 1.25px;
+      line-height: 30px;
+    }
+    .form-controlled {
+      height: 45px;
+      padding-left: 30px;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+    .btn-subscribed {
+      top: 5px;
+      right: 32px;
+      height: 35px;
+      width: 35px;
+    }
+    .emailArrow {
+      height: 50px;
+      width: 50px;
+      margin-top: -9px;
+      margin-left: -40px;
+    }
+    .emailHeading {
+      text-align: center;
+      font-size: 26px;
+    }
+    .emailContent {
+      width: 100%;
+    }
+    .emailContent {
+      height: 60px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .emailHeading {
+      font-size: 24px;
+      letter-spacing: 1px;
+      text-align: center;
+      margin-left: 0px;
+    }
+    .ipad-email {
+      margin-top: -20px;
+    }
+  }
+}

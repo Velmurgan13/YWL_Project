@@ -1,0 +1,135 @@
+.reasons_wrapper {
+  padding: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ececec;
+}
+.rows:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.W100 {
+  width: 100%;
+}
+.rows {
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ececec;
+  margin-top: 30px;
+  border: 1px solid #215f35;
+}
+.rows p {
+  margin: 20px 0 0;
+  text-align: justify;
+  font-size: 16px;
+}
+.rows h2 {
+  font-size: 34px;
+  font-size: 28px;
+  display: block;
+  position: relative;
+  padding-bottom: 17px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #333;
+  font-family: "Lato";
+}
+
+.rows h2:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  width: 160px;
+  height: 2px;
+  background: #215f35;
+}
+.MT30 {
+  margin-top: 30px;
+}
+.MB30 {
+  margin-bottom: 30px;
+}
+
+/* --------------- */
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+
+  color: white;
+
+  margin: 0 1rem;
+}
+
+.btn--alt {
+  background-color: transparent;
+}
+
+.btn--alt:hover {
+  padding: 0px;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 98%;
+  z-index: 10;
+  display: block;
+  position: fixed;
+  top: 24vh;
+  height: auto;
+  left: calc(50% - 27rem);
+  left: 0;
+  right: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.modal-header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+  font-family: "Averia Serif Libre", cursive;
+}
+.close {
+  color: #000;
+  position: absolute;
+  top: 2px;
+  right: 0;
+  font-weight: 800;
+  font-size: 24px !important;
+}
+
+@media screen and (max-width: 1199px) {
+  .MT30-Mob {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .modal {
+    top: 7vh;
+  }
+}

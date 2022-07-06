@@ -1,0 +1,83 @@
+#monochromecolors{display:none;position:absolute;top:-40px;left:125px;    background: #fff;z-index:99;text-align:center;
+    padding: 10px;
+    border-radius: 5px; -webkit-box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); -moz-box-shadow: 0px -1px 5px 3px rgba(217,217,217,1); box-shadow: 0px -1px 5px 3px rgba(217,217,217,1);}
+#adaslidecontainer {
+  width:200px;margin:auto;padding-top:0px;
+}
+.adainputslider {
+  -webkit-appearance: none;
+  width: 75% !important;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity:0.7;
+  -webkit-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out; margin:5px auto; float:left
+}
+.adainputslider:hover {
+  opacity:1;
+}
+.adainputslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: url('contrast-icon.svg');
+  cursor: pointer;
+}
+.adainputslider-sun::-webkit-slider-thumb {
+  width: 30px;
+  height: 30px;
+  background: url('brightness.svg');
+}
+.adainputslider-hue::-webkit-slider-thumb {
+  background: red;
+}
+.adainputslider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border: 0;
+  border-radius: 50%;
+  background: url('contrast-icon.svg');
+  cursor: pointer;
+}
+.adainputslider-sun::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  background: url('brightness.svg');
+}
+.adainputslider-hue::-moz-range-thumb {
+  background: red;
+}
+.adainputslider-mini {
+  height: 16px;
+}
+.adainputslider-mini::-webkit-slider-thumb {
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+}
+.adainputslider-mini::-moz-range-thumb {
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media (max-width:650px) {
+  #adaslidecontainer {width:150px}
+}
+@media (max-width:600px) {
+  #adaslidecontainer {width:200px;padding-top:20px;padding-bottom:20px;}
+}
+

@@ -1,0 +1,40 @@
+.personal .border-0,
+.personal .border-0:active,
+.personal .border-0:focus {
+  border: none !important;
+  width: 100%;
+}
+.personal .form-control {
+  background-color: #ffffff !important;
+}
+.personal .bottonBorder {
+  border: none;
+  border-bottom: 1px solid black;
+}
+.personal .border-none {
+  border: none !important;
+}
+.personal span {
+  margin-left: 0px;
+}
+@media screen and (max-width: 991px) {
+  .personal .d-blockk {
+    display: block;
+  }
+}
+.personal .dfs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.personal .personal-content {
+  text-align: justify;
+  text-align-last: left;
+  color: #929292;
+}
+.personal textarea.form-control {
+  height: 40px;
+}
+.personal .ltr-none:focus {
+  border-color: #1d7c4b;
+}

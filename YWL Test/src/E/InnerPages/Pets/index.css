@@ -1,0 +1,62 @@
+.inner-text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 28%;
+}
+
+.pets-para {
+  font-size: 18px;
+  font-family: "Didact Gothic", sans-serif;
+  color: #333;
+}
+
+.pets-para p {
+  line-height: 24px;
+  margin-bottom: 20px;
+  margin: 0 0 10px;
+}
+
+.pets-content {
+  font-size: 18px;
+  font-family: "Didact Gothic", sans-serif;
+  color: #333;
+}
+
+.pets-content h2 {
+  margin-top: 30px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.pets-content p {
+  font-size: 18px;
+  font-family: "Didact Gothic", sans-serif;
+  color: #333;
+}
+
+.pets-img {
+  width: 360px;
+  height: 200px;
+}
+
+.pet-pdf {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 18px;
+}
+
+.pet-pdf a button {
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  box-shadow: -1px 3px 8px 1px #ababab;
+  background: #215f35;
+  color: #fff;
+}
+
+.btn-icon {
+  margin-right: 15px;
+}

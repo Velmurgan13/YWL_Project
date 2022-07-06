@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.postion-unset {
+  position: unset;
+}
+.messages_bar {
+  font-size: 16px;
+  font-family: "Didact Gothic", sans-serif;
+}
+/* dgdsg */
+.P0 {
+  padding: 0 !important;
+}
+
+.MT10 {
+  margin-top: 10px;
+}
+
+.termconditiosns {
+  color: #000;
+  font-size: 16px !important;
+  font-family: "Lato";
+  padding: 0px 15px;
+}
+.termconditiosns p {
+  padding: 0px 0px 10px !important;
+  font-size: 16px !important;
+  font-family: "Lato";
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.indexing li a {
+  color: #000;
+  line-height: 35px;
+}
+
+.legal-action {
+  color: #000;
+}
+
+.legal-action:hover {
+  color: #000 !important;
+}
+
+.info_collect strong:hover {
+  color: #000 !important;
+}
+.info_collect strong {
+  color: #000 !important;
+}
+
+.indexing li a:hover {
+  color: #000 !important;
+}
+
+.indexing li a {
+  font-size: 16px !important;
+  font-family: "Didact Gothic", sans-serif;
+  cursor: pointer;
+}
+
+.headingpri strong {
+  font-family: "Lato";
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.contactAlign {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.contactAlign:active {
+  margin-top: 20px;
+}

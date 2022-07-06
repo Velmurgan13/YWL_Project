@@ -1,0 +1,62 @@
+
+.selectionReviews{
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #fff;
+    background-image: none;
+    flex: 1 1;
+    padding: 0 0.5em;
+    color: #000;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 0px;
+    height: 48px;
+    
+ }
+
+ select option{    background: #114722;
+    font-size: 15px; padding: 25px;
+    color: #fff;}
+    option{line-height: 40px; padding: 25px;}
+ selectt::-ms-expand {
+    display: none;
+ }
+ .selectt {
+    position: relative;
+    display: flex;
+    width: 13em;
+    height: 3em;
+    line-height: 3;
+    background: #114722;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 5px;
+ }
+ .selectt::after {
+    content: "▼";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #bfbfbf;
+    color: #000;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 0.25s all ease;
+ }
+ .selectt:hover::after {
+    color: green;
+ }
+
+ .selectt:hover select {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+ @media screen and (min-width: 992px) and (max-width: 1199px) {
+   .selectt{width: 11em;}}
+}

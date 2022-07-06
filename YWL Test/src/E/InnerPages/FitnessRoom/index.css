@@ -1,0 +1,42 @@
+.inner-text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 28%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #215f35;
+  font-size: 50px;
+  opacity: 1;
+}
+
+.slick-prev,
+.slick-next {
+  top: inherit;
+  bottom: -19%;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 42%;
+}
+
+.slick-next {
+  right: 44%;
+}
+
+.slick-list {
+  margin-bottom: 30px;
+}
+
+.fitness-img {
+  padding: 0px;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.image-card {
+  padding: 10px;
+}

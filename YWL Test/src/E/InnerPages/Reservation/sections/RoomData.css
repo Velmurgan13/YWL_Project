@@ -1,0 +1,75 @@
+.smokeIcon {
+  background: white;
+  border-radius: 30px;
+  padding: 7px;
+  border: 1px solid gray;
+}
+.roomDesc {
+  font-size: 15px;
+  margin-top: 10px;
+}
+.selectRoomTypeId166 {
+  padding: 10px 10px;
+  margin: 0px;
+}
+.resRatePolicy {
+  cursor: pointer !important;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.resRatePolicy:hover {
+  color: inherit !important;
+}
+.btn {
+  margin: 0px;
+  padding: 10px 10px;
+}
+.disableIcon {
+  background: white;
+  border-radius: 30px;
+  padding: 7px;
+  border: 1px solid gray;
+}
+.roomLeft p {
+  /* margin-left: 6%; */
+  margin-bottom: 10px;
+  margin-top: -1%;
+}
+.roomBox {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .roomDataIpad {
+    margin-left: 0% !important;
+  }
+
+}
+@media only screen and (max-width: 767px) {
+  .standardRateDivRoom_1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px !important;
+  }
+  .roomPrice {
+    text-align: center !important;
+  }
+  .iconFix1 {
+    text-align: left;
+  }
+  .iconFix1 h4 {
+    margin-top: 0px !important;
+  }
+  .moreRoomDetail {
+    width: 70%;
+  }
+  .iconFix {
+    display: flex;
+  }
+  .btnFix {
+    margin-bottom: 0px !important;
+  }
+}

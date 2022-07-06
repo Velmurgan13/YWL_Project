@@ -1,0 +1,121 @@
+.faBar-icon {
+  height: 145px !important;
+  align-items: center;
+  top: 8px;
+  -webkit-box-align: center;
+  position: absolute;
+  z-index: 9;
+  transition: 0.5s;
+  right: 20px;
+  justify-content: end;
+  display: flex;
+  -webkit-box-pack: end;
+  margin-right: 30px !important;
+}
+
+
+.sidebar-tag {
+  padding-right: 46px !important;
+  margin-right: 90px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+  .sidebar-tag {
+    padding-right: 35px !important;
+    margin-right: 35px;
+  }
+  .faBar-icon {
+    height: 70px !important;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .close-btn {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .close-btn {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 766px) {
+  .eUJPms {
+    height: 52px !important;
+  }
+  .close-btn {
+    margin-right: 15px;
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1023px) {
+  .web-logo img {
+    width: 75px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .web-logo img {
+    width: 75px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 766px) {
+  .web-logo img {
+    width: 50px;
+    margin-left: -25px;
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .sidebar-tag {
+    padding-right: 40px !important;
+    margin-right: 50px;
+  }
+  .web-logo img {
+    width: 120px;
+  }
+
+  .faBar-icon {
+    height: 112px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .faBar-icon {
+    height: 80px !important;
+  }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .faBar-icon {
+    height: 80px !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+  .sidebar-tag {
+    padding-right: 15px !important;
+    margin-right: 80px;
+  }
+  .web-logo img {
+    width: 158px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .link-color {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .link-color {
+    display: none;
+  }
+}

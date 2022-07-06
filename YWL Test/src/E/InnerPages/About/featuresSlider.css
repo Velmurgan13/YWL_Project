@@ -1,0 +1,160 @@
+.features-details {
+  margin-top: 45px;
+}
+.card-animeties {
+  display: none;
+}
+.slick-current .card-animeties {
+  display: block;
+}
+.slideCardLogoSec {
+  width: 50%;
+  margin: auto;
+}
+/* .general-list {
+  width: 50%;
+} */
+.slideCardLogo {
+  width: 100%;
+}
+.card-animeties {
+  width: 100vw;
+}
+.bg-bubble-icon1 {
+  position: absolute;
+  top: 0px;
+  left: 45px;
+}
+.sliderCardHeight {
+  min-height: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-active {
+  color: #0e3886;
+}
+
+.slick-active + .slick-active {
+  color: black;
+}
+
+.slick-active + .slick-active + .slick-active {
+  color: black;
+}
+
+.bg-bubble-icon2 {
+  position: absolute;
+  bottom: 0px;
+  right: 35px;
+}
+.general-list {
+  /* font-weight: bold; */
+  display: list-item;
+  font-family: "Lato";
+  color: #444;
+  text-align: left;
+    width: 70%;
+}
+.slick-prev:after {
+  content: "";
+  background-image: url("../../Yosemitewestgate/assets/Icons/left-arrow.png") !important;
+  padding: 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 1;
+}
+
+.slick-next:after {
+  content: "";
+  background-image: url("../../Yosemitewestgate/assets/Icons/right-arrow.png") !important;
+  padding: 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 1;
+}
+/* .slick-slide.slick-active.slick-current .slideCardLogoSec {
+  background: rgb(27 85 56 / 90%) !important;
+} */
+/* .slick-slide.slick-active.slick-current .slideCardLogoSec svg {
+  color: white;
+} */
+.slick-slide.slick-active.slick-current .individualCard {
+  box-shadow: inset 0px 0px 0px 2px #1b5538 !important;
+
+}
+.slick-slide.slick-active {
+  text-align: end;
+}
+.hello {
+  width: 90% !important;
+  display: inline-block !important;
+}
+
+.features-details .slick-active {
+  color: #12452e;
+}
+
+.features-subtitle {
+  font-family: "Averia Serif Libre";
+  font-size: 24px;
+}
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+  .features-title {
+    font-size: 32px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .bg-bubble-icon2 {
+    position: absolute;
+    bottom: 0px;
+    right: 18px !important;
+  }
+  .bg-bubble-icon1 {
+    position: absolute;
+    bottom: 0px;
+    left: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .card01 {
+    width: 80% !important;
+    margin: auto;
+  }
+  .features-details {
+    display: flex;
+  }
+  .slick-list {
+    width: 100%;
+  }
+
+  .general-list {
+    margin-left: 35px;
+    width: 53%;
+  }
+  .btn-style {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+
+  .card-animeties {
+    padding-left: 0px !important;
+  }
+  .About .grid-amenities {
+    display: contents !important;
+  }
+  .bg-bubble-icon2 {
+    position: absolute;
+    bottom: 0px;
+    right: 40px !important;
+  }
+  .bg-bubble-icon1 {
+    position: absolute;
+    bottom: 0px;
+    left: 40px !important;
+  }
+}

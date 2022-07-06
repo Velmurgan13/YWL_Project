@@ -1,0 +1,9 @@
+.Virtualpage{
+    .mx-1.my-3{    justify-content: center;}
+    @media screen and (max-width: 1999px) {
+        .mt-50{margin-top: 50px !important;}
+    }  
+    margin-bottom: 50px !important;
+    .fix-height .border-secondary{height: 140px !important;}
+}
+

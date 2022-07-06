@@ -1,0 +1,35 @@
+.Privacy-page{
+
+    header {height:auto !important;}
+    scrollspy-example p {text-align:justify; display:block;}
+ .headingpri {text-align:left !important; letter-spacing: 1px;}
+ 
+ .indexing li {text-transform:uppercase; text-align:left;}
+  h2 {text-align:left;}
+
+    
+     .glyphicon{top:3px;}
+     .room_home{margin:0; display:inline-block; color:#475a20; cursor:pointer;}
+     .room_home:hover{color:#475a20; text-decoration:none;}
+     .inner_res .home_collapse {top: 50px;}
+     .sign_bg{background:none;
+    }
+     //  dummy line delete it 
+     @media screen and (min-width: 320px) and (max-width: 1199px) {
+    /* .mobiletop-box-divs{}*/
+     }
+
+     @media screen and (min-width: 320px) and (max-width: 767px) {
+     .reservation label, .panel-body{ color:#475a20;} 
+     }
+     .scrollspy-example ol, .scrollspy-example ul {line-height:35px; margin-top:10px;}
+     
+     .headingpri { font-size: 20px; margin-bottom:10px; font-family: "Lato"; letter-spacing: 1px; }
+     
+     h2 {
+         text-transform: uppercase;
+         font-size: 20px;
+         letter-spacing: 1px;
+        //  font-family: ;
+     }
+}
