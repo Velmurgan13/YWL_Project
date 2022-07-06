@@ -12,7 +12,7 @@ const Counter = ({
   updateTotalValues,
   inputParams,
 }) => {
-
+// delete this line 
   const initialStateCounter = {
     adultCounter: counterData.adult,
     childrenCounter: counterData.children,
