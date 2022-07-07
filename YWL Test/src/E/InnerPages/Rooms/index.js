@@ -223,6 +223,8 @@ const RoomComponent = (props) => {
                             title={item.room_name}
                           >
                             <img
+                            alt={item.room_name}
+                            title={item.room_name}
                               src={
                                 "https://beta.yosemitewestgate.com/" +
                                 item.image_url
