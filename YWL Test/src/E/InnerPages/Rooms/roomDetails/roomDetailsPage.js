@@ -295,7 +295,7 @@ export default function GuestRoomDetailsPage(props) {
                               "https://my.innstaging.com/user_images/properties/videos/thumbs/2/6/5/" +
                               item.video_thumb
                             }
-                            alt=""
+                            alt={item.video_caption}
                             className="w300"
                           />
                         </a>
@@ -401,7 +401,7 @@ export default function GuestRoomDetailsPage(props) {
                                   "https://beta.yosemitewestgate.com/" +
                                   item.image_medium_url
                                 }
-                                alt=""
+                                alt={(item.image_caption) ? item.image_caption : "Image Not Available"}
                                 className="W100"
                                 onError={(e) => {
                                   e.currentTarget.src =
