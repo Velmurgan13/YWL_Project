@@ -22,7 +22,7 @@ import { object } from "yup";
 const FeaturesSlider = (props, propData) => {
   const [showInputField, setInputField] = useState(null);
   //  console.log("this is data ", props);
-  const [nav1, setNav1] = useState(null);
+  // const [nav1, setNav1] = useState(null);
   const [nav2, setNav2] = useState(null);
   // let resultData = [];
   // for (let i = 0; i < (props.AmenitiesData).length; i++) {
@@ -36,17 +36,17 @@ const FeaturesSlider = (props, propData) => {
 
   var settings = {
     dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 3,
-    // lazyLoad: true,
+    adaptiveHeight: true,
     swipeToSlide: true,
     focusOnSelect: true,
+    slidesToShow: 4,
+    infinite: true,
+    speed: 1200,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           infinite: true,
           dots: true,
         },
@@ -57,6 +57,9 @@ const FeaturesSlider = (props, propData) => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
+          speed: 1400,
+          infinite: true,
+          dots: true,
         },
       },
       {
@@ -64,6 +67,9 @@ const FeaturesSlider = (props, propData) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
+          infinite: true,
+          dots: true,
         },
       },
     ],
@@ -83,28 +89,28 @@ const FeaturesSlider = (props, propData) => {
         <Slider
           slickNext
           {...settings}
-          asNavFor={nav2}
-          ref={(slider1) => setNav1(slider1)}
-          className="features-details"
+          // asNavFor={nav2}
+          // ref={(slider1) => setNav2(slider1)}
+          className="features-details pt-2 pt-md-2 p-xl-2 p-xl-2"
         >
           {Object.keys(props.AmenityGroupData).filter((AmenityName) => (AmenityName != 'ADA/Accessible Features for the Overall Property') && (AmenityName != 'ADA/Accessible Features Our Property Does Not Offer')).map((item, index) => (
             // console.log("names", item),
             <div className="hello">
-              <div key={index} className="px-0 px-md-3 card01 bg-img-features">
-                <div className="shadow bg-white sliderCardHeight border px-3 py-3 slick-width individualCard">
+              <div key={index} className="px-0 px-md-0 card01 bg-img-features">
+                <div className=" bg-white sliderCardHeight  slick-width individualCard">
                   <div className="mx-auto justify-content-center align-items-center slideCardLogo">
-                    <div className="shadow border position-relative slideCardLogoSec">
-                      <div className="text-center py-4">
+                    <div className="position-relative slideCardLogoSec">
+                      <div className="text-center py-4 text-uppercase">
                         {/* <AiFillCar size="30" /> */}
                        <>
                           {(() => {
                             switch (item) {
                               case 'General Services':
-                                return <FaBed  size="35"/>;
+                                return <FaBed   size="35"/>;
                               case 'Conceirge Amenities':
-                                return <BsInfoCircleFill size="30"/>;
+                                return <BsInfoCircleFill  size="30"/>;
                               case 'Pool & Spa Amenities':
-                                return <BsInfoCircleFill size="30"/>;
+                                return <BsInfoCircleFill  size="30"/>;
                               case 'Business Services':
                                 return <FaBusinessTime size="30"/>;
                               case 'Shops':
@@ -117,19 +123,20 @@ const FeaturesSlider = (props, propData) => {
                                 return <img className="mx-1" />;
                             }
                           })()}
+                           <div className="card-title-slider mt-2">{item}</div>
                         </>
                       </div>
                     </div>
-                    <div className="text-center">
+                    {/* <div className="text-center">
                       <div className="pt-3">
-                        <div>{item}</div>
+                        <div className="card-title-slider">{item}</div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
 
-              <div className="container card-animeties">
+              <div className="container card-animeties mx-2 mx-md-4 mx-xl-4 mx-lg-4">
                 <div className="ml-0 ml-md-1 lh-38 pl-5 pl-md-0 pd-xs-0">
                   <div>
                     <ul className="col-6 col-md-12 grid-amenities ml-md-0 ml-lg-4 pr-0 mb-0">

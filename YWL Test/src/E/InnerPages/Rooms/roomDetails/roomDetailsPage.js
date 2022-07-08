@@ -441,7 +441,7 @@ export default function GuestRoomDetailsPage(props) {
               })}
             </div>
           </div>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );

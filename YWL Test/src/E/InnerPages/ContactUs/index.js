@@ -41,6 +41,11 @@ const ContactComponent = (props) => {
   const recaptchaRef = React.createRef();
   const [alertmsg, setAlertmsg] = useState([]);
   const [showGoTop, setShowGoTop] = useState(false)
+  const [showMsg, setShowMsg] = React.useState(true)
+
+
+
+
 
   const handleVisibleButton = () => {
     setShowGoTop(window.pageYOffset > 50)
@@ -83,7 +88,7 @@ const ContactComponent = (props) => {
 
   const onSubmit = async (data) => {
     const { email, primary_phone_no, property_name } = props.propertyData;
-    
+
     const finalData = {
       ...data,
       email,
@@ -95,18 +100,52 @@ const ContactComponent = (props) => {
     const response = await getContactform(finalData);
     console.log("MEssage", response);
     setAlertmsg(response.data);
-    // alert("hiiiii", response.data)
 
-      if (response.data === "Captcha ERROR") {
-        document.getElementById("success-msg").innerHTML =
-          "Your message has been sent successfully! A member of our customer service team will contact you shortly.";
-          document.getElementById('success-msg').style.backgroundColor = '#d4edda' ; 
-          document.getElementById('success-msg').style.padding = '10px' ; 
-          document.getElementById('success-msg').style.display = 'flex' ;
-          document.getElementById('success-msg').style.justifyContent = 'center' 
-      }
+    if (response.data === "success") {
+      console.log(response.data);
+      document.getElementById("successmsg").innerHTML =
+        "Your message has been sent successfully! A member of our customer service team will contact you shortly.";
+      document.getElementById('successmsg').style.backgroundColor = 'rgb(96 158 111)';
+      document.getElementById('successmsg').style.padding = '10px';
+      document.getElementById('successmsg').style.display = 'flex';
+      document.getElementById('successmsg').style.justifyContent = 'center';
+      document.getElementById('successmsg').style.borderRadius = '5px';
+      // const element = document.querySelector("successmsg");
+      // element.scrollIntoView({ behavior: "smooth" });
+      document.body.scrollTop = document.documentElement.scrollTop = 400;
+      document.getElementById("myForm").reset();
+
+      setTimeout(function(){
+        document.getElementById('success').className = 'successmsg';
+    }, 5000);
 
 
+
+    } else if (response.data === "Invalid") {
+      document.getElementById("successmsg").innerHTML =
+        "Sorry, you have entered an invalid email address.";
+    }
+
+    setTimeout(() => {
+      const successmsg = document.getElementById('successmsg');
+      successmsg.style.display = 'none';
+    }, 5000);
+
+
+
+    // else if (response.data === "Captcha ERROR") {
+    //   document.getElementById("successmsg").innerHTML =
+    //     "Please confirm that you are not a robot.";
+    //   document.getElementById('successmsg').style.backgroundColor = '#f30000';
+    //   document.getElementById('successmsg').style.padding = '10px';
+    //   document.getElementById('successmsg').style.display = 'flex';
+    //   document.getElementById('successmsg').style.justifyContent = 'center';
+    //   document.getElementById('successmsg').style.borderRadius = '5px';
+    //   document.getElementById('successmsg').style.width = '50%';
+    //   const element = document.getElementById("successmsg");
+    //   element.scrollIntoView({ behavior: "smooth" });
+    //   // document.getElementById("myForm").reset();
+    // }
 
   };
 
@@ -117,16 +156,16 @@ const ContactComponent = (props) => {
         <BannerContainer seoData={seoData} />
         <div className="container Contact mt-3 mt-md-4 px-md-0">
           <div className="mb-3 pt-3 pt-md-3 pb-3 px-1 px-md-0 contactDetails custom-shadow">
-          <>
-          <div id="success-msg" className=" msg-display mx-3 my-3"></div>
-                  </>
+            <>
+              <div id="successmsg" className="msg-display text-white mx-auto my-3"></div>
+            </>
             <div className="px-md-4 px-0 round pb-3">
               <p className="contact-description text-center my-3">
-              Please enter the message below that you would like to send to our hotel.
+                Please enter the message below that you would like to send to our hotel.
                 <br />  A guest service agent will reply to your message in a timely manner.{" "}
               </p>{" "}
               <div className="px-md-0 px-0">
-                <form onSubmit={handleSubmit(onSubmit)}>
+                <form name="myForm" id="myForm" onSubmit={handleSubmit(onSubmit)}>
                   <div className="form-group py-4 px-md-0 px-0 mb-0 mx-3 mx-md-5">
                     {" "}
 
@@ -337,28 +376,25 @@ const ContactComponent = (props) => {
                         {errors.message.message}
                       </small>
                     )}
-                    
-
                     <span className="char-count mr-md-4 float-right mt-1">
                       {count1} Characters left
                     </span>
                   </div>
                   <div id="recaptcha" className="d-flex mt-5 g-recaptcha">
-                    <div>
+                    {/* <div>
                       <ReCAPTCHA
                         ref={recaptchaRef}
-                        sitekey={props.noCaptchaSiteKey}
+                        // sitekey={props.noCaptchaSiteKey}
                         sitekey={newcaptchakey}
                         onChange={onChange}
                       />
-           
-                    </div>
+                    </div> */}
                   </div>
                   <div className="text-center pt-md-3 pt-4 contactBtn">
                     {/* <div ref={div1} style={{ background: 'yellowgreen', ...styles }}> */}
                     <div className={showGoTop ? '' : styles.goTopHidden} >
                       <button
-                        type="submit"
+                        type='submit'
                         className="home-readmore-btn welcome-btn btn-style mt-3 px-4"
                         value="Submit"
                         // value="Clear Fields"
@@ -366,7 +402,7 @@ const ContactComponent = (props) => {
                       > SUBMIT</button>
                     </div>{" "}
                   </div>
-                 
+
                 </form>{" "}
               </div>{" "}
             </div>{" "}
@@ -384,7 +420,6 @@ const ContactComponent = (props) => {
                 value="LOST & FOUND"
                 title="Lost & Found"
               />
-
             </Link>{" "}
           </div>{" "}
         </div>{" "}
