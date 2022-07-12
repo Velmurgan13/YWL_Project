@@ -273,6 +273,7 @@ const JobsDetailsComponent = (props) => {
                       <input
                         placeholder="First Name*"
                         type="text"
+                        id="firstName"
                         className={`form-control ltr-none bdr-left-rght-radius ${
                           errors.first_name && "invalid"
                         }`}
@@ -283,7 +284,7 @@ const JobsDetailsComponent = (props) => {
                           trigger("first_name");
                         }}
                       />
-                      <label className="custLabel">First Name </label>
+                      <label className="custLabel" htmlFor="firstName" >First Name </label>
                       {errors.first_name && (
                         <small className="text-danger">
                           {errors.first_name.message}
@@ -296,6 +297,7 @@ const JobsDetailsComponent = (props) => {
                       <input
                         placeholder="Last Name*"
                         type="text"
+                        id="lastName"
                         className={`form-control ltr-none bdr-left-rght-radius ${
                           errors.last_name && "invalid"
                         }`}
@@ -306,7 +308,7 @@ const JobsDetailsComponent = (props) => {
                           trigger("last_name");
                         }}
                       />
-                      <label className="custLabel">Last Name </label>
+                      <label className="custLabel" htmlFor="lastName" >Last Name </label>
                       {errors.last_name && (
                         <small className="text-danger">
                           {errors.last_name.message}
@@ -319,6 +321,7 @@ const JobsDetailsComponent = (props) => {
                       <input
                         placeholder="Email Address*"
                         type="text"
+                        id="email"
                         className={`form-control ltr-none bdr-left-rght-radius ${
                           errors.email && "invalid"
                         }`}
@@ -333,7 +336,7 @@ const JobsDetailsComponent = (props) => {
                           trigger("email1");
                         }}
                       />
-                      <label className="custLabel">Email Address </label>
+                      <label className="custLabel" htmlFor="email">Email Address </label>
                       {errors.email1 && (
                         <small className="text-danger">
                           {errors.email1.message}
@@ -346,6 +349,7 @@ const JobsDetailsComponent = (props) => {
                       <input
                         placeholder="Phone Number*"
                         type="text"
+                        id="phoneNumber"
                         className={`form-control ltr-none bdr-left-rght-radius ${
                           errors.phone && "invalid"
                         }`}
@@ -356,7 +360,7 @@ const JobsDetailsComponent = (props) => {
                           trigger("phone");
                         }}
                       />
-                      <label className="custLabel">Phone Number </label>
+                      <label className="custLabel" htmlFor="phoneNumber">Phone Number </label>
                       {errors.phone && (
                         <small className="text-danger">
                           {errors.phone.message}
@@ -369,6 +373,7 @@ const JobsDetailsComponent = (props) => {
                       <input
                         placeholder="Address*"
                         type="text"
+                        id="Address"
                         className={`form-control ltr-none bdr-left-rght-radius ${
                           errors.address && "invalid"
                         }`}
@@ -379,7 +384,7 @@ const JobsDetailsComponent = (props) => {
                           trigger("address");
                         }}
                       />
-                      <label className="custLabel">Address </label>
+                      <label className="custLabel" htmlFor="Address">Address </label>
                       {errors.address && (
                         <small className="text-danger">
                           {errors.address.message}
@@ -437,6 +442,7 @@ const JobsDetailsComponent = (props) => {
                             <input
                               placeholder="State*"
                               type="text"
+                              id="state"
                               className={`form-control ltr-none bdr-left-rght-radius ${
                                 errors.job_state && "invalid"
                               }`}
@@ -447,7 +453,7 @@ const JobsDetailsComponent = (props) => {
                                 trigger("job_state");
                               }}
                             />
-                            <label className="custLabel">State </label>
+                            <label className="custLabel" htmlFor="state">State </label>
                             {errors.job_state && (
                               <small className="text-danger">
                                 {errors.job_state.message}
@@ -460,6 +466,7 @@ const JobsDetailsComponent = (props) => {
                         <div className="stateForm">
                           <div className="inputAni px-3">
                             <input
+                            id="city"
                               placeholder="City*"
                               type="text"
                               className={`form-control ltr-none bdr-left-rght-radius ${
@@ -472,7 +479,7 @@ const JobsDetailsComponent = (props) => {
                                 trigger("job_city");
                               }}
                             />
-                            <label className="custLabel">City </label>
+                            <label className="custLabel" htmlFor="city">City </label>
                             {errors.job_city && (
                               <small className="text-danger">
                                 {errors.job_city.message}
@@ -490,6 +497,7 @@ const JobsDetailsComponent = (props) => {
                           <input
                             placeholder="Zip Code*"
                             type="text"
+                            id="zipCode"
                             className={`form-control ltr-none bdr-left-rght-radius ${
                               errors.zipcode && "invalid"
                             }`}
@@ -500,7 +508,7 @@ const JobsDetailsComponent = (props) => {
                               trigger("zipcode");
                             }}
                           />
-                          <label className="custLabel">Zip Code </label>
+                          <label className="custLabel" htmlFor="zipCode">Zip Code </label>
                           {errors.zipcode && (
                             <small className="text-danger">
                               {errors.zipcode.message}
@@ -521,12 +529,12 @@ const JobsDetailsComponent = (props) => {
                             type="select"
                             name="select"
                             id="info_source"
-                            required="please"
+                            // required="please"
                             className={`form-control ltr-none bdr-left-rght-radius ${
                               errors.info_source && "invalid"
                             }`}
                             {...register("info_source", {
-                              required: "State is required",
+                              required: "Please Select",
                             })}
                             onKeyUp={() => {
                               trigger("info_source");
@@ -544,6 +552,11 @@ const JobsDetailsComponent = (props) => {
                             </option>
                             <option value="Other"> Other </option>
                           </select>
+                          {errors.info_source && (
+                            <small className="text-danger">
+                              {errors.info_source.message}
+                            </small>
+                          )} 
                         </div>
                       </div>
                     </div>
@@ -568,8 +581,13 @@ const JobsDetailsComponent = (props) => {
                       onChange={handleChange}
                       multiple={false}
                       type="file"
+                      id="attachResume"
                       hidden
                     />
+                    <label className="d-none" htmlFor="attachResume">
+            Attach Resume
+          </label>
+
                   </div>
                 </div>
                 <div className="col-md-6 my-3 my-md-0 col-12 text-center">
@@ -587,9 +605,13 @@ const JobsDetailsComponent = (props) => {
                       ref={fileRef}
                       onChange={handleChange}
                       multiple={false}
+                      id="attachCoverLetter"
                       type="file"
                       hidden
                     />
+                     <label className="d-none" htmlFor="attachCoverLetter">
+            Attach Cover Letter
+          </label>
                   </div>
                 </div>
               </div>
@@ -597,6 +619,7 @@ const JobsDetailsComponent = (props) => {
                 <div className="col-12 form-group pb-4 px-md-4 mb-0 pt-3">
                   <div className="inputAni px-3 px-md-3 feedbackComment">
                     <textarea
+                    id="anyQuestions"
                       placeholder="Please let us know if you have any comments, questions or special requests*"
                       className={`form-control px-2 ltr-none bdr-left-rght-radius ${
                         errors.message && "invalid"
@@ -627,7 +650,7 @@ const JobsDetailsComponent = (props) => {
                         trigger("note_message");
                       }}
                     ></textarea>
-                    <label className="custLabel">
+                    <label className="custLabel" htmlFor="anyQuestions">
                       Please let us know if you have any comments, questions or
                       special requests
                     </label>
@@ -644,12 +667,14 @@ const JobsDetailsComponent = (props) => {
               <div className="px-md-4 px-1 pt-3 pb-0 d-flex checkBox">
                 <input
                   type="checkbox"
-                  id=""
+                  id="checkBoxTick"
                   name=""
                   value=""
                   className="checkBoxTick"
                 />
-
+                <label className="d-none" htmlFor="checkBoxTick">
+                checkBoxTick
+          </label>
                 <h4 className="checkBoxContent">
                   I agree to Yosemite Southgate Hotel and Suites's &nbsp;
                   <a href="/terms-conditions" className="text-primary">
