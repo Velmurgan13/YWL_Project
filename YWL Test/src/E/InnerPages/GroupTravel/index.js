@@ -1,16 +1,19 @@
-  import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ReactHtmlParser from "react-html-parser";
 import {
   getSeoDescriptionData,
   getPropLostFoundData,
   getPropLostFoundDetailsData,
 } from "../../../DataLayer/datalayerUtilities";
-
+import moment from "moment";
+import { CgCalendarDates } from "react-icons/cg";
 import "../../Yosemitewestgate/style/common.css";
 import "./index.scss";
 import { useForm } from "react-hook-form";
 import { Form, FormGroup, Label, Input } from "reactstrap";
 import BannerContainer from "../BannerComponent/BannerContainer";
+import DatePicker from "sassy-datepicker";
+
 
 const GroupTravel = (props) => {
   const [toggleState, setToggleState] = useState(1);
@@ -20,11 +23,26 @@ const GroupTravel = (props) => {
   const [clicked, setClicked] = useState(false);
   const [seoData, setPropertySeodata] = useState([]);
   const [LostFoundData, setLostAndFoundData] = useState([]);
+  const [startDate, setStartDate] = React.useState(new Date());
+  const [showStartCalendar, setShowStartCalendar] = useState(false);
+  const [showEndCalendar, setShowEndCalendar] = useState(false);
+  const [date, setDate] = useState(new Date());
+  const [startMinDate, setStartMinDate] = React.useState(new Date());
+  const [endDate, setEndDate] = React.useState(
+    new Date(Date.now() + 3600 * 1000 * 24)
+  );
+  const [endMinDate, setEndMinDate] = React.useState(
+    new Date(Date.now() + 3600 * 1000 * 24)
+  );
+  var check_in = "";
+  var check_out = "";
+  var variable_check_out = "";
 
   useEffect(() => {
     fetchSeoProperties();
     fetchLostAndFoundData();
   }, []);
+
 
   const fetchSeoProperties = async () => {
     const response = await getSeoDescriptionData("28");
@@ -35,7 +53,57 @@ const GroupTravel = (props) => {
     const response = await getPropLostFoundData();
     setLostAndFoundData(response);
   };
+  const onChangeDate = (e) => {
+    props.setDate(e.target.value);
+  };
+  const onClick = () => {
+    setShowStartCalendar(!showStartCalendar);
+  };
+  const onClickEnd = () => {
+    setShowEndCalendar(!showEndCalendar);
+  };
+  const handleStartDateSelect = (date) => {
+    check_in = date;
+    check_out = moment(new Date(document.getElementById("sixPlusEndDate").value));
+    document.getElementById("sixPlusStartDate").value = moment(date).format("YYYY-MM-DD");
+    // setStartMinDate(new Date());
+    // props.setDate(check_in );
 
+    // check if current check-out date is less that selected check-in date
+    if (check_out <= new Date(check_in)) {
+      check_out = moment(check_in).add(1, "days");
+      variable_check_out = check_out;
+    } else {
+      variable_check_out = moment(check_in).add(1, "days");
+    }
+
+    // set value and display date for check-out
+    document.getElementById("sixPlusEndDate").value = variable_check_out.format("YYYY-MM-DD");
+    setEndMinDate(variable_check_out.toDate());
+
+    setStartDate(moment(check_in).toDate());
+    setEndDate(variable_check_out.toDate());
+    setShowStartCalendar(false);
+    setShowEndCalendar(true);
+
+    // if (check_out <= new Date(check_in)) {
+    //   check_out = moment(check_in).add(1, "days");
+    //   variable_check_out = check_out;
+    // } else {
+    //   variable_check_out = moment(check_in).add(1, "days");
+    //   console.log("hello world")
+    // }
+  };
+
+  const handleEndDateSelect = (date) => {
+    check_out = date;
+    document.getElementById("sixPlusEndDate").value =
+    moment(date).format("YYYY-MM-DD");
+    setEndDate(moment(check_out).toDate());
+    // setStartMinDate(new Date());
+    setShowEndCalendar(false);
+    props.setDate(check_out);
+  };
   const handleChange = (data) => {
     let { name, value } = data.target;
 
@@ -47,6 +115,7 @@ const GroupTravel = (props) => {
       document.getElementById("currentValue").value = "";
     }
   };
+  
   const toggle = (index) => {
     if (clicked === index) {
       //if clicked question is already active, then close it
@@ -93,7 +162,7 @@ const GroupTravel = (props) => {
                       errors.firstname && "invalid"
                     }`}
                     {...register("first_name", {
-                      required: "Firstname is Required",
+                      required: "Please enter your first name.",
                     })}
                     onKeyUp={() => {
                       trigger("first_name");
@@ -117,7 +186,7 @@ const GroupTravel = (props) => {
                       errors.lastname && "invalid"
                     }`}
                     {...register("last_name", {
-                      required: "Lastname is Required",
+                      required: "Please enter your last name.",
                     })}
                     onKeyUp={() => {
                       trigger("last_name");
@@ -194,20 +263,20 @@ const GroupTravel = (props) => {
                     type="text"
                     placeholder="Email Address*"
                     className={`form-control ltr-none ${
-                      errors.city && "invalid"
+                      errors.email && "invalid"
                     }`}
-                    {...register("city", {
-                      required: "City is Required",
+                    {...register("Email", {
+                      required: "email is Required",
                     })}
                     onKeyUp={() => {
-                      trigger("city");
+                      trigger("email");
                     }}
                   />
                      <label className="custLabel">
                       Email Address
                     </label>
-                  {errors.city && (
-                    <small className="text-danger">{errors.city.message}</small>
+                  {errors.email && (
+                    <small className="text-danger">{errors.email.message}</small>
                   )}
                 </div>
               </div>
@@ -218,7 +287,7 @@ const GroupTravel = (props) => {
           </div>
           <div className="shadow groupCard pt-xs-20 my-3 py-4">
             <div className="row lnf-form">
-              <div className="col-12 col-md-6 px-md-3 px-2 py-4">
+              {/* <div className="col-12 col-md-6 px-md-3 px-2 py-4">
                 <h3 className="lnf-title">Check-In</h3>
                 <input
                   className="ltr-border-none"
@@ -239,8 +308,80 @@ const GroupTravel = (props) => {
                     {errors.lostDate.message}
                   </small>
                 )}
+              </div> */}
+
+              <div className="col-6 px-md-3 px-2 pt-4 lnfMobView">
+                <h3 className="lnf-title lnfD1">Check-In</h3>
+                <div
+                  className="floating-label-group inputDiv d-flex PR"
+                  onChange={onChangeDate}
+                >
+                  <input
+                    // type="text"   
+                    className="form-control checkincustometime ltr-none"
+                    value={moment(startDate).format("YYYY-MM-DD")}
+                    readOnly="readonly"
+                    id="sixPlusStartDate"
+                    onClick={onClick}
+                  />
+                  <label className="d-none" htmlFor="sixPlusStartDate">
+                     Hidden Label
+                  </label>
+                  <CgCalendarDates
+                    size="30"
+                    className="datepicker_icon_special  datePosition"
+                    onClick={onClick}
+                  />
+                  {showStartCalendar ? (
+                    <DatePicker
+                      // onChange={onChange}
+                      selected={startDate}
+                      minDate={startMinDate}
+                      onChange={handleStartDateSelect}
+                      format="dd-mm-yyyy"
+                      className="openDatePosition"
+                    />
+                  ) : null}
+                </div>
               </div>
-              <div className="col-12 col-md-6 px-md-3 px-2 py-4">
+
+
+
+              <div className="col-6 px-md-3 px-2 pt-4 lnfMobView">
+                <h3 className="lnf-title lnfD1">Check-Out</h3>
+                <div
+                  className="floating-label-group inputDiv d-flex PR"
+                  onChange={onChangeDate}
+                >
+                  <input
+                    // type="text"   
+                    className="form-control checkincustometime ltr-none"
+                    value={moment(endDate).format("YYYY-MM-DD")}
+                    readOnly="readonly"
+                    id="sixPlusEndDate"
+                    onClick={onClickEnd}
+                  />
+                  <label className="d-none" htmlFor="sixPlusEndDate">
+                     Hidden Label
+                  </label>
+                  <CgCalendarDates
+                    size="30"
+                    className="datepicker_icon_special  datePosition"
+                    onClick={onClickEnd}
+                  />
+                  {showEndCalendar ? (
+                    <DatePicker
+                      // onChange={onChange}
+                      selected={endDate}
+                      minDate={endMinDate}
+                      onChange={handleEndDateSelect}
+                      format="dd-mm-yyyy"
+                      className="openDatePosition"
+                    />
+                  ) : null}
+                </div>
+              </div>
+              {/* <div className="col-12 col-md-6 px-md-3 px-2 py-4">
                 <h3 className="lnf-title">Check-Out</h3>
                 <input
                   className="ltr-border-none"
@@ -261,7 +402,7 @@ const GroupTravel = (props) => {
                     {errors.lostDate.message}
                   </small>
                 )}
-              </div>
+              </div> */}
             </div>
 
             <div className="row lnf-form">
