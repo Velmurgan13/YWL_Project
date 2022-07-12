@@ -184,11 +184,11 @@ const AboutComponent = () => {
                   </div>
                 </div>
                 {/* <div className='row mx-0 pt-5'> */}
+                { AmenityAdaData ? 
                 <ul className="ada-list-color col-12 font-weight grid-ada-features mt-4 ">
+                  <>
+
                   {AmenityAdaData
-                    // .filter(
-                    //   (id) => id == 18
-                    // )
                     .map((item) => (
                       <li className="" key={item.amenity_id}>
                         <div className="col-12 pr-5 pd-xs-0">
@@ -196,7 +196,11 @@ const AboutComponent = () => {
                         </div>
                       </li>
                     ))}
+
+                    </>
                 </ul>
+                : ""
+                                  }  
               </div>
             </div>
           </div>
