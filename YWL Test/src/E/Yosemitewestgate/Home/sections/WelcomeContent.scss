@@ -60,9 +60,8 @@
 }
 .enable-parent-hm-child {
   overflow: hidden;
-  min-height: 500px;
+  height: 950px;
   transition: height 1s ease-in-out;
-  transition: 1s ease height;
 }
 
 .mainTitle {
@@ -70,16 +69,16 @@
   transform-origin: top left;
 }
 
-.enable-parent-hm-child,
-.parent-hm-child,
-.mainTitle {
-  transition-delay: 3s;
-  transition-delay: 2s, 4ms;
-  transition-delay: 250ms;
-  -webkit-transition: max-height 0.8s;
-  -moz-transition: max-height 0.8s;
-  transition: max-height 0.8s;
-}
+// .enable-parent-hm-child,
+// .parent-hm-child,
+// .mainTitle {
+//   transition-delay: 3s;
+//   transition-delay: 2s, 4ms;
+//   transition-delay: 250ms;
+//   -webkit-transition: max-height 0.8s;
+//   -moz-transition: max-height 0.8s;
+//   transition: max-height 0.8s;
+// }
 .home-readmore-btn {
   padding: 10px 15px;
   line-height: 17px;
