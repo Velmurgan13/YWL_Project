@@ -44,27 +44,27 @@ const ContactComponent = (props) => {
   const [showMsg, setShowMsg] = React.useState(true)
 
 
-
-
-
   const handleVisibleButton = () => {
     setShowGoTop(window.pageYOffset > 50)
   }
 
-  // const handleScrollUp = (e) => {
-  //   e.preventDefault();
-  //   window.scrollTo({ left: 0, top: 250, behavior: 'smooth' })
-  // }
-
   useEffect(() => {
     window.addEventListener('scroll', handleVisibleButton)
+
   }, [])
+
+
+//  const handleKeyDown = (e) => {
+//     e.target.style.height = 'inherit';
+//     e.target.style.height = `${e.target.scrollHeight}px`; 
+//   }
+
 
 
   useEffect(() => {
     fetchSeoProperties();
+ 
   }, []);
-
 
   const fetchSeoProperties = async () => {
     const response = await getSeoDescriptionData(seoId);
@@ -73,6 +73,11 @@ const ContactComponent = (props) => {
     console.log(response.data);
   };
 
+
+  const handleKeyDown = (e) => {
+    e.target.style.height = "inherit";
+    e.target.style.height = `${e.target.scrollHeight}px`;
+  };
 
   const {
     register,
@@ -106,20 +111,29 @@ const ContactComponent = (props) => {
       document.getElementById("successmsg").innerHTML =
         "Your message has been sent successfully! A member of our customer service team will contact you shortly.";
       document.getElementById('successmsg').style.backgroundColor = 'rgb(96 158 111)';
-      document.getElementById('successmsg').style.padding = '10px';
-      document.getElementById('successmsg').style.display = 'flex';
+      document.getElementById('successmsg').style.padding = '10px 30px';
+      document.getElementById('successmsg').style.display = 'inline-block';
       document.getElementById('successmsg').style.justifyContent = 'center';
       document.getElementById('successmsg').style.borderRadius = '5px';
       // const element = document.querySelector("successmsg");
       // element.scrollIntoView({ behavior: "smooth" });
-      document.body.scrollTop = document.documentElement.scrollTop = 400;
+      document.body.scrollTop = document.documentElement.scrollTop = 500;
       document.getElementById("myForm").reset();
-
-      setTimeout(function(){
-        document.getElementById('success').className = 'successmsg';
-    }, 5000);
-
-
+      // hideLoadingDiv();
+    }
+    
+      else if (response.data === "Captcha ERROR") {
+        document.getElementById("successmsg").innerHTML =
+          "";
+        document.getElementById('successmsg').style.backgroundColor = '#f30000';
+        document.getElementById('successmsg').style.padding = '10px 30px';
+        document.getElementById('successmsg').style.display = 'inline-block';
+        document.getElementById('successmsg').style.justifyContent = 'center';
+        document.getElementById('successmsg').style.borderRadius = '5px';
+        // document.getElementById('successmsg').style.width = '50%';
+        // const element = document.getElementById("successmsg");
+        // element.scrollIntoView({ behavior: "smooth" });
+        document.body.scrollTop = document.documentElement.scrollTop = 500;
 
     } else if (response.data === "Invalid") {
       document.getElementById("successmsg").innerHTML =
@@ -129,51 +143,32 @@ const ContactComponent = (props) => {
     setTimeout(() => {
       const successmsg = document.getElementById('successmsg');
       successmsg.style.display = 'none';
-    }, 5000);
-
-
-
-    // else if (response.data === "Captcha ERROR") {
-    //   document.getElementById("successmsg").innerHTML =
-    //     "Please confirm that you are not a robot.";
-    //   document.getElementById('successmsg').style.backgroundColor = '#f30000';
-    //   document.getElementById('successmsg').style.padding = '10px';
-    //   document.getElementById('successmsg').style.display = 'flex';
-    //   document.getElementById('successmsg').style.justifyContent = 'center';
-    //   document.getElementById('successmsg').style.borderRadius = '5px';
-    //   document.getElementById('successmsg').style.width = '50%';
-    //   const element = document.getElementById("successmsg");
-    //   element.scrollIntoView({ behavior: "smooth" });
-    //   // document.getElementById("myForm").reset();
-    // }
+    }, 4000);
 
   };
 
-  console.log(alertmsg);
+  // console.log(alertmsg);
   return (
     <>
       <div>
         <BannerContainer seoData={seoData} />
         <div className="container Contact mt-3 mt-md-4 px-md-0">
-          <div className="mb-3 pt-3 pt-md-3 pb-3 px-1 px-md-0 contactDetails custom-shadow">
-            <>
-              <div id="successmsg" className="msg-display text-white mx-auto my-3"></div>
-            </>
+          <div className="mb-3 pt-3 pt-md-3 pb-3  px-1 px-md-0 contactDetails custom-shadow">
+            <div className="text-center">
+              <div id="successmsg" className="msg-display text-white mx-auto "></div>
+            </div>
             <div className="px-md-4 px-0 round pb-3">
-              <p className="contact-description text-center my-3">
+              <p className="contact-description text-center my-2 my-md-3">
                 Please enter the message below that you would like to send to our hotel.
                 <br />  A guest service agent will reply to your message in a timely manner.{" "}
               </p>{" "}
               <div className="px-md-0 px-0">
                 <form name="myForm" id="myForm" onSubmit={handleSubmit(onSubmit)}>
-                  <div className="form-group py-4 px-md-0 px-0 mb-0 mx-3 mx-md-5">
-                    {" "}
-
-                    <div className="floating-label-group inputAni mx-md-4 mx-lg-4 mx-xl-4">
+                <div className="form-group col-xl-9 col-lg-10 col-md-11 mx-auto py-3">
+                    <div className="floating-label-group inputAni">
                       <input
                         className="ltr-border-none"
                         type="text"
-
                         maxlength="50"
                         placeholder="First Name *"
                         className={`form-control ltr-none bdr-left-rght-radius ${errors.firstname && "invalid"
@@ -193,19 +188,19 @@ const ContactComponent = (props) => {
                       />
                       <label className="custLabel">First Name</label>
                     </div>
-                    {errors.firstname && (
+                    {/* {errors.firstname && (
                       <small className="text-danger">
                         {" "}
                         {errors.firstname.message}{" "}
                       </small>
-                    )}{" "}
+                    )}{" "} */}
                   </div>
 
 
 
 
-                  <div className="form-group py-4 px-md-0 px-0 mb-0 mx-3 mx-md-5">
-                    <div className="floating-label-group inputAni mx-md-4 mx-lg-4 mx-xl-4">
+                  <div className="form-group col-xl-9 col-lg-10 col-md-11 mx-auto py-3">
+                    <div className="floating-label-group inputAni">
                       <input
                         maxlength="50"
                         // className="form-control ltr-none bdr-left-rght-radius"
@@ -228,8 +223,8 @@ const ContactComponent = (props) => {
                       </small>
                     )}
                   </div>
-                  <div className="form-group py-4 px-md-0 px-0 mb-0 mx-3 mx-md-5">
-                    <div className="floating-label-group inputAni mx-md-4 mx-lg-4 mx-xl-4">
+                  <div className="form-group col-xl-9 col-lg-10 col-md-11 mx-auto py-3">
+                    <div className="floating-label-group inputAni">
                       <input
                         placeholder="Email *"
                         type="email"
@@ -250,13 +245,13 @@ const ContactComponent = (props) => {
                       <label className="custLabel">Email</label>
                     </div>
                     {errors.email1 && (
-                      <small className="text-danger">
+                      <small className="text-danger pt-4 mt-4">
                         {errors.email1.message}
                       </small>
                     )}
                   </div>
-                  <div className="form-group py-4 px-md-0 px-0 mb-0 mx-3 mx-md-5">
-                    <div className="floating-label-group inputAni mx-md-4 mx-lg-4 mx-xl-4">
+                  <div className="form-group col-xl-9 col-lg-10 col-md-11 mx-auto py-3">
+                    <div className="floating-label-group inputAni">
                       <input
                         placeholder="Phone *"
                         type="text"
@@ -284,32 +279,14 @@ const ContactComponent = (props) => {
                       </small>
                     )}
                   </div>
-                  <div className="form-group py-4 px-md-0 px-0 mb-0 mx-3 mx-md-5 contactFrm">
-                    <div className="floating-label-group inputAni mx-md-4 mx-lg-4 mx-xl-4">
-                      <textarea
-
-                        placeholder="Subject *"
-                        maxlength="150"
-                        // minlength="50"
-                        type="text"
-                        // onChange={(e) =>
-                        //   setCount2(
-                        //     150 - e.target.value.length <= 0 ? (
-                        //       <span className="text-danger">
-                        //         You have reached the character limit for this
-                        //         field. 0
-                        //       </span>
-                        //     ) : (
-                        //       150 - e.target.value.length
-                        //     )
-                        //   )
-                        // }
-
-                        className={`form-control ltr-none bdr-left-rght-radius ${errors.subject && "invalid"
-                          }`}
-                        placeholder="Subject *"
+         
+                  <div className="form-group col-xl-9 col-lg-10 col-md-11 mx-auto py-3 contactFrm">
+                    <div className="floating-label-group inputAni">
+                      <textarea 
+                      onKeyDown={handleKeyDown}
                         maxlength="150"
                         type="text"
+                        placeholder="Subject *"
                         className={`form-control ltr-none bdr-left-rght-radius textbox ${errors.subject && "invalid"
                           }`}
                         {...register("subject", {
@@ -342,8 +319,51 @@ const ContactComponent = (props) => {
                       {count2} Characters left
                     </span>
                   </div>
-                  <div className="form-group pt-4 pb-1 px-md-0 px-0 mb-0 mx-3 mx-md-5 contactFrm">
-                    <div className="floating-label-group inputAni mx-md-4 mx-lg-4 mx-xl-4">
+
+
+                  <div className="form-group col-xl-9 col-lg-10 col-md-11 mx-auto py-3 contactFrm">
+                    <div className="floating-label-group inputAni">
+                      <textarea
+                        onKeyDown={handleKeyDown}
+                        maxlength="2000"
+                        type="text"
+                        placeholder="Message *"
+                        className={`form-control ltr-none bdr-left-rght-radius textbox ${errors.message && "invalid"
+                          }`}
+                        {...register("message", {
+                          required: "Please enter a message.",
+                        })}
+                        onKeyUp={(e) => {
+                          trigger("message");
+                          setCount1(
+                            2000 - e.target.value.length <= 0 ? (
+                              <span className="text-danger">
+                        
+                                0
+                              </span>
+                            ) : (
+                              2000 - e.target.value.length
+                            )
+                          )
+                        }}
+                      ></textarea>
+                      <label className="custLabel">Message</label>
+                    </div>
+                    {errors.message && (
+                      <small className="text-danger">
+                        {errors.message.message}
+                      </small>
+                    )}
+                    <span className="char-count float-right mr-md-4 mt-1">
+                      {count1} Characters left
+                    </span>
+                  </div>
+
+
+
+   
+                  {/* <div className="form-group col-xl-9 col-lg-10 col-md-11 mx-auto py-3 contactFrm">
+                    <div className="floating-label-group inputAni">
                       <textarea
                         {...register("message", {})}
                         onKeyUp={() => {
@@ -356,9 +376,6 @@ const ContactComponent = (props) => {
                           setCount1(
                             2000 - e.target.value.length <= 0 ? (
                               <span className="text-danger">
-                                {/* You have reached the character limit for this
-                                field. */}
-
                                 0
                               </span>
                             ) : (
@@ -376,19 +393,24 @@ const ContactComponent = (props) => {
                         {errors.message.message}
                       </small>
                     )}
-                    <span className="char-count mr-md-4 float-right mt-1">
+                    <span className="char-count float-right ">
                       {count1} Characters left
                     </span>
-                  </div>
+                  </div> */}
+
+
+
+
+
                   <div id="recaptcha" className="d-flex mt-5 g-recaptcha">
-                    {/* <div>
+                    <div>
                       <ReCAPTCHA
                         ref={recaptchaRef}
                         // sitekey={props.noCaptchaSiteKey}
                         sitekey={newcaptchakey}
                         onChange={onChange}
                       />
-                    </div> */}
+                    </div>
                   </div>
                   <div className="text-center pt-md-3 pt-4 contactBtn">
                     {/* <div ref={div1} style={{ background: 'yellowgreen', ...styles }}> */}
